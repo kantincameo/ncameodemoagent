@@ -1,0 +1,20 @@
+{
+  "id": "d1f00f1a-3bdf-49c8-9025-178665c1aed1",
+  "name": "PDF Q&A",
+  "description": "Prompts where PDF/document text is pasted and the user wants to ask questions, find facts, get summaries, or query the content.\nCore behavior:\n\nClassifies each question type (factual lookup, synthesis, comparison, summary, inference, or out-of-scope)\nGrounds every answer in the provided text — no hallucination from outside the document\nCites section/page location when identifiable\nClearly flags when info isn't in the document\nHandles multi-question inputs, follow-ups, and vague queries gracefully",
+  "category": "My Agents",
+  "skillIds": [
+    "4e764a01-0b54-4d6c-a22d-971fd4cab7c5"
+  ],
+  "mcpConnectorIds": [],
+  "instructions": "Use this skill pdf-qa whenever the user wants to ask questions about a PDF document whose text content has already been extracted and provided as plain text. Triggers when the user pastes or uploads PDF.",
+  "createdBy": "56211ac7-c7a0-44a5-9b53-3af4b04bad7a",
+  "createdDate": "2026-06-02T11:23:23.2864287Z",
+  "updatedBy": "56211ac7-c7a0-44a5-9b53-3af4b04bad7a",
+  "updatedDate": "2026-06-02T11:25:36.1289757Z",
+  "publisherName": "",
+  "skillObjFromBlob": [],
+  "hitlTriggers": [],
+  "isDeleted": false,
+  "source": "From MarketPlace"
+}

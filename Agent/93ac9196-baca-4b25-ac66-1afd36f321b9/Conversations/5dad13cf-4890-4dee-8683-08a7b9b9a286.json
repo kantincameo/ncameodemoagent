@@ -1,0 +1,15 @@
+{
+  "threadId": "5dad13cf-4890-4dee-8683-08a7b9b9a286",
+  "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+  "userId": "",
+  "title": "run agent",
+  "messages": [],
+  "files": [],
+  "traceEvents": [],
+  "failedRunCount": 0,
+  "failedRunDates": [],
+  "createdAt": "2026-07-14T11:56:36.1369331Z",
+  "updatedAt": "2026-07-14T11:56:36.1369341Z",
+  "totalInputTokens": 0,
+  "totalOutputTokens": 0
+}

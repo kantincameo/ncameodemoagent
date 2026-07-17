@@ -1,0 +1,18 @@
+{
+  "id": "fbbfde13-6d0a-452c-bdf1-f28c7467aa1a",
+  "name": "Blank Test Agent",
+  "description": "A blank agent for testing and experimentation purposes.",
+  "category": "Testing",
+  "skillIds": [],
+  "mcpConnectorIds": [],
+  "instructions": "You are a blank test agent with no specific purpose. Respond helpfully to any input. This agent exists for testing and experimentation purposes only.",
+  "createdBy": "ai-tool",
+  "createdDate": "2026-07-15T12:12:06.365433Z",
+  "updatedBy": "ai-tool",
+  "updatedDate": "2026-07-15T12:12:06.3654331Z",
+  "publisherName": "",
+  "skillObjFromBlob": [],
+  "hitlTriggers": [],
+  "isDeleted": false,
+  "source": "From MarketPlace"
+}

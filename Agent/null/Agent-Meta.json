@@ -1,0 +1,18 @@
+{
+  "id": "null",
+  "name": "Customer Data Extractor Agent",
+  "description": "",
+  "category": "",
+  "skillIds": [],
+  "mcpConnectorIds": [],
+  "instructions": "",
+  "createdBy": "",
+  "createdDate": "2026-07-15T05:34:47.4195432Z",
+  "updatedBy": "",
+  "updatedDate": "2026-07-15T05:34:47.4195886Z",
+  "publisherName": "",
+  "skillObjFromBlob": [],
+  "hitlTriggers": [],
+  "isDeleted": false,
+  "source": "From MarketPlace"
+}

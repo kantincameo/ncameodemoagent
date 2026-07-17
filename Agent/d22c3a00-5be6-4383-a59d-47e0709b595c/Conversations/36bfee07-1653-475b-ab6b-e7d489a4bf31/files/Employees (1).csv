@@ -1,0 +1,12 @@
+﻿EmployeeId,EmployeeCode,FirstName,LastName,MobilePhone,MobileCountryCode,EmployeeTypeName,STATUS,CenterName,IsConsultant,NickName,IsOnlineBookingEnabled
+10a8b61d-007b-4fad-b582-27cf5c9970b1,PAR001,Atul,Kakar,(848) 667-4835,US,OWNER,Yes,New Brunswick,False,,1
+4a3aaf2c-61cc-4f88-9546-cb462aa3f155,PAR006,Bay,2,,US,Instructor,Yes,New Brunswick,False,Bay 2,1
+f213ed2f-6f98-47bd-9971-5b1d6995964d,PAR007,Bay,3,,US,Instructor,Yes,New Brunswick,False,Bay 3,1
+8f389ec5-f8f0-4dfc-b98e-6fe9ad8eee94,PAR008,Bay,4,,US,Instructor,Yes,New Brunswick,False,Bay 4,1
+f3bb80d5-cbd4-4590-bd56-c482ea81b8d3,Bay5,Bay,5,,US,Instructor,Yes,New Brunswick,False,,0
+75ccec0f-97cb-4011-a70b-e12e9418c6be,PAR005,Executive,Lounge,,US,Instructor,Yes,New Brunswick,False,Executive Lounge,1
+65f239c4-c3b0-435a-b626-7550121a0b26,PAR009,Monty,Monticello,(609) 731-5463,US,Instructor,Yes,New Brunswick,False,,1
+9f97bc56-ebf0-4ae4-b65e-ed9b3e2dcdc8,PAR002,Nick,Schiavo,(845) 258-0966,US,OWNER,Yes,New Brunswick,False,,1
+4f55e134-2cc9-4f89-8724-671ae2df8670,MAR1001,revolt,marketing,(647) 720-6725,CA,OWNER,Yes,New Brunswick,False,,0
+72c4a6cd-bc43-4811-9ba3-33d68c659c3f,PAR010,Sean,Kim,(917) 208-1860,US,Instructor,Yes,New Brunswick,False,,1
+09f52ea2-ad05-4bc5-b0b2-0e0cc2c96dfd,emplo0017,Steven,Gatanas,,US,MANAGER,Yes,New Brunswick,False,,0

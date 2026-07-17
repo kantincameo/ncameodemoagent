@@ -1,0 +1,49 @@
+{
+  "threadId": "54a21662-258b-435f-ba7d-d68d782c5e55",
+  "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+  "userId": "56211ac7-c7a0-44a5-9b53-3af4b04bad7a",
+  "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022DocumentCategory\u0022\u2026",
+  "messages": [
+    {
+      "role": "user",
+      "content": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022DocumentCategory\u0022:\u0022Other\u0022,\u0022doumentupload\u0022:\u0022https://ncameodemostorage.blob.core.windows.net/ncameo/wiaipqkyiohiiaxfiles/-8584220964414161125New1.pdf\u0022,\u0022Notes\u0022:\u0022\u0022,\u0022doumentupload_name\u0022:\u0022New1.pdf\u0022,\u0022doumentupload_url\u0022:\u0022https://ncameodemostorage.blob.core.windows.net/ncameo/wiaipqkyiohiiaxfiles/-8584220964414161125New1.pdf\u0022,\u0022createdby\u0022:\u002256211ac7-c7a0-44a5-9b53-3af4b04bad7a\u0022,\u0022createddate\u0022:\u00222026-05-23T07:05:49.298Z\u0022,\u0022updatedby\u0022:\u002256211ac7-c7a0-44a5-9b53-3af4b04bad7a\u0022,\u0022updateddate\u0022:\u00222026-05-23T07:05:49.298Z\u0022,\u0022gocameomodel\u0022:\u0022PatientDocument\u0022,\u0022id\u0022:\u002217d316a2-31d0-4f3b-a62a-613c31625afd\u0022,\u0022createdate\u0022:\u00222026-05-23T04:27:27.4404635\u002B00:00\u0022,\u0022_rid\u0022:\u0022xqw0APUgK5JGBQAAAAAAAA==\u0022,\u0022_self\u0022:\u0022dbs/xqw0AA==/colls/xqw0APUgK5I=/docs/xqw0APUgK5JGBQAAAAAAAA==/\u0022,\u0022_etag\u0022:\u0022\\\u00220100efa0-0000-0700-0000-6a112caf0000\\\u0022\u0022,\u0022_attachments\u0022:\u0022attachments/\u0022,\u0022_ts\u0022:1779510447,\u0022aiagents\u0022:[]}",
+      "inputTokens": null,
+      "outputTokens": null,
+      "timestamp": "2026-05-23T07:06:25.9341646Z"
+    },
+    {
+      "role": "assistant",
+      "content": "\n**Analyse Lab Report**  \nRead and analyse the uploaded lab report to extract biomarkers, insights, and health highlights**Save Final Output**  \nUpdate the existing document securely in the database\n\nThere was an error saving the final output. Please try again or contact support.",
+      "inputTokens": 21268,
+      "outputTokens": 1391,
+      "timestamp": "2026-05-23T07:06:45.8841468Z"
+    }
+  ],
+  "files": [],
+  "traceEvents": [
+    {
+      "type": "trace",
+      "stage": null,
+      "text": null,
+      "partial": null,
+      "message": null,
+      "stepIndex": null,
+      "requestId": null,
+      "toolName": null,
+      "toolArgs": null,
+      "toolResult": "execution-trace invoked",
+      "threadId": null,
+      "fileUrl": null,
+      "fileName": null,
+      "fileType": null,
+      "totalInputTokens": null,
+      "totalOutputTokens": null
+    }
+  ],
+  "failedRunCount": 0,
+  "failedRunDates": [],
+  "createdAt": "2026-05-23T07:06:26.0064097Z",
+  "updatedAt": "2026-05-23T07:06:45.8841505Z",
+  "totalInputTokens": 21268,
+  "totalOutputTokens": 1391
+}

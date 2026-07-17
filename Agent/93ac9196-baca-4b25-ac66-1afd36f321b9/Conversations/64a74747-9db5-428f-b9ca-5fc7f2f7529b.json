@@ -1,0 +1,49 @@
+{
+  "threadId": "64a74747-9db5-428f-b9ca-5fc7f2f7529b",
+  "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+  "userId": "9f92b503-15ef-4a8d-9bfc-8fd425a9520a",
+  "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u002221eb2695-cd66-4fdc-8d57-72bf9a317f31\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+  "messages": [
+    {
+      "role": "user",
+      "content": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u002221eb2695-cd66-4fdc-8d57-72bf9a317f31\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Type\u0022:\u0022Lab Report\u0022,\u0022promptvalue\u0022:\u0022You are a medical document classification assistant.  Analyze the uploaded file carefully and classify it into exactly ONE of the following categories:  - Lab reports - Wearables - Health records - Patient intake - Encounter notes  Instructions: - Read the full document content. - Determine the single best matching category. - Return ONLY the category name. - Do not provide explanations, confidence scores, JSON, formatting, or extra text. - Output must exactly match one of the category names above.\u0022,\u0022isfilesavevalue\u0022:\u0022yes\u0022,\u0022\u0022:\u0022\u0022,\u0022doumentupload\u0022:\u0022https://ncameodemostorage.blob.core.windows.net/ncameo/wiaipqkyiohiiaxfiles/-85842206290250046003%20Lab%20results%20M_Redacted.pdf\u0022,\u0022Notes\u0022:\u0022\u0022,\u0022doumentupload_name\u0022:\u00223 Lab results M_Redacted.pdf\u0022,\u0022doumentupload_url\u0022:\u0022https://ncameodemostorage.blob.core.windows.net/ncameo/wiaipqkyiohiiaxfiles/-85842206290250046003%20Lab%20results%20M_Redacted.pdf\u0022,\u0022createdby\u0022:\u00229f92b503-15ef-4a8d-9bfc-8fd425a9520a\u0022,\u0022createddate\u0022:\u00222026-05-23T13:46:51.294Z\u0022,\u0022updatedby\u0022:\u00229f92b503-15ef-4a8d-9bfc-8fd425a9520a\u0022,\u0022updateddate\u0022:\u00222026-05-23T13:46:51.294Z\u0022,\u0022gocameomodel\u0022:\u0022PatientDocument\u0022,\u0022id\u0022:\u0022c93afe30-43f3-41e0-8ff2-f0dcc0bcce8b\u0022,\u0022createdate\u0022:\u00222026-05-23T13:46:26.9560388\u002B00:00\u0022,\u0022_rid\u0022:\u0022xqw0APUgK5KWBQAAAAAAAA==\u0022,\u0022_self\u0022:\u0022dbs/xqw0AA==/colls/xqw0APUgK5I=/docs/xqw0APUgK5KWBQAAAAAAAA==/\u0022,\u0022_etag\u0022:\u0022\\\u00220200522a-0000-0700-0000-6a11afb30000\\\u0022\u0022,\u0022_attachments\u0022:\u0022attachments/\u0022,\u0022_ts\u0022:1779543987,\u0022aiagents\u0022:[\u0022Lab Interpreter\u0022],\u0022highlightDataCard\u0022:[]}",
+      "inputTokens": null,
+      "outputTokens": null,
+      "timestamp": "2026-05-23T13:47:13.2688216Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Analysis complete and securely saved.",
+      "inputTokens": 24165,
+      "outputTokens": 1555,
+      "timestamp": "2026-05-23T13:47:38.6706443Z"
+    }
+  ],
+  "files": [],
+  "traceEvents": [
+    {
+      "type": "trace",
+      "stage": null,
+      "text": null,
+      "partial": null,
+      "message": null,
+      "stepIndex": null,
+      "requestId": null,
+      "toolName": null,
+      "toolArgs": null,
+      "toolResult": "Step 1: Analyse Lab Report \u2014 Read and analyse the uploaded lab report to extract biomarkers, insights, and health highlights",
+      "threadId": null,
+      "fileUrl": null,
+      "fileName": null,
+      "fileType": null,
+      "totalInputTokens": null,
+      "totalOutputTokens": null
+    }
+  ],
+  "failedRunCount": 0,
+  "failedRunDates": [],
+  "createdAt": "2026-05-23T13:47:13.6335876Z",
+  "updatedAt": "2026-05-23T13:47:38.6708126Z",
+  "totalInputTokens": 24165,
+  "totalOutputTokens": 1555
+}

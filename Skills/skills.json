@@ -1,0 +1,29 @@
+[
+  {
+    "id": "4e764a01-0b54-4d6c-a22d-971fd4cab7c5",
+    "name": "pdf-qa",
+    "displayTitle": "PDF QA Skill",
+    "description": "\u003E Use this skill whenever the user wants to ask questions about a PDF document whose text content has already been extracted and provided as plain text. Triggers when the user pastes or uploads PDF text and asks one or more questions about it, or when they say things like \u0022here is the PDF text, answer my questions\u0022, \u0022I extracted the text from a PDF, can you help me understand it\u0022, \u0022summarize this document and answer questions\u0022, \u0022find information in this PDF text\u0022, or any request to query, interrogate, search, or extract facts from extracted PDF/document text. Also trigger when the user asks follow-up questions on already-provided document text. Do NOT use for non-text PDF tasks (merging, splitting, form filling) \u2014 use the pdf skill instead.",
+    "createdAt": "2026-06-02T11:25:18.1305532Z",
+    "updatedAt": "2026-06-02T11:25:18.1305532Z",
+    "publisherName": "NCAMEO"
+  },
+  {
+    "id": "e53c1ab4-3d7b-43f7-904c-3e4fb5c76a7b",
+    "name": "report-analyzer",
+    "displayTitle": "Report Analyzer \u2014 BloomCell Edition",
+    "description": "Analyze functional laboratory evaluation reports (blood work, metabolic panels, thyroid tests, lipid panels, hormone panels, omega panels, iron panels) and provide structured health insights in JSON format using the BloomCell clinical framework. Use this skill whenever a user uploads a lab report PDF, mentions \u0022analyze my blood work\u0022, \u0022review my lab results\u0022, \u0022interpret my test results\u0022, asks about biomarkers, functional ranges, or wants to understand health metrics from any laboratory report. Also trigger when wearable data (WHOOP, Oura, Apple Health, Garmin, Fitbit) is mentioned alongside lab results. Always outputs JSON with highlights and notes for 4 analysis points using BloomCell reference data.",
+    "createdAt": "2026-06-19T12:48:24.8402159Z",
+    "updatedAt": "2026-06-19T12:48:24.8402159Z",
+    "publisherName": "NCAMEO"
+  },
+  {
+    "id": "2ab15751-3b5c-4d92-a28c-e62cf3f0a6d3",
+    "name": "doc-data-extractor",
+    "displayTitle": "Document Data Extractor",
+    "description": "Extract structured data from ANY document \u2014 uploaded file, URL/link (document or webpage, incl. Google Drive/Dropbox/OneDrive), file path, or base64 data \u2014 and return pure JSON matching a fixed customer-record schema (businessId, customerId, firstName, lastName, email, phone, etc.). Use whenever the user uploads a file, pastes a link, gives a path, or provides base64 and asks to \u0022extract data\u0022, \u0022convert to json\u0022, \u0022get customer info from this\u0022, or similar, for any document type (PDF, image, Word, Excel, CSV, TXT, webpage) and any source. Must fetch/read the real referenced content \u2014 never fabricate. Output is ALWAYS raw JSON only, no explanations or code fences. Multiple records \u2192 individual JSON objects separated by commas, not wrapped in an array. Trigger even on a bare link or path with no other explanation.",
+    "createdAt": "2026-07-15T05:36:49.4587246Z",
+    "updatedAt": "2026-07-15T05:36:49.4587246Z",
+    "publisherName": "NCAMEO"
+  }
+]

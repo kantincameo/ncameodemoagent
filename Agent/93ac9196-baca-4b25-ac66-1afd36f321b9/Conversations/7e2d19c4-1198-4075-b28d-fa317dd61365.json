@@ -1,0 +1,103 @@
+{
+  "threadId": "7e2d19c4-1198-4075-b28d-fa317dd61365",
+  "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+  "userId": "9f92b503-15ef-4a8d-9bfc-8fd425a9520a",
+  "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022doumentupload\u0022:\u0022h\u2026",
+  "messages": [
+    {
+      "role": "user",
+      "content": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022doumentupload\u0022:\u0022https://ncameodemostorage.blob.core.windows.net/ncameo/wiaipqkyiohiiaxfiles/-8584220805140964027Document_2.pdf\u0022,\u0022Notes\u0022:\u0022\u0022,\u0022doumentupload_name\u0022:\u0022Document_2.pdf\u0022,\u0022doumentupload_url\u0022:\u0022https://ncameodemostorage.blob.core.windows.net/ncameo/wiaipqkyiohiiaxfiles/-8584220805140964027Document_2.pdf\u0022,\u0022createdby\u0022:\u00229f92b503-15ef-4a8d-9bfc-8fd425a9520a\u0022,\u0022createddate\u0022:\u00222026-05-23T09:04:11.180Z\u0022,\u0022updatedby\u0022:\u00229f92b503-15ef-4a8d-9bfc-8fd425a9520a\u0022,\u0022updateddate\u0022:\u00222026-05-23T09:04:11.180Z\u0022,\u0022gocameomodel\u0022:\u0022PatientDocument\u0022,\u0022id\u0022:\u0022ed7afb2e-59d1-4f31-be9f-362ed9b4edb4\u0022,\u0022createdate\u0022:\u00222026-05-23T08:52:53.3687359\u002B00:00\u0022,\u0022_rid\u0022:\u0022xqw0APUgK5JwBQAAAAAAAA==\u0022,\u0022_self\u0022:\u0022dbs/xqw0AA==/colls/xqw0APUgK5I=/docs/xqw0APUgK5JwBQAAAAAAAA==/\u0022,\u0022_etag\u0022:\u0022\\\u002201002ad6-0000-0700-0000-6a116b010000\\\u0022\u0022,\u0022_attachments\u0022:\u0022attachments/\u0022,\u0022aiagents\u0022:[],\u0022highlightData\u0022:[[{\u0022id\u0022:\u00222b9fcd71-9ab8-4e93-805e-7b542e4a1d5c\u0022,\u0022date\u0022:\u002205/23/26 10:30 AM\u0022,\u0022type\u0022:\u0022highlight\u0022,\u0022text\u0022:\u0022Free T3: 2.4 pg/mL *L- hypo\u0022,\u0022group\u0022:\u0022Internal Notes\u0022,\u0022rationale\u0022:\u0022Free T3 below functional range (3.0-4.0 pg/mL), flagged as hypothyroid on page 2.\u0022},{\u0022id\u0022:\u002294e430a1-6ac1-413f-a2d2-5f9d3ee9a7e5\u0022,\u0022date\u0022:\u002205/23/26 10:30 AM\u0022,\u0022type\u0022:\u0022note\u0022,\u0022text\u0022:\u0022Free T3: 2.4 pg/mL *L- hypo - Dr. Smith\u0022,\u0022group\u0022:\u0022Internal Notes\u0022,\u0022rationale\u0022:\u0022Low Free T3 indicates hypothyroidism affecting cellular metabolism, found page 2. Consult endocrine for further management.\u0022},{\u0022id\u0022:\u00225bf6d9e8-fb1d-4f0f-8be6-cd6ef8e957ad\u0022,\u0022date\u0022:\u002205/23/26 10:30 AM\u0022,\u0022type\u0022:\u0022highlight\u0022,\u0022text\u0022:\u0022Cholesterol: 250 mg/dL *Lab H - dyslipidemia\u0022,\u0022group\u0022:\u0022Understanding Your Results\u0022,\u0022rationale\u0022:\u0022Cholesterol elevated above functional range (150-199 mg/dL), flagged for dyslipidemia, per page 2.\u0022},{\u0022id\u0022:\u0022ed07319a-bac1-4fbe-b802-732b54198188\u0022,\u0022date\u0022:\u002205/23/26 10:30 AM\u0022,\u0022type\u0022:\u0022note\u0022,\u0022text\u0022:\u0022Your cholesterol (250) is high, which is often caused by low thyroid function. Correcting thyroid may lower cholesterol.\u0022,\u0022group\u0022:\u0022Understanding Your Results\u0022,\u0022rationale\u0022:\u0022Elevated cholesterol and hypothyroidism suggest a thyroid-driven dyslipidemia. Correct thyroid to improve cholesterol.\u0022},{\u0022id\u0022:\u00221eeef6a8-45db-4e3f-bf22-52a0b17750a1\u0022,\u0022date\u0022:\u002205/23/26 10:30 AM\u0022,\u0022type\u0022:\u0022highlight\u0022,\u0022text\u0022:\u0022Homocysteine: 11.6 \u00B5mol/L *H-Brain fog- methyl need\u0022,\u0022group\u0022:\u0022Priority Actions - Next 30 Days\u0022,\u0022rationale\u0022:\u0022Homocysteine at 11.6 \u00B5mol/L is high (optimal \u003C7 \u00B5mol/L) indicating methylation issue, per page 3.\u0022},{\u0022id\u0022:\u002285d5c6b6-4313-44c6-9559-1bcbe37b722c\u0022,\u0022date\u0022:\u002205/23/26 10:30 AM\u0022,\u0022type\u0022:\u0022note\u0022,\u0022text\u0022:\u0022Start methylated B-Complex 1 cap daily. Request TPO/thyroglobulin abs. Remove gluten/dairy 30d. Liver US.\u0022,\u0022group\u0022:\u0022Priority Actions - Next 30 Days\u0022,\u0022rationale\u0022:\u0022High homocysteine needs methyl Bs. Antibodies test rules out autoimmunity. Diet/liver steps reduce inflammation. Page 3.\u0022},{\u0022id\u0022:\u0022869a8826-d1dc-42a7-82b1-2070a7782b33\u0022,\u0022date\u0022:\u002205/23/26 10:30 AM\u0022,\u0022type\u0022:\u0022highlight\u0022,\u0022text\u0022:\u0022AST: 83 IU/L *Lab H - inflm tissues | ALT: 39 IU/L *Lab H - inflm liver\u0022,\u0022group\u0022:\u0022Long-Term Strategy\u0022,\u0022rationale\u0022:\u0022AST/ALT elevated above functional (AST 10-26, ALT 10-26), showing hepatic inflammation on page 4.\u0022},{\u0022id\u0022:\u0022ea36b470-7db0-427e-bb2e-6e8110a505fb\u0022,\u0022date\u0022:\u002205/23/26 10:30 AM\u0022,\u0022type\u0022:\u0022note\u0022,\u0022text\u0022:\u0022Target Free T3 \u003E3.0, LDL \u003C100, homocysteine \u003C7, AST \u003C26. Retest: 6-8wks (thyroid/liver), 3mo (lipids), 6mo (full panel).\u0022,\u0022group\u0022:\u0022Long-Term Strategy\u0022,\u0022rationale\u0022:\u0022Thyroid/liver optimization improves dyslipidemia. Support methylation/liver. Retest intervals per finding page refs.\u0022}]],\u0022updatedon\u0022:\u00222026-05-23T08:53:21.4348824Z\u0022,\u0022_ts\u0022:1779526401,\u0022highlightDataCard\u0022:[]}",
+      "inputTokens": null,
+      "outputTokens": null,
+      "timestamp": "2026-05-23T09:04:11.5554465Z"
+    },
+    {
+      "role": "assistant",
+      "content": "\n\n**Analyse Lab Report**  \nRead and analyse the uploaded lab report to extract biomarkers, insights, and health highlights.\n\n\n\n**Build Final Model JSON**  \nMerge analysis results into the complete model JSON.\n\n\n\n**Save Final Output**  \nUpdate the existing document securely in the database.\n\n",
+      "inputTokens": 3018,
+      "outputTokens": 121,
+      "timestamp": "2026-05-23T09:04:16.2268398Z"
+    }
+  ],
+  "files": [],
+  "traceEvents": [
+    {
+      "type": "trace",
+      "stage": null,
+      "text": null,
+      "partial": null,
+      "message": null,
+      "stepIndex": null,
+      "requestId": null,
+      "toolName": null,
+      "toolArgs": null,
+      "toolResult": "Begin execution trace. Initiating Step 1.",
+      "threadId": null,
+      "fileUrl": null,
+      "fileName": null,
+      "fileType": null,
+      "totalInputTokens": null,
+      "totalOutputTokens": null
+    },
+    {
+      "type": "trace",
+      "stage": null,
+      "text": null,
+      "partial": null,
+      "message": null,
+      "stepIndex": null,
+      "requestId": null,
+      "toolName": null,
+      "toolArgs": null,
+      "toolResult": "Step 1 complete. Proceeding to Step 2.",
+      "threadId": null,
+      "fileUrl": null,
+      "fileName": null,
+      "fileType": null,
+      "totalInputTokens": null,
+      "totalOutputTokens": null
+    },
+    {
+      "type": "trace",
+      "stage": null,
+      "text": null,
+      "partial": null,
+      "message": null,
+      "stepIndex": null,
+      "requestId": null,
+      "toolName": null,
+      "toolArgs": null,
+      "toolResult": "Step 2 complete. Proceeding to Step 3.",
+      "threadId": null,
+      "fileUrl": null,
+      "fileName": null,
+      "fileType": null,
+      "totalInputTokens": null,
+      "totalOutputTokens": null
+    },
+    {
+      "type": "trace",
+      "stage": null,
+      "text": null,
+      "partial": null,
+      "message": null,
+      "stepIndex": null,
+      "requestId": null,
+      "toolName": null,
+      "toolArgs": null,
+      "toolResult": "Step 3 complete. Lab report analysis saved successfully.",
+      "threadId": null,
+      "fileUrl": null,
+      "fileName": null,
+      "fileType": null,
+      "totalInputTokens": null,
+      "totalOutputTokens": null
+    }
+  ],
+  "failedRunCount": 0,
+  "failedRunDates": [],
+  "createdAt": "2026-05-23T09:04:11.5937547Z",
+  "updatedAt": "2026-05-23T09:04:16.2268432Z",
+  "totalInputTokens": 3018,
+  "totalOutputTokens": 121
+}

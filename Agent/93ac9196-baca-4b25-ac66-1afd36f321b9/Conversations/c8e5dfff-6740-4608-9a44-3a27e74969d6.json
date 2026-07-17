@@ -1,0 +1,49 @@
+{
+  "threadId": "c8e5dfff-6740-4608-9a44-3a27e74969d6",
+  "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+  "userId": "56211ac7-c7a0-44a5-9b53-3af4b04bad7a",
+  "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022doumentupload\u0022:\u0022h\u2026",
+  "messages": [
+    {
+      "role": "user",
+      "content": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022doumentupload\u0022:\u0022https://ncameodemostorage.blob.core.windows.net/ncameo/wiaipqkyiohiiaxfiles/-8584220805140964027Document_2.pdf\u0022,\u0022Notes\u0022:\u0022\u0022,\u0022doumentupload_name\u0022:\u0022Document_2.pdf\u0022,\u0022doumentupload_url\u0022:\u0022https://ncameodemostorage.blob.core.windows.net/ncameo/wiaipqkyiohiiaxfiles/-8584220805140964027Document_2.pdf\u0022,\u0022createdby\u0022:\u002256211ac7-c7a0-44a5-9b53-3af4b04bad7a\u0022,\u0022createddate\u0022:\u00222026-05-23T08:52:25.563Z\u0022,\u0022updatedby\u0022:\u002256211ac7-c7a0-44a5-9b53-3af4b04bad7a\u0022,\u0022updateddate\u0022:\u00222026-05-23T08:52:25.563Z\u0022,\u0022gocameomodel\u0022:\u0022PatientDocument\u0022,\u0022id\u0022:\u0022ed7afb2e-59d1-4f31-be9f-362ed9b4edb4\u0022,\u0022createdate\u0022:\u00222026-05-23T08:52:53.3687359\u002B00:00\u0022,\u0022_rid\u0022:\u0022xqw0APUgK5JwBQAAAAAAAA==\u0022,\u0022_self\u0022:\u0022dbs/xqw0AA==/colls/xqw0APUgK5I=/docs/xqw0APUgK5JwBQAAAAAAAA==/\u0022,\u0022_etag\u0022:\u0022\\\u002201001ed6-0000-0700-0000-6a116ae50000\\\u0022\u0022,\u0022_attachments\u0022:\u0022attachments/\u0022,\u0022_ts\u0022:1779526373,\u0022aiagents\u0022:[],\u0022highlightDataCard\u0022:[]}",
+      "inputTokens": null,
+      "outputTokens": null,
+      "timestamp": "2026-05-23T08:53:03.3662296Z"
+    },
+    {
+      "role": "assistant",
+      "content": "\n\n**Analyse Lab Report**\nRead and analyse the uploaded lab report to extract biomarkers, insights, and health highlights\n\nLab report analysis and database update completed successfully.",
+      "inputTokens": 22499,
+      "outputTokens": 1410,
+      "timestamp": "2026-05-23T08:53:22.5649858Z"
+    }
+  ],
+  "files": [],
+  "traceEvents": [
+    {
+      "type": "trace",
+      "stage": null,
+      "text": null,
+      "partial": null,
+      "message": null,
+      "stepIndex": null,
+      "requestId": null,
+      "toolName": null,
+      "toolArgs": null,
+      "toolResult": "execution-trace",
+      "threadId": null,
+      "fileUrl": null,
+      "fileName": null,
+      "fileType": null,
+      "totalInputTokens": null,
+      "totalOutputTokens": null
+    }
+  ],
+  "failedRunCount": 0,
+  "failedRunDates": [],
+  "createdAt": "2026-05-23T08:53:03.4663372Z",
+  "updatedAt": "2026-05-23T08:53:22.5649929Z",
+  "totalInputTokens": 22499,
+  "totalOutputTokens": 1410
+}

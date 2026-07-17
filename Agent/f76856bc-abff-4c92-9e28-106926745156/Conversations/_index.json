@@ -1,0 +1,92 @@
+[
+  {
+    "threadId": "411489a8-8f7b-4bc5-a645-0a31997be09a",
+    "agentId": "f76856bc-abff-4c92-9e28-106926745156",
+    "title": "I want to create plugin that accept CSV or PDF file and then convert that data i\u2026",
+    "createdAt": "2026-07-14T17:43:20.3337354Z",
+    "updatedAt": "2026-07-14T17:44:14.2152626Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 28059,
+    "totalOutputTokens": 1490
+  },
+  {
+    "threadId": "5ddfdfcd-31de-4a09-b8b9-8833403e7c2d",
+    "agentId": "f76856bc-abff-4c92-9e28-106926745156",
+    "title": "create this agent \n\nAgent Name:\nCustomer Data Extractor Agent\nPublisher Name:\nNC\u2026",
+    "createdAt": "2026-07-15T05:40:38.8883621Z",
+    "updatedAt": "2026-07-15T05:44:27.9867014Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 161721,
+    "totalOutputTokens": 11196
+  },
+  {
+    "threadId": "5ef28bde-98cb-40a0-8acf-56c04eaaadc7",
+    "agentId": "f76856bc-abff-4c92-9e28-106926745156",
+    "title": "I need to create an agent to extract data from an uploaded CSV, which refers to \u2026",
+    "createdAt": "2026-07-15T11:52:24.924637Z",
+    "updatedAt": "2026-07-15T14:17:26.0769411Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 238437,
+    "totalOutputTokens": 14494
+  },
+  {
+    "threadId": "531afe01-abbd-4f26-b006-ee5a7de484ed",
+    "agentId": "f76856bc-abff-4c92-9e28-106926745156",
+    "title": "Create modern Html ui/xi agent",
+    "createdAt": "2026-07-15T11:57:48.0321171Z",
+    "updatedAt": "2026-07-15T12:05:09.4455753Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 166546,
+    "totalOutputTokens": 8927
+  },
+  {
+    "threadId": "c1d20fdf-1793-4b3d-9043-1261f0352c32",
+    "agentId": "f76856bc-abff-4c92-9e28-106926745156",
+    "title": "create blank agent for testing",
+    "createdAt": "2026-07-15T12:11:28.6106644Z",
+    "updatedAt": "2026-07-15T12:12:11.1097278Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 28355,
+    "totalOutputTokens": 1285
+  },
+  {
+    "threadId": "8feeae59-aa97-4fd5-b436-eac535553466",
+    "agentId": "f76856bc-abff-4c92-9e28-106926745156",
+    "title": "We will upload a CSV. You need to read that CSV extract that data and map that d\u2026",
+    "createdAt": "2026-07-16T12:54:58.8686212Z",
+    "updatedAt": "2026-07-16T13:13:49.4436655Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 179542,
+    "totalOutputTokens": 10829
+  },
+  {
+    "threadId": "5361a5d6-0b32-468b-9c41-38a083bce0c2",
+    "agentId": "f76856bc-abff-4c92-9e28-106926745156",
+    "title": "We will upload a CSV. You need to read that CSV extract that data and map that d\u2026",
+    "createdAt": "2026-07-16T19:42:01.1176842Z",
+    "updatedAt": "2026-07-16T19:42:26.4118274Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 18866,
+    "totalOutputTokens": 916
+  },
+  {
+    "threadId": "eae4ca0b-6cf2-4983-8623-77791c2aeb3c",
+    "agentId": "f76856bc-abff-4c92-9e28-106926745156",
+    "title": "check again",
+    "createdAt": "2026-07-16T19:42:57.1547313Z",
+    "updatedAt": "2026-07-16T19:58:17.1642175Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 189879,
+    "totalOutputTokens": 10889
+  },
+  {
+    "threadId": "df124def-fc02-4afd-903a-b21a7c7f7854",
+    "agentId": "f76856bc-abff-4c92-9e28-106926745156",
+    "title": "We will upload a CSV. You need to read that CSV extract that data and map that d\u2026",
+    "createdAt": "2026-07-16T21:59:29.1284039Z",
+    "updatedAt": "2026-07-16T22:06:27.6450798Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 191236,
+    "totalOutputTokens": 10840
+  }
+]

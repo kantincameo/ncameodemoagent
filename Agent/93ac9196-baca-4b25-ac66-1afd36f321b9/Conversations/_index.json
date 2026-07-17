@@ -1,0 +1,1532 @@
+[
+  {
+    "threadId": "2df9b371-5bec-425a-8558-084222e437fd",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022DocumentCategory\u0022\u2026",
+    "createdAt": "2026-05-23T07:02:58.3803257Z",
+    "updatedAt": "2026-05-23T07:03:17.6275349Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "54a21662-258b-435f-ba7d-d68d782c5e55",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022DocumentCategory\u0022\u2026",
+    "createdAt": "2026-05-23T07:06:26.0064097Z",
+    "updatedAt": "2026-05-23T07:06:45.8841505Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "e5b53cd5-9531-44c4-97bc-ac200a27982e",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022DocumentCategory\u0022\u2026",
+    "createdAt": "2026-05-23T07:16:58.5111943Z",
+    "updatedAt": "2026-05-23T07:17:20.2538155Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "5e5763c1-6f00-4649-81ad-b43ae42a84b0",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022DocumentCategory\u0022\u2026",
+    "createdAt": "2026-05-23T07:30:30.2008635Z",
+    "updatedAt": "2026-05-23T07:30:49.0899258Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "8c947a54-b381-49f6-9959-cf113e0c1555",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022DocumentCategory\u0022\u2026",
+    "createdAt": "2026-05-23T08:23:43.277908Z",
+    "updatedAt": "2026-05-23T08:24:03.9430263Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "62caf9c9-f20b-4d72-a183-86ea30e550fa",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022doumentupload\u0022:\u0022h\u2026",
+    "createdAt": "2026-05-23T08:46:43.1034148Z",
+    "updatedAt": "2026-05-23T08:47:05.6579292Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "c8e5dfff-6740-4608-9a44-3a27e74969d6",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022doumentupload\u0022:\u0022h\u2026",
+    "createdAt": "2026-05-23T08:53:03.4663372Z",
+    "updatedAt": "2026-05-23T08:53:22.5649929Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "7e2d19c4-1198-4075-b28d-fa317dd61365",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022doumentupload\u0022:\u0022h\u2026",
+    "createdAt": "2026-05-23T09:04:11.5937547Z",
+    "updatedAt": "2026-05-23T09:04:16.2268432Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "3454a82b-405a-4efc-a05e-4f5197970f36",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022doumentupload\u0022:\u0022h\u2026",
+    "createdAt": "2026-05-23T09:06:26.0197016Z",
+    "updatedAt": "2026-05-23T09:06:45.9518804Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "3bed4126-f5f9-4d98-af2b-1e502d9af243",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022doumentupload\u0022:\u0022h\u2026",
+    "createdAt": "2026-05-23T09:07:14.5483665Z",
+    "updatedAt": "2026-05-23T09:07:16.5039726Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "c274ff5c-bd6b-404f-a38b-4b928da1ced9",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022doumentupload\u0022:\u0022h\u2026",
+    "createdAt": "2026-05-23T09:07:39.344659Z",
+    "updatedAt": "2026-05-23T09:07:58.1157021Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "7d6b8dea-9959-4dae-a206-389067fe406f",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022doumentupload\u0022:\u0022h\u2026",
+    "createdAt": "2026-05-23T09:08:52.1936105Z",
+    "updatedAt": "2026-05-23T09:08:53.2843773Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "1cc463ef-6419-4113-b5be-0527a3ab9054",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022doumentupload\u0022:\u0022h\u2026",
+    "createdAt": "2026-05-23T09:08:59.9125663Z",
+    "updatedAt": "2026-05-23T09:09:01.0041259Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "3e8a390a-e6b1-4799-9a9a-5a680f58dc42",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022doumentupload\u0022:\u0022h\u2026",
+    "createdAt": "2026-05-23T09:09:52.5920831Z",
+    "updatedAt": "2026-05-23T09:10:14.7922448Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "90cf894c-c47f-402f-b91e-20cae6846720",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022Status\u0022:\u0022Not Analyzed\u0022,\u2026",
+    "createdAt": "2026-05-23T09:37:46.1258708Z",
+    "updatedAt": "2026-05-23T09:38:08.7044697Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "90179e1d-88a4-4654-8fb4-d9357ba123e5",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-05-23T09:46:10.2072618Z",
+    "updatedAt": "2026-05-23T09:46:11.6657516Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "7f5705c0-1601-4813-b75d-7f54596c7c8f",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-05-23T09:47:47.5167467Z",
+    "updatedAt": "2026-05-23T09:47:48.9554171Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "f8ec2824-da92-4090-a2e4-e06077378d58",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-05-23T09:48:37.1124952Z",
+    "updatedAt": "2026-05-23T09:48:58.2852467Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "faadf369-5551-46b2-b870-e255d6c6d3fd",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u002221eb2695-cd66-4fdc-8d57-72bf9a317f31\u0022,\u0022UserEmail\u0022:\u0022json.wood@y\u2026",
+    "createdAt": "2026-05-23T10:23:31.6672261Z",
+    "updatedAt": "2026-05-23T10:23:54.1111883Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "25aa5cda-2752-4cd8-8350-2d5e19573229",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u002221eb2695-cd66-4fdc-8d57-72bf9a317f31\u0022,\u0022UserEmail\u0022:\u0022json.wood@y\u2026",
+    "createdAt": "2026-05-23T11:28:38.6195599Z",
+    "updatedAt": "2026-05-23T11:29:06.1065303Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "7a868825-e06a-4e2a-abff-e95982801943",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u002221eb2695-cd66-4fdc-8d57-72bf9a317f31\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-05-23T13:15:15.7165773Z",
+    "updatedAt": "2026-05-23T13:15:44.4507957Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "64a74747-9db5-428f-b9ca-5fc7f2f7529b",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u002221eb2695-cd66-4fdc-8d57-72bf9a317f31\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-05-23T13:47:13.6335876Z",
+    "updatedAt": "2026-05-23T13:47:38.6708126Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "1e0f7c34-0a0b-4bdb-91db-49b47cf61212",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u002221eb2695-cd66-4fdc-8d57-72bf9a317f31\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-05-27T12:15:23.7949308Z",
+    "updatedAt": "2026-05-27T12:15:39.5786534Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "2ce69657-7d71-4687-a908-c6bddc20edaa",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u002221eb2695-cd66-4fdc-8d57-72bf9a317f31\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-05-27T12:16:54.7650623Z",
+    "updatedAt": "2026-05-27T12:17:11.3429383Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "3ad35717-dc17-4b42-ad5f-5fd1f1b905c8",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u002221eb2695-cd66-4fdc-8d57-72bf9a317f31\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-05-27T12:17:22.7767818Z",
+    "updatedAt": "2026-05-27T12:17:24.4748484Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "224a8cfd-f111-4180-9dda-11bfa6b2c725",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u002221eb2695-cd66-4fdc-8d57-72bf9a317f31\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-05-27T12:17:29.627087Z",
+    "updatedAt": "2026-05-27T12:17:45.8959158Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "fbc4d945-a0af-403f-aec5-32e8a8033670",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u002221eb2695-cd66-4fdc-8d57-72bf9a317f31\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-05-27T14:45:06.4323373Z",
+    "updatedAt": "2026-05-27T14:45:28.4585384Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "59ccfab1-f164-49c9-871a-fb1cdbd47d4b",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u002221eb2695-cd66-4fdc-8d57-72bf9a317f31\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-05-27T14:48:13.5503293Z",
+    "updatedAt": "2026-05-27T14:48:29.8686074Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "03e64364-2ce9-4574-bea1-7c42120a8fab",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-05-28T05:05:04.2365428Z",
+    "updatedAt": "2026-05-28T05:05:28.9095936Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "79e39122-fd7b-4721-b1de-f94558ac30e4",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-05-28T10:39:09.2829785Z",
+    "updatedAt": "2026-05-28T10:39:30.2920961Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "1e414778-4022-46c9-b211-3f37a8ffec27",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-05-28T10:41:10.5376894Z",
+    "updatedAt": "2026-05-28T10:41:25.0022384Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "8c39c89c-0225-4848-a4f6-0152003413ca",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-05-28T10:42:09.0266326Z",
+    "updatedAt": "2026-05-28T10:42:16.7198431Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "17444ac8-8a0f-4aa3-a8d2-9cfce116e4f5",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-05-28T10:43:11.1888337Z",
+    "updatedAt": "2026-05-28T10:43:18.8900289Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "2b433c3d-df4b-4290-8b3f-6a2727e229a6",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-05-28T10:43:42.4887248Z",
+    "updatedAt": "2026-05-28T10:43:50.589623Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "298876b4-432e-4e56-9e6d-d54f8acac65a",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-05-28T10:44:11.2266584Z",
+    "updatedAt": "2026-05-28T10:44:14.0023683Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "7ff97c09-6c3e-4454-8b89-d6643a5dda3e",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-05-28T11:20:32.1473548Z",
+    "updatedAt": "2026-05-28T11:22:00.2488633Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "8b647cf0-55c6-4926-83bc-c24f971786b8",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-05-28T11:25:51.8159187Z",
+    "updatedAt": "2026-05-28T11:27:05.6732166Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "1d035845-fb7e-41d2-818a-f74dc17a6d14",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00229f488dad-9dc7-4f88-b72b-b4f07083b1e1\u0022,\u0022UserEmail\u0022:\u0022harrylin12@\u2026",
+    "createdAt": "2026-05-28T11:55:08.2734443Z",
+    "updatedAt": "2026-05-28T11:56:23.4428029Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "f620f418-dc4d-4366-9bd5-e088f04f127d",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022UserEmail\u0022:\u0022johnsmith@y\u2026",
+    "createdAt": "2026-05-28T13:54:08.2645381Z",
+    "updatedAt": "2026-05-28T13:55:22.1391939Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "a4f8b6ed-fe10-46d4-a320-cde12bd3f18f",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-05-28T14:15:28.2710025Z",
+    "updatedAt": "2026-05-28T14:16:42.0893566Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "3d9f6c33-f51f-416e-8b95-56951734316f",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-02T10:19:58.9397579Z",
+    "updatedAt": "2026-06-02T10:21:21.9628855Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "6ee5dfcb-ba90-4ca6-bbe3-a2c4248e8263",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00229f488dad-9dc7-4f88-b72b-b4f07083b1e1\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-02T12:04:50.7916551Z",
+    "updatedAt": "2026-06-02T12:06:10.9757466Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "1ee24ee2-4091-4a10-82db-038044f19799",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00229f488dad-9dc7-4f88-b72b-b4f07083b1e1\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-02T14:22:17.5524981Z",
+    "updatedAt": "2026-06-02T14:23:55.974659Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "590543d7-7f32-4ef5-847f-c64496f1bfb3",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-02T19:33:33.8278965Z",
+    "updatedAt": "2026-06-02T19:35:00.0840356Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "34b31c04-d6c5-4a65-9b18-20c44461d4fc",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-03T10:40:06.3888372Z",
+    "updatedAt": "2026-06-03T10:41:25.5111335Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "68b541f4-5996-4a16-a5a9-c7782fbf9c59",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-03T11:21:21.8377039Z",
+    "updatedAt": "2026-06-03T11:22:42.0384831Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "afe5790c-dd09-4d26-ad23-8e2aea632ba2",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-03T11:25:20.0437477Z",
+    "updatedAt": "2026-06-03T11:26:40.3277884Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "da9e424d-d49c-42da-b758-06e47e39ff2d",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-03T11:28:43.9236296Z",
+    "updatedAt": "2026-06-03T11:30:01.7565406Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "0bfdd12c-af5c-424e-acbb-025ad100741d",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-03T11:36:02.6279212Z",
+    "updatedAt": "2026-06-03T11:37:19.1554922Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "af0eacba-5652-4082-b1f7-d771d5091f27",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-03T11:43:05.2422419Z",
+    "updatedAt": "2026-06-03T11:44:23.8598087Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "d29d1eb1-cccc-42ae-aef0-921f04a602a4",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-03T12:11:56.015447Z",
+    "updatedAt": "2026-06-03T12:13:21.3309328Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "2314342e-6434-4347-8782-1039b0f85050",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-03T12:23:47.5369926Z",
+    "updatedAt": "2026-06-03T12:25:11.849479Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "dde41fb9-b6a4-4d03-9086-de7e7ad67d56",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-04T12:52:04.9952962Z",
+    "updatedAt": "2026-06-04T12:53:24.4413605Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "c5f2795a-33c6-4780-b5ef-705debc2a082",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-04T15:03:06.4452858Z",
+    "updatedAt": "2026-06-04T15:04:31.254999Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "2ee65234-942b-4352-8061-499070b536de",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-04T15:33:15.7950695Z",
+    "updatedAt": "2026-06-04T15:34:28.7048971Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "7c227892-a369-48fe-8588-dc428ae4a0e4",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-04T15:45:36.4703428Z",
+    "updatedAt": "2026-06-04T15:47:13.1101998Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "551077f7-46fd-464b-a664-324039d13bfc",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00229f488dad-9dc7-4f88-b72b-b4f07083b1e1\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-04T17:39:43.7990508Z",
+    "updatedAt": "2026-06-04T17:41:15.5601135Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "337789cf-e35e-49e8-97ed-93ae6ba2ab76",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-05T11:13:34.4117067Z",
+    "updatedAt": "2026-06-05T11:16:07.060714Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "0ca4716c-360a-4cc5-9ed6-395d04dddd92",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-05T11:19:40.9560703Z",
+    "updatedAt": "2026-06-05T11:23:02.5211696Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "708ac434-90dc-4b4e-a690-0af784e59a0e",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-05T11:43:59.1625605Z",
+    "updatedAt": "2026-06-05T11:46:12.2530336Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "f66b84ef-8e4c-49a7-b75d-74d2e31ebee5",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-05T12:01:51.6878138Z",
+    "updatedAt": "2026-06-05T12:03:20.7543702Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "256a3f85-b5ce-4f64-9b4a-7dc3d1170c94",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-05T12:15:40.314808Z",
+    "updatedAt": "2026-06-05T12:16:55.1480522Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "fe810217-67ef-404c-8aa7-7a5ecd66bd70",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-05T12:25:35.1059674Z",
+    "updatedAt": "2026-06-05T12:27:21.5149024Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "02d3181a-25e2-403d-b1df-8c7d6c2eb693",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-05T12:35:30.9009241Z",
+    "updatedAt": "2026-06-05T12:38:02.5529601Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "53569c73-3f29-4923-9dc7-2b21d031fb3b",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-05T13:56:07.8699266Z",
+    "updatedAt": "2026-06-05T13:58:10.787545Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "326456d7-cdd6-47af-aa43-dbe2fb9a6bda",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-05T14:46:49.4637729Z",
+    "updatedAt": "2026-06-05T14:48:54.9362561Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "0ea6fe90-075a-4606-ad18-e8e6976f1cf5",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-05T17:26:32.4013726Z",
+    "updatedAt": "2026-06-05T17:28:47.1934739Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "2e666454-e31c-4d71-9e6b-a3e967bbe2eb",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-05T18:25:34.6175127Z",
+    "updatedAt": "2026-06-05T18:28:18.1498743Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "b1e7f26b-ca11-487f-a1ae-07df1ce40319",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-06T10:24:28.7835167Z",
+    "updatedAt": "2026-06-06T10:26:17.8435218Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "741458c4-24c0-4acd-84c2-08e5138e1b51",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022Status\u0022:\u0022Analyzed\u0022,\u0022Typ\u2026",
+    "createdAt": "2026-06-06T11:28:23.525435Z",
+    "updatedAt": "2026-06-06T11:30:15.6429971Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "8d3b123f-4171-4109-ad94-2b8f3dc1f539",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022UserEmail\u0022:\u0022johnsmith@y\u2026",
+    "createdAt": "2026-06-06T11:34:24.7239508Z",
+    "updatedAt": "2026-06-06T11:36:35.4024191Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "be2a6d4f-f925-4c74-ab61-b71978ef5067",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Analyzed\u0022,\u0022doc\u2026",
+    "createdAt": "2026-06-06T12:44:27.65391Z",
+    "updatedAt": "2026-06-06T12:46:32.7058255Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "430e99c6-fead-48cc-8db9-45c1ea4e79b0",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Analyzed\u0022,\u0022doc\u2026",
+    "createdAt": "2026-06-06T12:56:06.8498462Z",
+    "updatedAt": "2026-06-06T12:58:19.9060218Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "4e7235e5-c462-4132-8a2a-abaf6adc4b59",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Analyzed\u0022,\u0022doc\u2026",
+    "createdAt": "2026-06-06T13:11:46.7029718Z",
+    "updatedAt": "2026-06-06T13:14:03.7773266Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "edd48968-cdf1-4392-b7d7-44f836ecf6a9",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Analyzed\u0022,\u0022doc\u2026",
+    "createdAt": "2026-06-08T12:12:21.1277766Z",
+    "updatedAt": "2026-06-08T12:12:21.1288471Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "109e3b3c-c38d-4f43-b7e5-f35090e16651",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Analyzed\u0022,\u0022doc\u2026",
+    "createdAt": "2026-06-10T11:02:01.7742113Z",
+    "updatedAt": "2026-06-10T11:03:24.7553435Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "c6afea0c-933f-43f0-99c2-372839fecd27",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Analyzed\u0022,\u0022doc\u2026",
+    "createdAt": "2026-06-10T11:03:55.2826515Z",
+    "updatedAt": "2026-06-10T11:06:11.3895134Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "59e753f4-f795-47e8-a3fe-faef5f6b0faf",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Analyzed\u0022,\u0022doc\u2026",
+    "createdAt": "2026-06-10T11:12:03.3021888Z",
+    "updatedAt": "2026-06-10T11:14:10.7048203Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "21211085-ac1d-4ef0-868a-942ce1f02c1f",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Analyzed\u0022,\u0022doc\u2026",
+    "createdAt": "2026-06-10T16:59:12.7265305Z",
+    "updatedAt": "2026-06-10T17:01:39.2346796Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "db46957c-6109-4212-a909-3581c2b47e01",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022status\u0022:\u0022Analyzed\u0022,\u0022doc\u2026",
+    "createdAt": "2026-06-12T13:57:54.1603404Z",
+    "updatedAt": "2026-06-12T14:00:24.3098118Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "261fabce-9d33-4204-8635-eb356cce89de",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022status\u0022:\u0022Analyzed\u0022,\u0022doc\u2026",
+    "createdAt": "2026-06-12T14:01:50.3591481Z",
+    "updatedAt": "2026-06-12T14:04:19.6151267Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "4a76bf5d-9de1-4fb3-a42c-cb18e055d170",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022status\u0022:\u0022Analyzed\u0022,\u0022doc\u2026",
+    "createdAt": "2026-06-12T14:06:33.3850881Z",
+    "updatedAt": "2026-06-12T14:09:01.6163196Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "60e0029e-1d3c-4e8a-b0ef-15f2c90a3c8a",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022status\u0022:\u0022Analyzed\u0022,\u0022doc\u2026",
+    "createdAt": "2026-06-12T14:09:51.5850078Z",
+    "updatedAt": "2026-06-12T14:12:16.7515065Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "bdaaea9a-ab9f-414a-bee1-22411ea4dafe",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022status\u0022:\u0022Analyzed\u0022,\u0022doc\u2026",
+    "createdAt": "2026-06-12T14:13:22.1364733Z",
+    "updatedAt": "2026-06-12T14:15:38.9608103Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "c979f9b6-9ab7-4ee4-8b26-1bdeccdfed88",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022status\u0022:\u0022Analyzed\u0022,\u0022doc\u2026",
+    "createdAt": "2026-06-12T14:17:01.0853574Z",
+    "updatedAt": "2026-06-12T14:19:28.4404831Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "c0b0f404-6cff-4ff5-99d2-a691b7bd4d22",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022status\u0022:\u0022Analyzed\u0022,\u0022doc\u2026",
+    "createdAt": "2026-06-12T14:19:44.6726612Z",
+    "updatedAt": "2026-06-12T14:22:08.8942814Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "b20bf43e-f126-4acb-a374-7f67739455cd",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022status\u0022:\u0022Analyzed\u0022,\u0022doc\u2026",
+    "createdAt": "2026-06-12T14:23:35.3850052Z",
+    "updatedAt": "2026-06-12T14:25:59.8221969Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "a1a7bbfb-49b8-4b05-86c6-f288f3590fa0",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022status\u0022:\u0022Analyzed\u0022,\u0022doc\u2026",
+    "createdAt": "2026-06-12T17:27:28.6287858Z",
+    "updatedAt": "2026-06-12T17:30:13.0129623Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "1fe009ad-8c60-49c5-a385-be373b4b409d",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022status\u0022:\u0022Analyzed\u0022,\u0022doc\u2026",
+    "createdAt": "2026-06-12T17:31:45.10097Z",
+    "updatedAt": "2026-06-12T17:34:13.4627345Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "d304533c-35dd-4095-ae3d-f6eb7440cfc8",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022useremail\u0022:\u0022jane@yopmai\u2026",
+    "createdAt": "2026-06-12T18:02:47.3312785Z",
+    "updatedAt": "2026-06-12T18:05:47.2618228Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "e4fa4f19-83d2-43a1-aba5-188f63171c45",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022useremail\u0022:\u0022jane@yopmai\u2026",
+    "createdAt": "2026-06-12T18:10:50.7237242Z",
+    "updatedAt": "2026-06-12T18:13:21.2303579Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "dfc122e1-99be-4234-bf6d-f57df269716c",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022useremail\u0022:\u0022jane@yopmai\u2026",
+    "createdAt": "2026-06-12T18:14:19.8567414Z",
+    "updatedAt": "2026-06-12T18:16:44.943999Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "58aa012e-5ea3-45ad-9ba6-278171a91acd",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022useremail\u0022:\u0022jane@yopmai\u2026",
+    "createdAt": "2026-06-12T18:17:47.5819698Z",
+    "updatedAt": "2026-06-12T18:20:26.5661579Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "457ca908-a75d-46f1-adc3-6b5de0d54bb3",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022useremail\u0022:\u0022jane@yopmai\u2026",
+    "createdAt": "2026-06-12T18:22:11.7981065Z",
+    "updatedAt": "2026-06-12T18:24:36.9188624Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "3f03ea53-a236-4975-a99b-a9e2532de5e1",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022useremail\u0022:\u0022jane@yopmai\u2026",
+    "createdAt": "2026-06-12T18:24:55.3146849Z",
+    "updatedAt": "2026-06-12T18:27:37.2098088Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "7c49da76-87df-475c-a147-e225c1b79573",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022useremail\u0022:\u0022jane@yopmai\u2026",
+    "createdAt": "2026-06-12T18:29:50.6649871Z",
+    "updatedAt": "2026-06-12T18:32:24.2532952Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "53443fda-45d6-4fa6-85e1-c9c6e13d8e52",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022useremail\u0022:\u0022jane@yopmai\u2026",
+    "createdAt": "2026-06-12T18:33:55.4131243Z",
+    "updatedAt": "2026-06-12T18:36:18.8092017Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "ea7ecbea-e0be-443f-aff4-72d531dac5d9",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022useremail\u0022:\u0022jane@yopmai\u2026",
+    "createdAt": "2026-06-12T18:37:03.4028032Z",
+    "updatedAt": "2026-06-12T18:39:40.4921354Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "cef8fade-e3a6-4d64-b872-f1005ec43be3",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022useremail\u0022:\u0022jane@yopmai\u2026",
+    "createdAt": "2026-06-12T18:41:44.7021748Z",
+    "updatedAt": "2026-06-12T18:41:44.7021767Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "949d1d12-6ef4-4452-9cbd-bc3142beb272",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022useremail\u0022:\u0022jane@yopmai\u2026",
+    "createdAt": "2026-06-12T18:44:34.5007856Z",
+    "updatedAt": "2026-06-12T18:48:58.799908Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "e306ea0e-d333-4c6c-bde0-74cf05870e71",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022status\u0022:\u0022Analyzed\u0022,\u0022doc\u2026",
+    "createdAt": "2026-06-12T18:51:34.5535936Z",
+    "updatedAt": "2026-06-12T18:55:05.0615799Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "111666fa-1773-40dc-8d89-15554989048d",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022b887df52-b3d4-426d-8a83-e0c389acd395\u0022,\u0022useremail\u0022:\u0022jane@yopmai\u2026",
+    "createdAt": "2026-06-13T11:36:14.9677942Z",
+    "updatedAt": "2026-06-13T11:38:56.8553432Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "06fe3b98-f313-4a01-9d7d-857537d392c8",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Analyzed\u0022,\u0022doc\u2026",
+    "createdAt": "2026-06-15T12:19:44.9648685Z",
+    "updatedAt": "2026-06-15T12:22:48.2451821Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "ff695b8a-f1a7-4335-8b7e-610b2d7872f8",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Analyzed\u0022,\u2026",
+    "createdAt": "2026-06-15T17:05:11.8718966Z",
+    "updatedAt": "2026-06-15T17:08:05.1834059Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "a90beb75-20d8-4329-a3fc-31c22df2fcc0",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Analyzed\u0022,\u2026",
+    "createdAt": "2026-06-17T09:41:52.0556463Z",
+    "updatedAt": "2026-06-17T09:44:24.0833813Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "ea1d6926-0ef6-46e8-bac7-e5bfc0d066be",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Analyzed\u0022,\u2026",
+    "createdAt": "2026-06-18T10:21:41.4426008Z",
+    "updatedAt": "2026-06-18T10:24:44.9167941Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "ab1e3e92-b692-4916-87c4-03adfc0451a8",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Analyzed\u0022,\u2026",
+    "createdAt": "2026-06-18T10:26:47.8522171Z",
+    "updatedAt": "2026-06-18T10:29:32.9735308Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "3bbd02cb-5dd7-4454-91c4-256abc5840f8",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Analyzed\u0022,\u2026",
+    "createdAt": "2026-06-18T10:29:59.4847965Z",
+    "updatedAt": "2026-06-18T10:32:27.7832587Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "7233fbad-c8c5-47a5-ad48-fb222c1e5fe0",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Analyzed\u0022,\u2026",
+    "createdAt": "2026-06-18T10:54:20.4750192Z",
+    "updatedAt": "2026-06-18T10:57:09.4548503Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "5cbc3646-3a1b-4cfc-9827-44bcccef2111",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Analyzed\u0022,\u2026",
+    "createdAt": "2026-06-18T10:57:30.942889Z",
+    "updatedAt": "2026-06-18T11:01:19.9435397Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "b5d9e8e2-6831-47cc-80f8-42e84bd06a8d",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Analyzed\u0022,\u2026",
+    "createdAt": "2026-06-18T15:06:00.2617928Z",
+    "updatedAt": "2026-06-18T15:08:39.595862Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "7803ee78-dba1-451b-be0e-90cd84b1fbbd",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Analyzed\u0022,\u2026",
+    "createdAt": "2026-06-18T15:40:03.45025Z",
+    "updatedAt": "2026-06-18T15:42:44.5773482Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "f4f725f6-1f1d-4c6c-aced-f759e00deb15",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Analyzed\u0022,\u2026",
+    "createdAt": "2026-06-19T11:09:41.8009631Z",
+    "updatedAt": "2026-06-19T11:13:28.1561779Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "b4b8b15b-2534-43bb-8bb5-3f65d8b7b5e7",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Analyzed\u0022,\u2026",
+    "createdAt": "2026-06-19T12:20:59.676852Z",
+    "updatedAt": "2026-06-19T12:24:13.556338Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "1f26c17c-4d81-4e1d-aa72-26d9019db144",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Analyzed\u0022,\u2026",
+    "createdAt": "2026-06-19T12:30:53.38004Z",
+    "updatedAt": "2026-06-19T12:33:54.8913249Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "6ec4ccb3-8237-4565-99f4-8ede9cc44c4d",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Analyzed\u0022,\u2026",
+    "createdAt": "2026-06-19T12:53:51.3439965Z",
+    "updatedAt": "2026-06-19T12:57:49.0437442Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "f0b6f548-47bf-4d97-8c3f-073abe410037",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Analyzed\u0022,\u2026",
+    "createdAt": "2026-06-19T17:42:37.2490327Z",
+    "updatedAt": "2026-06-19T17:45:36.08667Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "63d5ef99-306b-49e2-bc43-82afb8acdded",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Analyzed\u0022,\u2026",
+    "createdAt": "2026-06-19T20:30:06.9231305Z",
+    "updatedAt": "2026-06-19T20:30:06.9240822Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "10e93546-5b89-435a-a94e-c47e472fbb23",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Analyzed\u0022,\u2026",
+    "createdAt": "2026-06-19T21:14:56.1837902Z",
+    "updatedAt": "2026-06-19T21:14:56.1848437Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "209e2af1-af1b-458d-b990-267f15b56e15",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Analyzed\u0022,\u2026",
+    "createdAt": "2026-06-20T07:19:20.4454849Z",
+    "updatedAt": "2026-06-20T07:22:34.2386021Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "97bb6c26-466f-48d8-971a-79fec7c2da03",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Analyzed\u0022,\u2026",
+    "createdAt": "2026-06-20T08:42:50.4745115Z",
+    "updatedAt": "2026-06-20T08:46:00.6579648Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "a1640a83-3b62-404b-a7aa-8be57beef98e",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Analyzed\u0022,\u2026",
+    "createdAt": "2026-06-20T08:50:06.8979978Z",
+    "updatedAt": "2026-06-20T08:52:51.289097Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "9d30a712-283e-46dc-9b00-d53abdc6e376",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-06-22T11:08:06.7231848Z",
+    "updatedAt": "2026-06-22T11:10:54.0115237Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "76c5d323-cac3-409d-84a1-8020743b1d62",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022useremail\u0022:\u0022john\u2026",
+    "createdAt": "2026-06-22T11:13:57.2553027Z",
+    "updatedAt": "2026-06-22T11:16:49.4617419Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "f22b07a8-f6f9-4d2c-b5f2-9da3b28cf97e",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-06-23T09:58:41.7852658Z",
+    "updatedAt": "2026-06-23T10:01:27.6144405Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "27bfc20e-923f-4720-abfc-e3254215c5db",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-06-23T10:02:21.0773017Z",
+    "updatedAt": "2026-06-23T10:07:03.165056Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "e7025112-85c3-47e4-9413-c36609f91731",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022cc76715c-5af1-4107-a27c-681496198a28\u0022,\u0022useremail\u0022:\u0022maxd\u2026",
+    "createdAt": "2026-06-24T10:03:35.2437991Z",
+    "updatedAt": "2026-06-24T10:06:24.5588329Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "597b3e35-8778-4cfc-8ada-ebc2b427a370",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022e6027d78-a0d0-4c37-8a28-ad9d36633c2f\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-06-24T14:05:41.174516Z",
+    "updatedAt": "2026-06-24T14:08:32.1038899Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "dd7eb36e-39b6-440c-a051-c054d8f74f35",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022e6027d78-a0d0-4c37-8a28-ad9d36633c2f\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-06-24T14:09:16.3476088Z",
+    "updatedAt": "2026-06-24T14:12:05.410832Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "bd8c922b-c2c9-4bc0-ac1a-0b3dee54d647",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022e6027d78-a0d0-4c37-8a28-ad9d36633c2f\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-06-24T14:13:14.5898974Z",
+    "updatedAt": "2026-06-24T14:16:30.4746488Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "c7ef8734-53fe-44fa-86cd-a326fd0735eb",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022e6027d78-a0d0-4c37-8a28-ad9d36633c2f\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-06-24T14:16:56.0796748Z",
+    "updatedAt": "2026-06-24T14:20:43.3439878Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "248220bb-7796-489b-b001-fc90562a847a",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022cc76715c-5af1-4107-a27c-681496198a28\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-06-24T14:41:36.3726161Z",
+    "updatedAt": "2026-06-24T14:45:39.584246Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "0bd17192-b224-41f9-82d5-0b65ea68ba84",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022cc76715c-5af1-4107-a27c-681496198a28\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-06-25T09:39:20.2916109Z",
+    "updatedAt": "2026-06-25T09:41:48.0575118Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "ba64a258-f958-4c9b-9248-86b65fe53f5a",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022cc76715c-5af1-4107-a27c-681496198a28\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-06-25T09:50:59.3496155Z",
+    "updatedAt": "2026-06-25T09:55:00.3842058Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "7c49a28d-3cf1-4362-bca8-7e70cf1ec6d3",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-06-25T14:01:11.778043Z",
+    "updatedAt": "2026-06-25T14:04:24.6900333Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "e0931a2a-cfa9-4652-8d10-fea07372fce0",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-06-25T14:04:36.1903044Z",
+    "updatedAt": "2026-06-25T14:08:04.4386476Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "b59b167a-3f2e-4159-bb06-2263c7d93501",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022cc76715c-5af1-4107-a27c-681496198a28\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-06-25T17:44:32.4608845Z",
+    "updatedAt": "2026-06-25T17:47:26.3696233Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "3ce70718-da29-43b4-bb94-f337e49a42b7",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022cc76715c-5af1-4107-a27c-681496198a28\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-06-26T17:59:25.8499229Z",
+    "updatedAt": "2026-06-26T18:02:11.4618308Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "05aff28a-d4c3-4ff3-84c1-85249d14277b",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022cc76715c-5af1-4107-a27c-681496198a28\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-06-26T18:06:17.442031Z",
+    "updatedAt": "2026-06-26T18:06:29.8033434Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "1e20838f-1efb-4ecb-a840-32bee2337a3a",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022cc76715c-5af1-4107-a27c-681496198a28\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-06-26T18:06:45.2560082Z",
+    "updatedAt": "2026-06-26T18:06:56.0680464Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "4c0a0b64-038b-4c04-8581-b05af6fcc768",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u002232b5d21e-6c83-4a7b-bfc3-20bf60acf6fb\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-06-26T18:09:24.271353Z",
+    "updatedAt": "2026-06-26T18:09:46.8451986Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "33ad2018-f92a-4e66-9f8e-4ee4c902f978",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u002232b5d21e-6c83-4a7b-bfc3-20bf60acf6fb\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-06-26T18:14:01.6756382Z",
+    "updatedAt": "2026-06-26T18:18:39.5791538Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "600179f2-467d-41c7-8c25-4a31ea7bd29a",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022e6027d78-a0d0-4c37-8a28-ad9d36633c2f\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-07-03T16:36:07.1269169Z",
+    "updatedAt": "2026-07-03T16:38:46.5025658Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "9eb2fd04-450e-44d3-99bc-ed21c71b036b",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-07-06T11:45:30.0907466Z",
+    "updatedAt": "2026-07-06T11:48:21.379909Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "41b16260-0710-459e-812c-9772327d787a",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-07-06T11:48:45.9882719Z",
+    "updatedAt": "2026-07-06T11:51:47.8535344Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "de90fd8b-9be4-47c5-b2ab-3e0957da0b34",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u00220a37ceac-89de-4b51-8207-f09e7dfdefa6\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-07-06T17:22:32.7877743Z",
+    "updatedAt": "2026-07-06T17:24:47.4313148Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "226bbadb-aa9f-4c78-b207-8716e824ccd2",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u00220a37ceac-89de-4b51-8207-f09e7dfdefa6\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-07-06T17:27:14.8951363Z",
+    "updatedAt": "2026-07-06T17:30:00.4020466Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "e3bed7e4-b884-4de6-a7c0-9b51452b9b2e",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u00220a37ceac-89de-4b51-8207-f09e7dfdefa6\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-07-06T17:34:10.41577Z",
+    "updatedAt": "2026-07-06T17:36:50.7679163Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "157134f7-3ebf-42b0-8fa5-33c4aeca4029",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u00220a37ceac-89de-4b51-8207-f09e7dfdefa6\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-07-07T13:54:27.4355731Z",
+    "updatedAt": "2026-07-07T13:57:38.6067898Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "aa0f5365-c8d8-40fa-91cd-7157a4abdd53",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022a1f63cce-50e7-459d-a6fb-167aea1b18c6\u0022,\u0022useremail\u0022:\u0022jhon\u2026",
+    "createdAt": "2026-07-10T13:50:40.8755118Z",
+    "updatedAt": "2026-07-10T13:54:33.0454608Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "a612622e-07b6-4850-932c-937aa03f6d66",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022a1f63cce-50e7-459d-a6fb-167aea1b18c6\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-07-10T13:55:06.9300885Z",
+    "updatedAt": "2026-07-10T13:59:29.8017957Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  },
+  {
+    "threadId": "19b03759-5d5d-4ed0-b4ed-e53eb879194c",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "{\u00222\u0022:\u0022\u0022,\u00225\u0022:\u0022\u0022,\u0022userid\u0022:\u0022a1f63cce-50e7-459d-a6fb-167aea1b18c6\u0022,\u0022status\u0022:\u0022Not Ana\u2026",
+    "createdAt": "2026-07-14T11:53:17.7786219Z",
+    "updatedAt": "2026-07-14T11:58:11.5945056Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 757464,
+    "totalOutputTokens": 14468
+  },
+  {
+    "threadId": "5dad13cf-4890-4dee-8683-08a7b9b9a286",
+    "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+    "title": "run agent",
+    "createdAt": "2026-07-14T11:56:36.1369331Z",
+    "updatedAt": "2026-07-14T11:56:36.1369341Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 0,
+    "totalOutputTokens": 0
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "threadId": "10e93546-5b89-435a-a94e-c47e472fbb23",
+  "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+  "userId": "",
+  "title": "{\u00222\u0022:\u0022\u0022,\u0022userid\u0022:\u0022d7086938-e022-43e2-b87e-7976a6c4dce5\u0022,\u0022status\u0022:\u0022Not Analyzed\u0022,\u2026",
+  "messages": [],
+  "files": [],
+  "traceEvents": [],
+  "failedRunCount": 0,
+  "failedRunDates": [],
+  "createdAt": "2026-06-19T21:14:56.1837902Z",
+  "updatedAt": "2026-06-19T21:14:56.1848437Z",
+  "totalInputTokens": 0,
+  "totalOutputTokens": 0
+}

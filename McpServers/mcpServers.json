@@ -1,0 +1,11 @@
+[
+  {
+    "id": "589b86e9-18b1-4b5d-b97b-ce1f04d147cb",
+    "Name": "ncameo-mcp",
+    "McpType": "SSE",
+    "Command": null,
+    "mcpsseurl": "https://cosmosmcp.ncameo.com",
+    "createddate": "2026-05-23T06:19:14.39Z",
+    "updateddate": "2026-05-23T06:19:14.39Z"
+  }
+]

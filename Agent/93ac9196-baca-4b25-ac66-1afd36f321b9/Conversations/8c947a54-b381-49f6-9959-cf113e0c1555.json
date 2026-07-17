@@ -1,0 +1,49 @@
+{
+  "threadId": "8c947a54-b381-49f6-9959-cf113e0c1555",
+  "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+  "userId": "56211ac7-c7a0-44a5-9b53-3af4b04bad7a",
+  "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022DocumentCategory\u0022\u2026",
+  "messages": [
+    {
+      "role": "user",
+      "content": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022DocumentCategory\u0022:\u0022Other\u0022,\u0022doumentupload\u0022:\u0022https://ncameodemostorage.blob.core.windows.net/ncameo/wiaipqkyiohiiaxfiles/-8584220823016163933New2.pdf\u0022,\u0022Notes\u0022:\u0022\u0022,\u0022doumentupload_name\u0022:\u0022New2.pdf\u0022,\u0022doumentupload_url\u0022:\u0022https://ncameodemostorage.blob.core.windows.net/ncameo/wiaipqkyiohiiaxfiles/-8584220823016163933New2.pdf\u0022,\u0022createdby\u0022:\u002256211ac7-c7a0-44a5-9b53-3af4b04bad7a\u0022,\u0022createddate\u0022:\u00222026-05-23T08:22:43.683Z\u0022,\u0022updatedby\u0022:\u002256211ac7-c7a0-44a5-9b53-3af4b04bad7a\u0022,\u0022updateddate\u0022:\u00222026-05-23T08:22:43.683Z\u0022,\u0022gocameomodel\u0022:\u0022PatientDocument\u0022,\u0022id\u0022:\u002220a4bbbd-3bb3-4b59-86a8-b9cac13b35f5\u0022,\u0022createdate\u0022:\u00222026-05-23T08:23:06.4602444\u002B00:00\u0022,\u0022_rid\u0022:\u0022xqw0APUgK5JjBQAAAAAAAA==\u0022,\u0022_self\u0022:\u0022dbs/xqw0AA==/colls/xqw0APUgK5I=/docs/xqw0APUgK5JjBQAAAAAAAA==/\u0022,\u0022_etag\u0022:\u0022\\\u00220100bbd1-0000-0700-0000-6a1163ea0000\\\u0022\u0022,\u0022_attachments\u0022:\u0022attachments/\u0022,\u0022_ts\u0022:1779524586,\u0022aiagents\u0022:[\u0022Lab Interpreter\u0022,\u0022Risk Scorer\u0022],\u0022highlightDataCard\u0022:[]}",
+      "inputTokens": null,
+      "outputTokens": null,
+      "timestamp": "2026-05-23T08:23:42.9061204Z"
+    },
+    {
+      "role": "assistant",
+      "content": "\n\n**Analyse Lab Report**  \nRead and analyse the uploaded lab report to extract biomarkers, insights, and health highlightsSave completed successfully.",
+      "inputTokens": 22388,
+      "outputTokens": 1333,
+      "timestamp": "2026-05-23T08:24:03.9428609Z"
+    }
+  ],
+  "files": [],
+  "traceEvents": [
+    {
+      "type": "trace",
+      "stage": null,
+      "text": null,
+      "partial": null,
+      "message": null,
+      "stepIndex": null,
+      "requestId": null,
+      "toolName": null,
+      "toolArgs": null,
+      "toolResult": "execution-trace",
+      "threadId": null,
+      "fileUrl": null,
+      "fileName": null,
+      "fileType": null,
+      "totalInputTokens": null,
+      "totalOutputTokens": null
+    }
+  ],
+  "failedRunCount": 0,
+  "failedRunDates": [],
+  "createdAt": "2026-05-23T08:23:43.277908Z",
+  "updatedAt": "2026-05-23T08:24:03.9430263Z",
+  "totalInputTokens": 22388,
+  "totalOutputTokens": 1333
+}

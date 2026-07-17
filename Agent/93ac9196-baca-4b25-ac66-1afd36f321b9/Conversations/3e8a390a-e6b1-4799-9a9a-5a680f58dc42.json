@@ -1,0 +1,85 @@
+{
+  "threadId": "3e8a390a-e6b1-4799-9a9a-5a680f58dc42",
+  "agentId": "93ac9196-baca-4b25-ac66-1afd36f321b9",
+  "userId": "56211ac7-c7a0-44a5-9b53-3af4b04bad7a",
+  "title": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022doumentupload\u0022:\u0022h\u2026",
+  "messages": [
+    {
+      "role": "user",
+      "content": "{\u00222\u0022:\u0022\u0022,\u0022UserId\u0022:\u00224e6dc755-3acf-48f9-961b-bb5a214343a8\u0022,\u0022\u0022:\u0022\u0022,\u0022doumentupload\u0022:\u0022https://ncameodemostorage.blob.core.windows.net/ncameo/wiaipqkyiohiiaxfiles/-8584220795605335991Document_2.pdf\u0022,\u0022Notes\u0022:\u0022\u0022,\u0022doumentupload_name\u0022:\u0022Document_2.pdf\u0022,\u0022doumentupload_url\u0022:\u0022https://ncameodemostorage.blob.core.windows.net/ncameo/wiaipqkyiohiiaxfiles/-8584220795605335991Document_2.pdf\u0022,\u0022createdby\u0022:\u002256211ac7-c7a0-44a5-9b53-3af4b04bad7a\u0022,\u0022createddate\u0022:\u00222026-05-23T09:09:16.016Z\u0022,\u0022updatedby\u0022:\u002256211ac7-c7a0-44a5-9b53-3af4b04bad7a\u0022,\u0022updateddate\u0022:\u00222026-05-23T09:09:16.016Z\u0022,\u0022gocameomodel\u0022:\u0022PatientDocument\u0022,\u0022id\u0022:\u002294ac28e7-579b-4514-aab3-71ae68ecd730\u0022,\u0022createdate\u0022:\u00222026-05-23T09:08:46.4014753\u002B00:00\u0022,\u0022_rid\u0022:\u0022xqw0APUgK5J2BQAAAAAAAA==\u0022,\u0022_self\u0022:\u0022dbs/xqw0AA==/colls/xqw0APUgK5I=/docs/xqw0APUgK5J2BQAAAAAAAA==/\u0022,\u0022_etag\u0022:\u0022\\\u0022010050d9-0000-0700-0000-6a116e9e0000\\\u0022\u0022,\u0022_attachments\u0022:\u0022attachments/\u0022,\u0022_ts\u0022:1779527326,\u0022aiagents\u0022:[\u0022Lab Interpreter\u0022,\u0022Summary Agent\u0022],\u0022highlightDataCard\u0022:[]}",
+      "inputTokens": null,
+      "outputTokens": null,
+      "timestamp": "2026-05-23T09:09:52.5576214Z"
+    },
+    {
+      "role": "assistant",
+      "content": "\n\n\n\n\u003C|step|\u003EAnalysing lab report from PDF at provided URL...\u003C|step|\u003E\n\nLab report analysis and data update successful.",
+      "inputTokens": 23488,
+      "outputTokens": 1421,
+      "timestamp": "2026-05-23T09:10:14.7922414Z"
+    }
+  ],
+  "files": [],
+  "traceEvents": [
+    {
+      "type": "trace",
+      "stage": null,
+      "text": null,
+      "partial": null,
+      "message": null,
+      "stepIndex": null,
+      "requestId": null,
+      "toolName": null,
+      "toolArgs": null,
+      "toolResult": "Loaded skill instructions for execution-trace",
+      "threadId": null,
+      "fileUrl": null,
+      "fileName": null,
+      "fileType": null,
+      "totalInputTokens": null,
+      "totalOutputTokens": null
+    },
+    {
+      "type": "trace",
+      "stage": null,
+      "text": null,
+      "partial": null,
+      "message": null,
+      "stepIndex": null,
+      "requestId": null,
+      "toolName": null,
+      "toolArgs": null,
+      "toolResult": "Loaded skill instructions for report-analyzer",
+      "threadId": null,
+      "fileUrl": null,
+      "fileName": null,
+      "fileType": null,
+      "totalInputTokens": null,
+      "totalOutputTokens": null
+    },
+    {
+      "type": "trace",
+      "stage": null,
+      "text": null,
+      "partial": null,
+      "message": null,
+      "stepIndex": null,
+      "requestId": null,
+      "toolName": null,
+      "toolArgs": null,
+      "toolResult": "Step 1 \u2014 Analyse Lab Report: Read and analyse the uploaded lab report to extract biomarkers, insights, and health highlights",
+      "threadId": null,
+      "fileUrl": null,
+      "fileName": null,
+      "fileType": null,
+      "totalInputTokens": null,
+      "totalOutputTokens": null
+    }
+  ],
+  "failedRunCount": 0,
+  "failedRunDates": [],
+  "createdAt": "2026-05-23T09:09:52.5920831Z",
+  "updatedAt": "2026-05-23T09:10:14.7922448Z",
+  "totalInputTokens": 23488,
+  "totalOutputTokens": 1421
+}

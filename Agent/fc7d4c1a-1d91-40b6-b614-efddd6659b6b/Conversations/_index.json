@@ -1,0 +1,32 @@
+[
+  {
+    "threadId": "fbf53cd7-4a5b-41c2-b1a7-af2088664b5a",
+    "agentId": "fc7d4c1a-1d91-40b6-b614-efddd6659b6b",
+    "title": "",
+    "createdAt": "2026-07-15T16:55:18.167473Z",
+    "updatedAt": "2026-07-15T16:55:56.5866334Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 29551,
+    "totalOutputTokens": 2440
+  },
+  {
+    "threadId": "5d9e3a33-863f-4bbd-b17b-060692a37893",
+    "agentId": "fc7d4c1a-1d91-40b6-b614-efddd6659b6b",
+    "title": "",
+    "createdAt": "2026-07-15T19:52:21.4732233Z",
+    "updatedAt": "2026-07-15T19:53:09.1205743Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 23591,
+    "totalOutputTokens": 3066
+  },
+  {
+    "threadId": "615cfd3f-1faa-4d62-b96d-dd14f2393f43",
+    "agentId": "fc7d4c1a-1d91-40b6-b614-efddd6659b6b",
+    "title": "",
+    "createdAt": "2026-07-16T11:50:27.5956825Z",
+    "updatedAt": "2026-07-16T11:51:11.9441333Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 32868,
+    "totalOutputTokens": 2698
+  }
+]

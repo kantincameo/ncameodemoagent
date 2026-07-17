@@ -1,0 +1,132 @@
+[
+  {
+    "threadId": "0c549802-bfb0-4324-af16-1afe69ed582c",
+    "agentId": "34ed9c87-d7b9-4165-a8e8-4e0d59301709",
+    "title": "change- \u0060partitionKey\u0060 \u2192 \u0060\u0022Customer\u0022\u0060",
+    "createdAt": "2026-07-15T05:49:10.4952678Z",
+    "updatedAt": "2026-07-15T05:50:40.9875289Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 37573,
+    "totalOutputTokens": 5048
+  },
+  {
+    "threadId": "01798b4e-ffb5-4f90-917a-883563e7b0e8",
+    "agentId": "34ed9c87-d7b9-4165-a8e8-4e0d59301709",
+    "title": "address muje object me nhi chayee \u0022string\u0022 value me chayeee",
+    "createdAt": "2026-07-15T10:48:07.5849924Z",
+    "updatedAt": "2026-07-15T11:02:27.1708074Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 72514,
+    "totalOutputTokens": 6315
+  },
+  {
+    "threadId": "b96e0b6b-d4f3-4bb4-a489-2c3c5e0df902",
+    "agentId": "34ed9c87-d7b9-4165-a8e8-4e0d59301709",
+    "title": "An uploaded CSV file can have any number of columns. You need to map those colum\u2026",
+    "createdAt": "2026-07-15T18:50:45.5483566Z",
+    "updatedAt": "2026-07-15T18:53:36.6176178Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 59371,
+    "totalOutputTokens": 7596
+  },
+  {
+    "threadId": "c5fafc3c-2521-440b-8d5d-75a3ab6300ca",
+    "agentId": "34ed9c87-d7b9-4165-a8e8-4e0d59301709",
+    "title": "remove partitionKey,serviceId,priceSource from Target JSON Schema.\nUpdate rule i\u2026",
+    "createdAt": "2026-07-15T19:22:43.6353209Z",
+    "updatedAt": "2026-07-15T19:28:53.4878235Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 43853,
+    "totalOutputTokens": 5408
+  },
+  {
+    "threadId": "e84c7031-3cd4-4cc1-8483-90c15eb57792",
+    "agentId": "34ed9c87-d7b9-4165-a8e8-4e0d59301709",
+    "title": "serviceCode can be empty.",
+    "createdAt": "2026-07-15T19:43:24.9113622Z",
+    "updatedAt": "2026-07-15T19:45:32.8652865Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 35859,
+    "totalOutputTokens": 5093
+  },
+  {
+    "threadId": "027b0c70-2fd4-46fc-ab63-41baeaee2be1",
+    "agentId": "34ed9c87-d7b9-4165-a8e8-4e0d59301709",
+    "title": "serviceKind,serviceCategory and serviceSubCategory can be blank",
+    "createdAt": "2026-07-15T19:48:05.4875156Z",
+    "updatedAt": "2026-07-15T19:50:23.3275801Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 52422,
+    "totalOutputTokens": 5332
+  },
+  {
+    "threadId": "4a055724-a150-486e-b0e1-3eaf79d769ab",
+    "agentId": "34ed9c87-d7b9-4165-a8e8-4e0d59301709",
+    "title": "Remove save records instraction from skills. Skill only map source data to targe\u2026",
+    "createdAt": "2026-07-16T11:37:26.0630528Z",
+    "updatedAt": "2026-07-16T11:45:37.9059023Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 57582,
+    "totalOutputTokens": 6807
+  },
+  {
+    "threadId": "15531432-4922-4107-b35b-fd20013b72e9",
+    "agentId": "34ed9c87-d7b9-4165-a8e8-4e0d59301709",
+    "title": "please update my target json as per below JSON\n{\n  \u0022id\u0022: \u0022plan_silver_loc001\u0022,\n \u2026",
+    "createdAt": "2026-07-16T14:32:06.7300478Z",
+    "updatedAt": "2026-07-16T14:34:49.7188458Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 57097,
+    "totalOutputTokens": 7998
+  },
+  {
+    "threadId": "be25652c-91c2-45c0-b73f-6236e30d01b1",
+    "agentId": "34ed9c87-d7b9-4165-a8e8-4e0d59301709",
+    "title": "please update my target JSON\n{\n  \u0022id\u0022: \u00223f6b1a2c-9e4d-4b7a-8c1e-2d5f6a7b8c9d\u0022,\n \u2026",
+    "createdAt": "2026-07-16T18:48:11.0174774Z",
+    "updatedAt": "2026-07-16T18:54:54.2816446Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 37500,
+    "totalOutputTokens": 1722
+  },
+  {
+    "threadId": "a13be844-7031-42a4-af6a-a3425f4df9aa",
+    "agentId": "34ed9c87-d7b9-4165-a8e8-4e0d59301709",
+    "title": "Update my target data points as per below json\n{\n  \u0022id\u0022: \u00223f6b1a2c-9e4d-4b7a-8c1\u2026",
+    "createdAt": "2026-07-16T19:02:15.0199621Z",
+    "updatedAt": "2026-07-16T19:12:14.2086676Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 112060,
+    "totalOutputTokens": 6882
+  },
+  {
+    "threadId": "fcee5415-7633-4972-b40d-bfecf23f2daa",
+    "agentId": "34ed9c87-d7b9-4165-a8e8-4e0d59301709",
+    "title": "if nothing is mapped with benefits then by default it should be blank array.",
+    "createdAt": "2026-07-16T20:53:57.969799Z",
+    "updatedAt": "2026-07-16T20:57:45.2399747Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 38418,
+    "totalOutputTokens": 4873
+  },
+  {
+    "threadId": "5014dbd4-1546-43f9-afe4-69a78fc6150e",
+    "agentId": "34ed9c87-d7b9-4165-a8e8-4e0d59301709",
+    "title": "emaployeid will be mapped with ProciderId",
+    "createdAt": "2026-07-16T22:16:00.9595456Z",
+    "updatedAt": "2026-07-16T22:18:36.611429Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 54313,
+    "totalOutputTokens": 4664
+  },
+  {
+    "threadId": "cde1d35c-c2da-41eb-8620-7e07356c4978",
+    "agentId": "34ed9c87-d7b9-4165-a8e8-4e0d59301709",
+    "title": "update skills\nremove id field\nIf present in CSV and non-empty: use as-is.\nIf mis\u2026",
+    "createdAt": "2026-07-16T22:28:05.2961599Z",
+    "updatedAt": "2026-07-16T22:30:02.5398726Z",
+    "failedRunCount": 0,
+    "totalInputTokens": 52496,
+    "totalOutputTokens": 4615
+  }
+]
