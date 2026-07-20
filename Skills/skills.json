@@ -25,5 +25,14 @@
     "createdAt": "2026-07-15T05:36:49.4587246Z",
     "updatedAt": "2026-07-15T05:36:49.4587246Z",
     "publisherName": "NCAMEO"
+  },
+  {
+    "id": "bf6f7dd8-fc02-43cb-9a35-6fc76260dd39",
+    "name": "bloodwork-analyzer",
+    "displayTitle": "Blood Analysis Agent",
+    "description": "Analyzes a human-uploaded blood/bloodwork report (PDF or screenshot) strictly against the bundled BloomCell_Bloodwork_Markers.xlsx ground-truth sheet and produces the fixed 8-object JSON output (Internal Notes, Understanding Your Results, Priority Actions - Next 30 Days, Long-Term Strategy). Use this skill whenever the user asks to run the \u0022Blood analysis agent\u0022, analyze a blood/bloodwork PDF or screenshot for the LEGO-piece pipeline, or generate provider/patient notes and 30-day/long-term plans from a blood report. NO internet access, no external medical knowledge, and no model prior knowledge may be used for clinical content \u2014 every clinical statement must trace back to a row in the bundled Excel sheet. If the user supplies an updated version of BloomCell_Bloodwork_Markers.xlsx, replace the file in references/ with the new one and always use the latest file present there.",
+    "createdAt": "2026-07-20T17:46:00.8705316Z",
+    "updatedAt": "2026-07-20T17:46:00.8705316Z",
+    "publisherName": "NCAMEO"
   }
 ]
