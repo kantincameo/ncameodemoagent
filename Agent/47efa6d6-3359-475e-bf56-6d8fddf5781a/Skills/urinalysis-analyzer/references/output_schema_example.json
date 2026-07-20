@@ -1,0 +1,74 @@
+[
+  {
+    "id": "49c745a6-3f2f-44e5-acfb-28292fba5af4",
+    "date": "2026-07-20T11:30:00Z",
+    "type": "highlight",
+    "text": "Leukocyte Esterase: Positive (2+)",
+    "group": "Internal Notes",
+    "rationale": "Flagged positive on the report; sheet notes this pads for white cells in urine (pyuria), suggestive of urinary tract inflammation/infection.",
+    "referencesource": "PatientUrineReport_2026-07-18.pdf - Page 1, Dipstick panel"
+  },
+  {
+    "id": "6781441f-7c6e-4bd1-8302-ac4867c124b0",
+    "date": "2026-07-20T11:30:00Z",
+    "type": "note",
+    "text": "Leukocyte esterase positive is an indirect marker for white blood cells in urine (pyuria), pointing toward possible urinary tract inflammation or infection. Classic pairing with nitrites; recommend correlating with microscopic WBC count and nitrite result before concluding infection.",
+    "group": "Internal Notes",
+    "rationale": "Synthesized from the Internal Notes column for Leukocyte Esterase, which flags it as an indirect enzyme marker and notes the classic pairing with nitrites.",
+    "referencesource": "BloomCell_Urinalysis.xlsx - Urinalysis Markers sheet - Row 10, Marker: Leukocyte Esterase"
+  },
+  {
+    "id": "8a6769dd-fa9a-4caa-ba70-52b8ab4095e5",
+    "date": "2026-07-20T11:30:00Z",
+    "type": "highlight",
+    "text": "Leukocyte Esterase: Positive (2+)",
+    "group": "Understanding Your Results",
+    "rationale": "Same flagged report line, carried into the patient-facing section.",
+    "referencesource": "PatientUrineReport_2026-07-18.pdf - Page 1, Dipstick panel"
+  },
+  {
+    "id": "2a7bd238-ee69-4645-ac01-b1d3fa7b2ede",
+    "date": "2026-07-20T11:30:00Z",
+    "type": "note",
+    "text": "This pad looks for a sign of white blood cells in the urine, which relate to your body's response in the urinary tract. Your result came back positive, which your provider will interpret alongside your other results.",
+    "group": "Understanding Your Results",
+    "rationale": "Patient-friendly synthesis drawn from the Explanation column for Leukocyte Esterase.",
+    "referencesource": "BloomCell_Urinalysis.xlsx - Urinalysis Markers sheet - Row 10, Marker: Leukocyte Esterase"
+  },
+  {
+    "id": "efe2724b-8cef-4f46-b867-e2c41a6b9b2d",
+    "date": "2026-07-20T11:30:00Z",
+    "type": "highlight",
+    "text": "Leukocyte Esterase: Positive (2+)",
+    "group": "Priority Actions - Next 30 Days",
+    "rationale": "Flagged value driving the 30-day recommendations.",
+    "referencesource": "PatientUrineReport_2026-07-18.pdf - Page 1, Dipstick panel"
+  },
+  {
+    "id": "d1ad17cc-0c98-49bd-bf0f-d808b3060138",
+    "date": "2026-07-20T11:30:00Z",
+    "type": "note",
+    "text": "This is a finding your provider interprets, not one you adjust with habits. Support general wellness by staying well hydrated, use a clean-catch technique for any repeat sample, and keep up steady overall wellness routines.",
+    "group": "Priority Actions - Next 30 Days",
+    "rationale": "Taken directly from the 30-Day Plan column for Leukocyte Esterase.",
+    "referencesource": "BloomCell_Urinalysis.xlsx - Urinalysis Markers sheet - Row 10, Marker: Leukocyte Esterase"
+  },
+  {
+    "id": "6e1b33f5-8c36-4f81-9aa4-ba5800aeaa1e",
+    "date": "2026-07-20T11:30:00Z",
+    "type": "highlight",
+    "text": "Leukocyte Esterase: Positive (2+)",
+    "group": "Long-Term Strategy",
+    "rationale": "Flagged value driving the long-term recommendation.",
+    "referencesource": "PatientUrineReport_2026-07-18.pdf - Page 1, Dipstick panel"
+  },
+  {
+    "id": "dd99824d-cb98-48af-bb91-b72810687be1",
+    "date": "2026-07-20T11:30:00Z",
+    "type": "note",
+    "text": "This finding is meaningful in combination with other results, so your healthcare provider is the right person to interpret it. Share your results with them for context.",
+    "group": "Long-Term Strategy",
+    "rationale": "Taken directly from the Long-Term Plan column for Leukocyte Esterase.",
+    "referencesource": "BloomCell_Urinalysis.xlsx - Urinalysis Markers sheet - Row 10, Marker: Leukocyte Esterase"
+  }
+]
