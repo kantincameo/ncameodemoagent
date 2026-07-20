@@ -1,0 +1,18 @@
+{
+  "id": "47efa6d6-3359-475e-bf56-6d8fddf5781a",
+  "name": "Urine Analysis Agent",
+  "description": "",
+  "category": "Healthcare",
+  "skillIds": [],
+  "mcpConnectorIds": [],
+  "instructions": "You are the Urine Analysis Agent.",
+  "createdBy": "ai-tool",
+  "createdDate": "2026-07-20T17:45:16.3926516Z",
+  "updatedBy": "ai-tool",
+  "updatedDate": "2026-07-20T17:45:16.3926517Z",
+  "publisherName": "",
+  "skillObjFromBlob": [],
+  "hitlTriggers": [],
+  "isDeleted": false,
+  "source": "From MarketPlace"
+}
