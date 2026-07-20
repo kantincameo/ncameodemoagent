@@ -1,0 +1,18 @@
+{
+  "id": "3548db8f-26e4-4147-9ebb-0d5b8b463e39",
+  "name": "Blood Analysis Agent",
+  "description": "Blood Analysis Agent",
+  "category": "Health",
+  "skillIds": [],
+  "mcpConnectorIds": [],
+  "instructions": "You are the Blood Analysis Agent. Help users with blood analysis related tasks.",
+  "createdBy": "ai-tool",
+  "createdDate": "2026-07-20T17:44:28.4045248Z",
+  "updatedBy": "ai-tool",
+  "updatedDate": "2026-07-20T17:44:28.4045427Z",
+  "publisherName": "",
+  "skillObjFromBlob": [],
+  "hitlTriggers": [],
+  "isDeleted": false,
+  "source": "From MarketPlace"
+}
