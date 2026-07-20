@@ -34,5 +34,14 @@
     "createdAt": "2026-07-20T17:46:00.8705316Z",
     "updatedAt": "2026-07-20T17:46:00.8705316Z",
     "publisherName": "NCAMEO"
+  },
+  {
+    "id": "7ba951b2-a223-4de8-aa15-08bb1a9bf39a",
+    "name": "urinalysis-analyzer",
+    "displayTitle": "Urinalysis Analyzer",
+    "description": "Analyzes a human-uploaded urinalysis report (PDF or screenshot) strictly against the bundled BloomCell_Urinalysis.xlsx ground-truth sheet and produces the fixed 8-object JSON output (Internal Notes, Understanding Your Results, Priority Actions - Next 30 Days, Long-Term Strategy). Use this skill whenever the user asks to run the \u0022Urine analysis agent\u0022 / \u0022Urinalysis agent\u0022, analyze a urine/urinalysis PDF or screenshot for the LEGO-piece pipeline, or generate provider/patient notes and 30-day/long-term plans from a urinalysis report. NO internet access, no external medical knowledge, and no model prior knowledge may be used for clinical content \u2014 every clinical statement must trace back to a row in the bundled Excel sheet. If the user supplies an updated version of BloomCell_Urinalysis.xlsx, replace the file in references/ with the new one and always use the latest file present there.",
+    "createdAt": "2026-07-20T17:46:28.1097863Z",
+    "updatedAt": "2026-07-20T17:46:28.1097863Z",
+    "publisherName": "NCAMEO"
   }
 ]
