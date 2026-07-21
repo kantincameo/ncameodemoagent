@@ -52,5 +52,14 @@
     "createdAt": "2026-07-21T10:59:41.7080796Z",
     "updatedAt": "2026-07-21T10:59:41.7080796Z",
     "publisherName": "NCAMEO"
+  },
+  {
+    "id": "909f3a74-a02f-439a-9fa6-7e1e3de4ada5",
+    "name": "wearable-analyzer",
+    "displayTitle": "Wearable Analyzer",
+    "description": "Analyzes human-uploaded wearable device data/export (PDF or screenshot \u2014 e.g. Oura, Whoop, Garmin, Apple Watch, Fitbit summaries) strictly against the bundled BloomCell_Wearable_markers.xlsx ground-truth sheet and produces the fixed 8-object JSON output (Internal Notes, Understanding Your Results, Priority Actions - Next 30 Days, Long-Term Strategy). Use this skill whenever the user asks to run the \u0022Wearable agent\u0022 / \u0022Wearable markers agent\u0022 / \u0022Fitness report agent\u0022, analyze wearable/fitness-tracker data for the LEGO-piece pipeline, or generate provider/patient notes and 30-day/long-term plans from wearable metrics (HRV, sleep, resting heart rate, readiness, strain, steps, etc.). NO internet access, no external knowledge, and no model prior knowledge may be used for clinical/coaching content \u2014 every statement must trace back to a row in the bundled Excel sheet. If the user supplies an updated version of BloomCell_Wearable_markers.xlsx, replace the file in references/ with the new one and always use the latest file present there.",
+    "createdAt": "2026-07-21T16:42:15.0939296Z",
+    "updatedAt": "2026-07-21T16:42:15.0939296Z",
+    "publisherName": "NCAMEO"
   }
 ]
