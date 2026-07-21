@@ -4,7 +4,7 @@
   "description": "Wearable Agent reads a wearable device export/screenshot (PDF or image) from the payload, performs a ground-truth-only analysis using the wearable-analyzer skill (grounded strictly in BloomCell_Wearable_markers.xlsx, no internet/external knowledge), structures the results into a highlightData array, merges it into the original model JSON from the payload, and creates the resulting document in Cosmos DB under the PatientDocument partition.",
   "category": "Healthcare",
   "skillIds": [
-    "df05dcf6-f8bc-470c-a6a0-bded07d0fdaa"
+    "909f3a74-a02f-439a-9fa6-7e1e3de4ada5"
   ],
   "mcpConnectorIds": [
     "589b86e9-18b1-4b5d-b97b-ce1f04d147cb"
@@ -13,7 +13,7 @@
   "createdBy": "",
   "createdDate": "2026-07-21T11:03:45.4241666Z",
   "updatedBy": "",
-  "updatedDate": "2026-07-21T12:06:02.9663273Z",
+  "updatedDate": "2026-07-21T16:42:56.9330143Z",
   "publisherName": "NCAMEO",
   "skillObjFromBlob": [],
   "hitlTriggers": [],
