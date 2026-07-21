@@ -264,5 +264,23 @@
     "hitlTriggers": [],
     "isDeleted": false,
     "source": ""
+  },
+  {
+    "id": "b3e4d50d-a21e-4ddd-ac2d-906a22386918",
+    "name": "Nutrition Analyzer Agent",
+    "description": "An agent designed to analyze nutritional information and provide dietary insights.",
+    "category": "Health & Wellness",
+    "skillIds": [],
+    "mcpConnectorIds": [],
+    "instructions": "",
+    "createdBy": "ai-tool",
+    "createdDate": "2026-07-21T11:02:16.6387758Z",
+    "updatedBy": "ai-tool",
+    "updatedDate": "2026-07-21T11:02:16.6388186Z",
+    "publisherName": "",
+    "skillObjFromBlob": [],
+    "hitlTriggers": [],
+    "isDeleted": false,
+    "source": "From MarketPlace"
   }
 ]
