@@ -1,0 +1,18 @@
+{
+  "id": "d330edea-4702-4bcd-8006-69a8dd17a436",
+  "name": "Wearable Analyzer Agent",
+  "description": "An agent designed to analyze wearable device data and insights.",
+  "category": "Health & Fitness",
+  "skillIds": [],
+  "mcpConnectorIds": [],
+  "instructions": "",
+  "createdBy": "ai-tool",
+  "createdDate": "2026-07-21T11:03:45.4241666Z",
+  "updatedBy": "ai-tool",
+  "updatedDate": "2026-07-21T11:03:45.4241667Z",
+  "publisherName": "",
+  "skillObjFromBlob": [],
+  "hitlTriggers": [],
+  "isDeleted": false,
+  "source": "From MarketPlace"
+}
