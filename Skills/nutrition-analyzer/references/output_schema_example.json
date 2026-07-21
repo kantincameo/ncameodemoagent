@@ -1,0 +1,74 @@
+[
+  {
+    "id": "062debe8-76fe-4770-9cef-da1c1e974c9b",
+    "date": "2026-07-20T11:40:00Z",
+    "type": "highlight",
+    "text": "Ferritin 12 ng/mL (L)",
+    "group": "Internal Notes",
+    "rationale": "Flagged low on the report; sheet notes ferritin as an iron storage protein and also an acute-phase reactant, so inflammation should be ruled out as a confounder.",
+    "referencesource": "PatientNutritionReport_2026-07-18.pdf - Page 1, Iron studies panel"
+  },
+  {
+    "id": "feb9e222-3ad6-403d-88d2-1ea8c8c6cb55",
+    "date": "2026-07-20T11:40:00Z",
+    "type": "note",
+    "text": "Ferritin is low, consistent with depleted iron stores. Sheet notes ranges differ pre/post-menopause and that recent inflammation or intense exercise can confound the value; recommend confirming with iron panel/transferrin saturation before starting an Iron Repletion strategy.",
+    "group": "Internal Notes",
+    "rationale": "Synthesized from the Internal Notes column for Ferritin, which flags it as high nutrition relevance and names inflammation/exercise as confounders.",
+    "referencesource": "BloomCell_Nutrition.xlsx - Nutritional Markers sheet - Row 9, Marker: Ferritin (ng/mL)"
+  },
+  {
+    "id": "daa39839-f63d-4d49-b1f0-c1c39b6b6ff5",
+    "date": "2026-07-20T11:40:00Z",
+    "type": "highlight",
+    "text": "Ferritin 12 ng/mL (L)",
+    "group": "Understanding Your Results",
+    "rationale": "Same flagged report line, carried into the patient-facing section.",
+    "referencesource": "PatientNutritionReport_2026-07-18.pdf - Page 1, Iron studies panel"
+  },
+  {
+    "id": "2ae4ec9a-a000-4375-9df9-f4192740a57a",
+    "date": "2026-07-20T11:40:00Z",
+    "type": "note",
+    "text": "Ferritin reflects your body's stored iron, like a pantry reserve, and diet is a meaningful lever here. Your result is on the lower side, suggesting your iron reserves could use support.",
+    "group": "Understanding Your Results",
+    "rationale": "Patient-friendly synthesis drawn from the Explanation column for Ferritin.",
+    "referencesource": "BloomCell_Nutrition.xlsx - Nutritional Markers sheet - Row 9, Marker: Ferritin (ng/mL)"
+  },
+  {
+    "id": "7719e98d-b2b6-46fc-aaef-0354d338c7e8",
+    "date": "2026-07-20T11:40:00Z",
+    "type": "highlight",
+    "text": "Ferritin 12 ng/mL (L)",
+    "group": "Priority Actions - Next 30 Days",
+    "rationale": "Flagged value driving the 30-day recommendations.",
+    "referencesource": "PatientNutritionReport_2026-07-18.pdf - Page 1, Iron studies panel"
+  },
+  {
+    "id": "76151a36-d574-43aa-a4f9-56f259c12d56",
+    "date": "2026-07-20T11:40:00Z",
+    "type": "note",
+    "text": "Include iron-rich foods a few times a week: red meat, poultry, beans, lentils, leafy greens. Pair plant iron sources with vitamin C foods like citrus or peppers to boost absorption, spread iron-rich meals across the week, and note that tea or coffee with meals can reduce iron absorption.",
+    "group": "Priority Actions - Next 30 Days",
+    "rationale": "Taken directly from the 30-Day Plan column for Ferritin.",
+    "referencesource": "BloomCell_Nutrition.xlsx - Nutritional Markers sheet - Row 9, Marker: Ferritin (ng/mL)"
+  },
+  {
+    "id": "4e0188a9-c00c-4fbe-8dc7-8e7a43a682c3",
+    "date": "2026-07-20T11:40:00Z",
+    "type": "highlight",
+    "text": "Ferritin 12 ng/mL (L)",
+    "group": "Long-Term Strategy",
+    "rationale": "Flagged value driving the long-term recommendation.",
+    "referencesource": "PatientNutritionReport_2026-07-18.pdf - Page 1, Iron studies panel"
+  },
+  {
+    "id": "f1ae1110-85a8-450f-afa0-65ceb32b1b0f",
+    "date": "2026-07-20T11:40:00Z",
+    "type": "note",
+    "text": "Iron stores build gradually, so steady habits over months matter more than any single meal. Recheck as advised, and talk with your provider before starting iron supplements, since more isn't always better.",
+    "group": "Long-Term Strategy",
+    "rationale": "Taken directly from the Long-Term Plan column for Ferritin.",
+    "referencesource": "BloomCell_Nutrition.xlsx - Nutritional Markers sheet - Row 9, Marker: Ferritin (ng/mL)"
+  }
+]
