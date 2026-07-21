@@ -43,5 +43,14 @@
     "createdAt": "2026-07-20T17:46:28.1097863Z",
     "updatedAt": "2026-07-20T17:46:28.1097863Z",
     "publisherName": "NCAMEO"
+  },
+  {
+    "id": "5e7c4a83-d9b2-4575-8bc0-4ca496402d79",
+    "name": "nutrition-analyzer",
+    "displayTitle": "Nutrition Analyzer",
+    "description": "Analyzes a human-uploaded nutritional/biomarker-nutrition report (PDF or screenshot) strictly against the bundled BloomCell_Nutrition.xlsx ground-truth sheet and produces the fixed 8-object JSON output (Internal Notes, Understanding Your Results, Priority Actions - Next 30 Days, Long-Term Strategy). Use this skill whenever the user asks to run the \u0022Nutrition agent\u0022 / \u0022Nutrition analysis agent\u0022, analyze a nutrition-related lab PDF or screenshot for the LEGO-piece pipeline, or generate provider/patient notes and 30-day/long-term nutrition plans from a report. NO internet access, no external medical/nutrition knowledge, and no model prior knowledge may be used for clinical content \u2014 every clinical statement must trace back to a row in the bundled Excel sheet. If the user supplies an updated version of BloomCell_Nutrition.xlsx, replace the file in references/ with the new one and always use the latest file present there.",
+    "createdAt": "2026-07-21T10:59:41.7080796Z",
+    "updatedAt": "2026-07-21T10:59:41.7080796Z",
+    "publisherName": "NCAMEO"
   }
 ]
