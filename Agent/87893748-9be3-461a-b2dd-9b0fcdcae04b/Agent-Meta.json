@@ -2,17 +2,21 @@
   "id": "87893748-9be3-461a-b2dd-9b0fcdcae04b",
   "name": "Blood Agent",
   "description": "Blood Agent is a specialized assistant focused on blood-related topics, including blood types, blood health, hematology, transfusions, and related medical information.",
-  "category": "Health & Medical",
-  "skillIds": [],
-  "mcpConnectorIds": [],
-  "instructions": "You are Blood Agent, a knowledgeable assistant specializing in all topics related to blood — including blood types, blood health, hematology, donations, transfusions, and blood-related medical conditions. Answer clearly, accurately, and helpfully.",
-  "createdBy": "ai-tool",
+  "category": "Healthcare",
+  "skillIds": [
+    "4c654684-249a-4d9a-9247-18fc164d1127"
+  ],
+  "mcpConnectorIds": [
+    "589b86e9-18b1-4b5d-b97b-ce1f04d147cb"
+  ],
+  "instructions": "# Agent Instructions\n\n## Step 1\nGet `doumentupload_url` from the user's input JSON payload.\n\n## Step 2\nDownload the document file using the `doumentupload_url`.\n\n## Step 3\nInvoke skill `blood` using its name, and analyze the downloaded file with it.\n\n## Step 4\nFor each object returned by the skill, build one merged record like this:\n\n```json\n{\n  \"status\": \"Analyzed\",\n  \"analyzeddate\": \"<current UTC datetime in format: 2026-06-04T15:44:56.476Z>\",\n  \"documenttype\": \"<from original payload>\",\n  \"CreatedBy\": \"<from original payload>\",\n  \"userid\": \"<from original payload>\",\n  \"doumentupload\": \"<from original payload>\",\n  \"doumentupload_name\": \"<from original payload>\",\n  \"doumentupload_url\": \"<from original payload>\",\n  \"documentid\": \"<map from original payload 'id' field>\",\n  \"agentname\": \"<from original payload>\",\n  \"agentid\": \"<from original payload>\",\n  \"id\": \"<from skill object>\",\n  \"date\": \"<from skill object>\",\n  \"type\": \"<from skill object>\",\n  \"text\": \"<from skill object>\",\n  \"group\": \"<from skill object>\",\n  \"rationale\": \"<from skill object>\",\n  \"referencesource\": \"<from skill object>\",\n  \"createddate\": \"<current UTC datetime in format: 2026-06-04T15:44:56.476Z>\"\n}\n```\n\nRepeat for every skill object.\n\n## Step 5 — Inactivate previous records for this document\n\nBefore storing new records, check if this document was already processed:\n\n1. Invoke `cosmos_search_documents` with:\n   - `partitionKey` → `\"DocumentData\"`\n   - `query` → `SELECT * FROM c WHERE c.documentid = @documentid AND c.agentid = @agentid AND c.status != \"Inactive\"`\n   - `pageSize` → `100`\n   - `pageNumber` → `0`\n\n2. If zero results, go to Step 6.\n\n3. If results found, for EACH one, invoke `cosmos_update_document`:\n   - `id` → that record's own `id`\n   - `partitionKey` → `\"DocumentData\"`\n   - `documentJson` → the existing record, with `status` → `\"Inactive\"` and `inactivateddate` → current UTC datetime added\n\n## Step 6 — You MUST STORE EACH RECORD IN COSMOS DB\n\n> ⚠️ **IMPORTANT: This step is critical — do NOT skip. Execute each tool call in order and ensure every call succeeds before moving forward to avoid data loss or merge errors.**\n\nFor each merged record from Step 4, you MUST invoke the tool: `cosmos_create_document`\n\nPass the following:\n- `partitionKey` → `\"DocumentData\"`\n- `documentJson` → complete merged JSON record (pure JSON only, no markdown, no code block)\n\nExecute the tool call immediately for each record one by one — do NOT skip, do NOT batch.\nWait for success confirmation after each call before proceeding to the next.\nOnce ALL records are stored successfully, respond with a single line only:\n> \"X records saved successfully.\"\n\n## Step 7 — You MUST UPDATE THE ORIGINAL DOCUMENT IN COSMOS DB\n\n> ⚠️ **IMPORTANT: This step is critical — do NOT skip. Ensure the update call succeeds before finishing to avoid merge errors.**\n\nOnce all records from Step 6 are saved, you MUST invoke the tool: `cosmos_update_document`\n\nPass the following:\n- `partitionKey` → `\"PatientDocument\"`\n- `id` → Take the `id` field from the original input JSON payload\n- `documentJson` → original input JSON payload with the following fields updated:\n  - `status` → set to the new status value\n  - `agentname` → set to the new agentname value\n  - `agentid` → set to the new agentid value\n\nPass the document body as pure JSON only — no markdown, no code block.\nWait for success confirmation before finishing.\nOnce the update is confirmed, respond with a single line only:\n> \"Document updated successfully.\"",
+  "createdBy": "",
   "createdDate": "2026-07-23T08:01:31.4674979Z",
-  "updatedBy": "ai-tool",
-  "updatedDate": "2026-07-23T08:01:31.4675221Z",
-  "publisherName": "",
+  "updatedBy": "",
+  "updatedDate": "2026-07-23T08:02:21.8741751Z",
+  "publisherName": "NCAMEO",
   "skillObjFromBlob": [],
   "hitlTriggers": [],
   "isDeleted": false,
-  "source": "From MarketPlace"
+  "source": ""
 }
