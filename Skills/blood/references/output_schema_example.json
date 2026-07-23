@@ -1,0 +1,74 @@
+[
+  {
+    "id": "982d4475-719a-4abc-8c3b-32a54de12cf1",
+    "date": "2026-07-20T10:24:02Z",
+    "type": "highlight",
+    "text": "Glucose 112 mg/dL (H)",
+    "group": "Internal Notes",
+    "rationale": "Flagged high on the report; fasting reference per sheet is 85-99 mg/dL.",
+    "referencesource": "PatientReport_2026-07-18.pdf - Page 1, Chemistry panel"
+  },
+  {
+    "id": "d512a7c5-8e13-45be-af29-46b6868cc8d1",
+    "date": "2026-07-20T10:24:02Z",
+    "type": "note",
+    "text": "Glucose is mildly elevated above the fasting reference range, consistent with reduced insulin sensitivity or recent dietary/stress influence. Recommend correlating with HbA1c, triglycerides, and CRP; consider confirming fasting status of the draw.",
+    "group": "Internal Notes",
+    "rationale": "Synthesized from the Internal Notes column for Glucose, which flags severity weight 3/5 and lists possible influences and marker pairings.",
+    "referencesource": "BloomCell_Bloodwork_Markers.xlsx - Bloodwork Markers sheet - Row 2, Marker: Glucose (mg/dL)"
+  },
+  {
+    "id": "894da936-c245-4424-91ef-27d6c18d34c4",
+    "date": "2026-07-20T10:24:02Z",
+    "type": "highlight",
+    "text": "Glucose 112 mg/dL (H)",
+    "group": "Understanding Your Results",
+    "rationale": "Same flagged report line, carried into the patient-facing section.",
+    "referencesource": "PatientReport_2026-07-18.pdf - Page 1, Chemistry panel"
+  },
+  {
+    "id": "abd41936-97a7-4edf-8850-f62017dbb937",
+    "date": "2026-07-20T10:24:02Z",
+    "type": "note",
+    "text": "Glucose is the sugar your body uses for energy. Your result was a little above the typical range, which can reflect diet, stress, or timing of the test. Keeping it in a steady range is part of general metabolic wellness.",
+    "group": "Understanding Your Results",
+    "rationale": "Patient-friendly synthesis drawn from the Explanation column for Glucose.",
+    "referencesource": "BloomCell_Bloodwork_Markers.xlsx - Bloodwork Markers sheet - Row 2, Marker: Glucose (mg/dL)"
+  },
+  {
+    "id": "59fd1ea6-cafc-45ae-8d62-8732301fe20d",
+    "date": "2026-07-20T10:24:02Z",
+    "type": "highlight",
+    "text": "Glucose 112 mg/dL (H)",
+    "group": "Priority Actions - Next 30 Days",
+    "rationale": "Flagged value driving the 30-day recommendations.",
+    "referencesource": "PatientReport_2026-07-18.pdf - Page 1, Chemistry panel"
+  },
+  {
+    "id": "019cd090-81c5-4290-aeea-fdb944074559",
+    "date": "2026-07-20T10:24:02Z",
+    "type": "note",
+    "text": "Build meals around fiber-rich foods like vegetables, beans, and whole grains. Ease back on sugary drinks and refined snacks. Take a 10-15 minute walk after your largest meals. Aim for consistent, adequate sleep.",
+    "group": "Priority Actions - Next 30 Days",
+    "rationale": "Taken directly from the 30-Day Plan column for Glucose.",
+    "referencesource": "BloomCell_Bloodwork_Markers.xlsx - Bloodwork Markers sheet - Row 2, Marker: Glucose (mg/dL)"
+  },
+  {
+    "id": "cb422467-6a90-4897-99bd-8256227778a7",
+    "date": "2026-07-20T10:24:02Z",
+    "type": "highlight",
+    "text": "Glucose 112 mg/dL (H)",
+    "group": "Long-Term Strategy",
+    "rationale": "Flagged value driving the long-term recommendation.",
+    "referencesource": "PatientReport_2026-07-18.pdf - Page 1, Chemistry panel"
+  },
+  {
+    "id": "f1940835-1578-4cd6-94bd-01897e04ee4a",
+    "date": "2026-07-20T10:24:02Z",
+    "type": "note",
+    "text": "Keep a regular pattern of balanced meals and daily movement, and revisit this marker periodically (for example, every few months) to watch your trend. Share your results with your healthcare provider.",
+    "group": "Long-Term Strategy",
+    "rationale": "Taken directly from the Long-Term Plan column for Glucose.",
+    "referencesource": "BloomCell_Bloodwork_Markers.xlsx - Bloodwork Markers sheet - Row 2, Marker: Glucose (mg/dL)"
+  }
+]
