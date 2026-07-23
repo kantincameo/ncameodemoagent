@@ -61,5 +61,14 @@
     "createdAt": "2026-07-21T16:42:15.0939296Z",
     "updatedAt": "2026-07-21T16:42:15.0939296Z",
     "publisherName": "NCAMEO"
+  },
+  {
+    "id": "4c654684-249a-4d9a-9247-18fc164d1127",
+    "name": "blood",
+    "displayTitle": "blood",
+    "description": "Analyzes a human-uploaded blood/bloodwork report (PDF or screenshot) strictly against the bundled BloomCell_Bloodwork_Markers.xlsx ground-truth sheet and produces the fixed 8-object JSON output (Internal Notes, Understanding Your Results, Priority Actions - Next 30 Days, Long-Term Strategy). Use this skill whenever the user asks to run the \u0022Blood analysis agent\u0022, analyze a blood/bloodwork PDF or screenshot for the LEGO-piece pipeline, or generate provider/patient notes and 30-day/long-term plans from a blood report. NO internet access, no external medical knowledge, and no model prior knowledge may be used for clinical content \u2014 every clinical statement must trace back to a row in the bundled Excel sheet. If the user supplies an updated version of BloomCell_Bloodwork_Markers.xlsx, replace the file in references/ with the new one and always use the latest file present there. No script execution is used anywhere in this skill \u2014 every step is done directly (document reading, matching, ID/timestamp generation, validation) so it works in environments like NCAMEO that don\u0027t run scripts.",
+    "createdAt": "2026-07-23T07:59:29.5814389Z",
+    "updatedAt": "2026-07-23T07:59:29.5814389Z",
+    "publisherName": "NCAMEO"
   }
 ]
