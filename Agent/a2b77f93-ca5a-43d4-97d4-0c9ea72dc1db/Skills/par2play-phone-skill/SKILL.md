@@ -35,6 +35,7 @@ Invoke the MCP tool `cosmos_search_documents` with:
 - `query` → `SELECT c.id, c.firstName, c.lastName, c.email, c.gender, c.joinedDate, c.phone FROM c WHERE CONTAINS(c.phone,'<phone>')`
 - `pageSize` → `1`
 - `pageNumber` → `0`
+Replace `<phone>` with the caller's phone number.
 ```
 
 ### Decision: Existing or New Customer?
