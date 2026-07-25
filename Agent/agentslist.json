@@ -332,7 +332,9 @@
     "name": "PAR2PLAY Booking Assistant",
     "description": "Manages tennis court and lesson bookings at PAR2PLAY with customer identification and service request handling.",
     "category": "Business Operations",
-    "skillIds": [],
+    "skillIds": [
+      "ba2bfa19-b0fb-4003-97bc-919c9c909d5b"
+    ],
     "mcpConnectorIds": [
       "cosmos-mcp"
     ],
@@ -340,7 +342,7 @@
     "createdBy": "",
     "createdDate": "2026-07-20T07:12:16.3798083Z",
     "updatedBy": "",
-    "updatedDate": "2026-07-25T12:53:37.3316047Z",
+    "updatedDate": "2026-07-25T12:56:14.4850949Z",
     "publisherName": "PAR2PLAY Tennis Club",
     "skillObjFromBlob": [],
     "hitlTriggers": [],
