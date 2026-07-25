@@ -30,9 +30,14 @@ When a caller provides a phone number, immediately fetch complete customer profi
 ### Query 1: Locate Customer in ppcustomer
 
 ```
-partitionKey: "ppcustomer"
-query: SELECT c.id, c.firstName, c.lastName, c.email, c.phone, c.joinedDate, c.totalBookings, c.lastBookingDate FROM c WHERE c.phone = '<phone>'
-pageSize: 1
+Invoke the MCP tool `cosmos_search_documents` with:
+- `partitionKey` → `"ppcustomer"`
+- `query` → `SELECT c.id, c.firstName, c.lastName, c.email, c.gender, c.joinedDate, c.phone FROM c WHERE c.phone = '<phone>'`
+- `pageSize` → `1`
+- `pageNumber` → `0`
+
+Replace `<phone>` with the caller's phone number.
+
 ```
 
 ### Decision: Existing or New Customer?
