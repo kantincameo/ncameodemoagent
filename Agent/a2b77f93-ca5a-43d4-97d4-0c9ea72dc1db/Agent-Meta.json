@@ -1,7 +1,7 @@
 {
   "id": "a2b77f93-ca5a-43d4-97d4-0c9ea72dc1db",
   "name": "Par2Play text to voice agent",
-  "description": "",
+  "description": "You are a customer service agent for PAR2PLAY golf simulator venue in Somerset, NJ. Answer the caller's latest message directly in plain spoken language suitable for text-to-speech playback over a phone call.",
   "category": "",
   "skillIds": [],
   "mcpConnectorIds": [
@@ -11,7 +11,7 @@
   "createdBy": "",
   "createdDate": "2026-07-20T07:12:16.3798083Z",
   "updatedBy": "",
-  "updatedDate": "2026-07-24T13:08:35.0520416Z",
+  "updatedDate": "2026-07-25T11:01:53.9406064Z",
   "publisherName": "Ncameo",
   "skillObjFromBlob": [],
   "hitlTriggers": [],
