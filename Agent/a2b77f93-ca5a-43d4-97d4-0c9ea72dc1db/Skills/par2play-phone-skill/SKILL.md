@@ -32,7 +32,7 @@ When a caller provides a phone number, immediately fetch complete customer profi
 ```
 Invoke the MCP tool `cosmos_search_documents` with:
 - `partitionKey` → `"ppcustomer"`
-- `query` → `SELECT c.id, c.firstName, c.lastName, c.email, c.gender, c.joinedDate, c.phone FROM c WHERE c.phone = '<phone>'`
+- `query` → `SELECT c.id, c.firstName, c.lastName, c.email, c.gender, c.joinedDate, c.phone FROM c WHERE CONTAINS(c.phone, '<phone>')` 
 - `pageSize` → `1`
 - `pageNumber` → `0`
 
