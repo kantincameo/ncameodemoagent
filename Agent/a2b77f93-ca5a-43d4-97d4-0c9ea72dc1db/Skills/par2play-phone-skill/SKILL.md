@@ -1,5 +1,5 @@
 ---
-name: par2play-phone-agent
+name: par2play-phone-skill
 description: "AI phone agent for PAR2PLAY golf simulator venue. Handles customer identification via phone, retrieves booking/membership/package data from Cosmos DB, and guides complete bay rental and lesson booking flows. Speaks naturally for TTS playback."
 ---
 
@@ -30,9 +30,11 @@ When a caller provides a phone number, immediately fetch complete customer profi
 ### Query 1: Locate Customer in ppcustomer
 
 ```
-partitionKey: "ppcustomer"
-query: SELECT c.id, c.firstName, c.lastName, c.email, c.phone, c.joinedDate, c.totalBookings, c.lastBookingDate FROM c WHERE c.phone = '<phone>'
-pageSize: 1
+Invoke the MCP tool `cosmos_search_documents` with:
+- `partitionKey` → `"ppcustomer"`
+- `query` → `SELECT c.id, c.firstName, c.lastName, c.email, c.gender, c.joinedDate, c.phone FROM c WHERE CONTAINS(c.phone,'<phone>')`
+- `pageSize` → `1`
+- `pageNumber` → `0`
 ```
 
 ### Decision: Existing or New Customer?
