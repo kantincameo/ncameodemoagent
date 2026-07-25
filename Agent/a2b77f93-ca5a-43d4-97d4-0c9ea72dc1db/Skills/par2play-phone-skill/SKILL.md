@@ -1,5 +1,5 @@
 ---
-name: par2play-phone-agent
+name: par2play-phone-skill
 description: "AI phone agent for PAR2PLAY golf simulator venue. Handles customer identification via phone, retrieves booking/membership/package data from Cosmos DB, and guides complete bay rental and lesson booking flows. Speaks naturally for TTS playback."
 ---
 
