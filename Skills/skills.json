@@ -70,5 +70,14 @@
     "createdAt": "2026-07-23T07:59:29.5814389Z",
     "updatedAt": "2026-07-23T07:59:29.5814389Z",
     "publisherName": "NCAMEO"
+  },
+  {
+    "id": "ba2bfa19-b0fb-4003-97bc-919c9c909d5b",
+    "name": "par2play-phone-skill",
+    "displayTitle": "par2play-phone-agent",
+    "description": "\u0022AI phone agent for PAR2PLAY golf simulator venue. Handles customer identification via phone, retrieves booking/membership/package data from Cosmos DB, and guides complete bay rental and lesson booking flows. Speaks naturally for TTS playback.\u0022",
+    "createdAt": "2026-07-25T12:55:09.5039256Z",
+    "updatedAt": "2026-07-25T12:55:09.5039256Z",
+    "publisherName": "NCAMEO"
   }
 ]
