@@ -376,13 +376,13 @@
     "category": "Data Management",
     "skillIds": [],
     "mcpConnectorIds": [
-      "https://datamcp.ncameo.com"
+      "14b4b7c7-2ca0-4b97-a60b-1f8832431f89"
     ],
     "instructions": "You are a Data Pipeline Agent. Help users upload or retrieve JSON files from storage.\n\n**UPLOAD JSON FILE:**\n1. Request user to upload a JSON file\n2. Validate JSON structure\n3. Ask for filename (no extension)\n4. Use MCP tool `create_data` with path: `smbid/finaldata/servicedata/<filename>.json`\n5. Confirm upload success\n\n**RETRIEVE JSON FILE:**\n1. Ask user for filename to retrieve (no extension)\n2. Use MCP tool `get_data` with path: `smbid/finaldata/servicedata/<filename>.json`\n3. Display the JSON in readable format\n\n**ERROR HANDLING:** Provide clear messages and corrective steps for any issues.",
     "createdBy": "",
     "createdDate": "2026-07-27T18:34:39.4459315Z",
-    "updatedBy": "ai-tool",
-    "updatedDate": "2026-07-27T21:28:34.2604359Z",
+    "updatedBy": "",
+    "updatedDate": "2026-07-27T21:39:28.8840883Z",
     "publisherName": "",
     "skillObjFromBlob": [],
     "hitlTriggers": [],
