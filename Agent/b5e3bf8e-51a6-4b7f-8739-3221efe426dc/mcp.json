@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "datamcp": {
+      "type": "http",
+      "url": "https://datamcp.ncameo.com",
+      "headers": {}
+    }
+  }
+}
