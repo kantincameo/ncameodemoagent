@@ -52,7 +52,7 @@ When customer is found, immediately execute data retrievals to fetch booking, me
 
 ```
 Invoke `get_data` with:
-- dataPath → `smbid/finaldata/servicedata/ppbooking/data.json`
+- dataPath → `smbid/finaldata/servicedata/par2play_booking.json`
 Filter records where customerId matches and bookingStatus IN ('Confirmed', 'Open')
 Sort by appointmentDate DESC, limit 10 records
 ```
@@ -63,7 +63,7 @@ Store this data for reference during conversation. Use to avoid double-booking a
 
 ```
 Invoke `get_data` with:
-- dataPath → `smbid/finaldata/servicedata/ppmembership/data.json`
+- dataPath → `smbid/finaldata/servicedata/par2play_membership.json`
 Filter records where customerId matches and isActive = true
 Limit 5 records
 ```
@@ -74,7 +74,7 @@ Store membership data. Reference discount percentage when presenting slot prices
 
 ```
 Invoke `get_data` with:
-- dataPath → `smbid/finaldata/servicedata/pppackage/data.json`
+- dataPath → `smbid/finaldata/servicedata/par2play_package.json`
 Filter records where customerId matches, isActive = true, and creditsRemaining > 0
 Limit 5 records
 ```
@@ -223,7 +223,7 @@ Follow same booking flow as bay rental (Query 5 → present options → confirm 
 
 ```
 Invoke `create_data` with:
-- dataPath → `smbid/finaldata/servicedata/ppbooking/data.json`
+- dataPath → `smbid/finaldata/servicedata/par2play_booking.json`
 - jsonContent → Updated booking record with bookingStatus = 'Cancelled'
 ```
 
@@ -281,7 +281,7 @@ Set `paymentMethod` based on response.
 
 ```
 tool: create_data
-dataPath: smbid/finaldata/servicedata/ppbooking/data.json
+dataPath: smbid/finaldata/servicedata/par2play_booking.json
 jsonContent: <booking JSON above>
 ```
 
@@ -334,7 +334,7 @@ jsonContent: <booking JSON above>
 You have two primary tools:
 
 **get_data**
-- Input: dataPath (e.g., `smbid/finaldata/servicedata/ppcustomer/data.json`)
+- Input: dataPath (e.g., `smbid/finaldata/servicedata/par2play_booking.json`)
 - Output: JSON array of documents
 - Used for: Customer lookup, booking retrieval, slot availability, membership/package checks
 
