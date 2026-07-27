@@ -7,5 +7,14 @@
     "mcpsseurl": "https://cosmosmcp.ncameo.com",
     "createddate": "2026-05-23T06:19:14.39Z",
     "updateddate": "2026-05-23T06:19:14.39Z"
+  },
+  {
+    "id": "14b4b7c7-2ca0-4b97-a60b-1f8832431f89",
+    "Name": "Store File MCP",
+    "McpType": "SSE",
+    "Command": null,
+    "mcpsseurl": "https://datamcp.ncameo.com",
+    "createddate": null,
+    "updateddate": null
   }
 ]
