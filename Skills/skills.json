@@ -79,5 +79,14 @@
     "createdAt": "2026-07-25T12:55:09.5039256Z",
     "updatedAt": "2026-07-25T12:55:09.5039256Z",
     "publisherName": "NCAMEO"
+  },
+  {
+    "id": "a1a62054-0cdd-444a-b667-45217688d951",
+    "name": "package-builder-skill",
+    "displayTitle": "package-knowledge-builder",
+    "description": "\u003E- Builds a business\u0027s Package Knowledge Base JSON by collecting service package details (via CSV upload or manual entry), linking each package\u0027s included services to the business\u0027s existing Service Knowledge Builder data, and generating a rich AI knowledge profile for every package. Use this skill whenever a user wants to set up, import, or build service packages / session packs / prepaid bundles for a business, mentions uploading a \u0022package CSV\u0022 or \u0022packages list\u0022, asks to generate a \u0022package knowledge base\u0022, wants packages prepared for Cosmos DB, or says things like \u0022set up my packages\u0022 or \u0022import my packages and link them to my services.\u0022 Works for any business/vertical, mirrors the same flow as the membership-knowledge-builder skill (with package expiry playing the role membership duration plays there), and pairs with service-knowledge-builder (packages reference that skill\u0027s services list to link \u0022services included\u0022).",
+    "createdAt": "2026-07-27T13:36:58.8438587Z",
+    "updatedAt": "2026-07-27T13:36:58.8438587Z",
+    "publisherName": "NCAMEO"
   }
 ]
