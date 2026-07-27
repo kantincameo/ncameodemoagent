@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "datamcp": {
+    "store-file-mcp": {
       "type": "http",
       "url": "https://datamcp.ncameo.com",
       "headers": {}
