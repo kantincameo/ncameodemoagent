@@ -1,6 +1,6 @@
 ---
 name: par2play-phone-skill
-description: "AI phone agent for PAR2PLAY golf simulator venue. Handles customer identification via phone, retrieves booking/membership/package data from Cosmos DB, and guides complete bay rental and lesson booking flows. Speaks naturally for TTS playback."
+description: "AI phone agent for PAR2PLAY golf simulator venue. Handles customer identification via phone, retrieves booking/membership/package data from Data MCP, and guides complete bay rental and lesson booking flows. Speaks naturally for TTS playback."
 ---
 
 # PAR2PLAY Phone Agent Skill
@@ -30,12 +30,10 @@ When a caller provides a phone number, immediately fetch complete customer profi
 ### Query 1: Locate Customer in ppcustomer
 
 ```
-Invoke the MCP tool `cosmos_search_documents` with:
-- `partitionKey` → `"ppcustomer"`
-- `query` → `SELECT c.id, c.firstName, c.lastName, c.email, c.gender, c.joinedDate, c.phone FROM c WHERE CONTAINS(c.phone,'<phone>')`
-- `pageSize` → `1`
-- `pageNumber` → `0`
-Replace `<phone>` with the caller's phone number.
+Invoke the MCP tool `get_data` with:
+- dataPath → `smbid/finaldata/servicedata/ppcustomer/data.json`
+Search for the caller's phone number in the returned customer records.
+Locate customer with matching phone.
 ```
 
 ### Decision: Existing or New Customer?
@@ -48,14 +46,15 @@ Replace `<phone>` with the caller's phone number.
 
 ## Phase 1a: Existing Customer Full Profile Fetch
 
-When customer is found, immediately execute three parallel Cosmos queries to fetch booking, membership, and package data.
+When customer is found, immediately execute data retrievals to fetch booking, membership, and package data.
 
 ### Query 2: Customer's Active Bookings
 
 ```
-partitionKey: "ppbooking"
-query: SELECT c.id, c.appointmentDate, c.startTime, c.endTime, c.resourceId, c.bookingStatus, c.serviceNameRaw FROM c WHERE c.customerId = '<customerId>' AND c.bookingStatus IN ('Confirmed', 'Open') ORDER BY c.appointmentDate DESC
-pageSize: 10
+Invoke `get_data` with:
+- dataPath → `smbid/finaldata/servicedata/ppbooking/data.json`
+Filter records where customerId matches and bookingStatus IN ('Confirmed', 'Open')
+Sort by appointmentDate DESC, limit 10 records
 ```
 
 Store this data for reference during conversation. Use to avoid double-booking and personalize recommendations.
@@ -63,9 +62,10 @@ Store this data for reference during conversation. Use to avoid double-booking a
 ### Query 3: Customer's Active Memberships
 
 ```
-partitionKey: "ppmembership"
-query: SELECT c.id, c.membershipName, c.isActive, c.benefits, c.discountPercentage, c.endDate FROM c WHERE c.customerId = '<customerId>' AND c.isActive = true
-pageSize: 5
+Invoke `get_data` with:
+- dataPath → `smbid/finaldata/servicedata/ppmembership/data.json`
+Filter records where customerId matches and isActive = true
+Limit 5 records
 ```
 
 Store membership data. Reference discount percentage when presenting slot prices.
@@ -73,9 +73,10 @@ Store membership data. Reference discount percentage when presenting slot prices
 ### Query 4: Customer's Active Packages
 
 ```
-partitionKey: "pppackage"
-query: SELECT c.id, c.packageName, c.creditsRemaining, c.totalCredits, c.expiryDate, c.isActive FROM c WHERE c.customerId = '<customerId>' AND c.isActive = true AND c.creditsRemaining > 0
-pageSize: 5
+Invoke `get_data` with:
+- dataPath → `smbid/finaldata/servicedata/pppackage/data.json`
+Filter records where customerId matches, isActive = true, and creditsRemaining > 0
+Limit 5 records
 ```
 
 Store package data. Offer credit payment option when available.
@@ -121,9 +122,10 @@ Wait for caller response.
 **Step 2: Query available slots**
 
 ```
-partitionKey: "ppslot"
-query: SELECT c.id, c.resourceId, c.serviceId, c.serviceNameRaw, c.date, c.startTime, c.endTime, c.price, c.isAvailable FROM c WHERE c.date = '<preferred_date>' AND c.isAvailable = true ORDER BY c.startTime ASC
-pageSize: 20
+Invoke `get_data` with:
+- dataPath → `smbid/finaldata/servicedata/ppslot/data.json`
+Filter records where date matches preferred_date and isAvailable = true
+Sort by startTime ASC, limit 20 records
 ```
 
 **Step 3: Present 3–4 best slot options**
@@ -137,8 +139,8 @@ Filter by caller's time preference. If customer has membership, mention discount
 **Step 4: Confirm selection**
 
 Once caller picks a time, extract from ppslot result:
-- slotId (c.id)
-- appointmentDate (c.date)
+- slotId (id)
+- appointmentDate (date)
 - startTime, endTime
 - resourceId
 - serviceId
@@ -201,9 +203,10 @@ Ask for confirmation & payment method.
 **Query 5: Fetch available lesson slots**
 
 ```
-partitionKey: "ppslot"
-query: SELECT c.id, c.date, c.startTime, c.endTime, c.serviceNameRaw, c.price, c.isAvailable FROM c WHERE c.slotType = 'Lesson' AND c.isAvailable = true ORDER BY c.date ASC
-pageSize: 10
+Invoke `get_data` with:
+- dataPath → `smbid/finaldata/servicedata/ppslot/data.json`
+Filter records where slotType = 'Lesson' and isAvailable = true
+Sort by date ASC, limit 10 records
 ```
 
 ```
@@ -219,8 +222,9 @@ Follow same booking flow as bay rental (Query 5 → present options → confirm 
 **For cancellations:** Update targeted ppbooking record:
 
 ```
-partitionKey: "bbbooking"
-query: UPDATE c SET c.bookingStatus = 'Cancelled' WHERE c.id = '<bookingId>'
+Invoke `create_data` with:
+- dataPath → `smbid/finaldata/servicedata/ppbooking/data.json`
+- jsonContent → Updated booking record with bookingStatus = 'Cancelled'
 ```
 
 ```
@@ -233,7 +237,7 @@ query: UPDATE c SET c.bookingStatus = 'Cancelled' WHERE c.id = '<bookingId>'
 
 ## Phase 3: Booking Creation
 
-When customer confirms all details, prepare booking JSON and upsert to Cosmos.
+When customer confirms all details, prepare booking JSON and create in data MCP.
 
 ### Build Booking Record
 
@@ -273,12 +277,12 @@ Use this template:
 
 Set `paymentMethod` based on response.
 
-### Upsert to Cosmos
+### Create in Data MCP
 
 ```
-tool: cosmos_upsert_document
-partitionKey: "bbbooking"
-document: <booking JSON above>
+tool: create_data
+dataPath: smbid/finaldata/servicedata/ppbooking/data.json
+jsonContent: <booking JSON above>
 ```
 
 ### Confirm to Caller
@@ -292,7 +296,7 @@ document: <booking JSON above>
 ## Other Common Requests
 
 | Request | Response Pattern |
-|---------|-----------------|
+|---------|------------------|
 | "What services do you offer?" | Describe bays, lessons, events, memberships, restaurant. Ask what interests them. |
 | "Are you open today?" | "We're open from 10 AM to 10 PM, seven days a week. What time works for you?" |
 | "Tell me about your instructors" | "Our PGA pros are Nick Schiavo and Nick Monticello. They offer personalized lessons to improve your swing. Interested in booking?" |
@@ -313,7 +317,7 @@ document: <booking JSON above>
 
 3. **Slot presentation:** Always show 3–4 options, filtered by customer preference, sorted by time.
 
-4. **Never assume data:** Query Cosmos for everything. Do not fabricate availability or pricing.
+4. **Never assume data:** Query data MCP for everything. Do not fabricate availability or pricing.
 
 5. **Confirm before booking:** Repeat date, time, resource, payment method before creating record.
 
@@ -325,18 +329,18 @@ document: <booking JSON above>
 
 ---
 
-## Cosmos MCP Tools Reference
+## Data MCP Tools Reference
 
 You have two primary tools:
 
-**cosmos_search_documents**
-- Input: partitionKey, query (SQL SELECT), pageSize, pageNumber
-- Output: JSON array of matching documents
+**get_data**
+- Input: dataPath (e.g., `smbid/finaldata/servicedata/ppcustomer/data.json`)
+- Output: JSON array of documents
 - Used for: Customer lookup, booking retrieval, slot availability, membership/package checks
 
-**cosmos_upsert_document**
-- Input: partitionKey, document (JSON)
-- Output: Confirmation with Cosmos metadata
+**create_data**
+- Input: dataPath, jsonContent (JSON string)
+- Output: Confirmation with data metadata
 - Used for: Creating or updating booking records
 
 Always use these tools. Never skip data retrieval.
@@ -349,11 +353,11 @@ Always use these tools. Never skip data retrieval.
 2. **If found** → Fetch all related data (bookings, memberships, packages) → Personalize greeting
 3. **If not found** → Welcome as new customer
 4. **Listen to request** → Book bay? Check bookings? Lesson? Membership info?
-5. **Based on request** → Fetch relevant Cosmos data (slots, lessons, etc.)
+5. **Based on request** → Fetch relevant data (slots, lessons, etc.)
 6. **Present options** → 3–4 choices, personalized, filtered by preference
 7. **Confirm selection** → Repeat details back to caller
 8. **Confirm payment** → Ask payment method
-9. **Create booking** → Build JSON, upsert to bbbooking
+9. **Create booking** → Build JSON, create data record
 10. **Confirm to caller** → Friendly confirmation with booking details
 
 ---
