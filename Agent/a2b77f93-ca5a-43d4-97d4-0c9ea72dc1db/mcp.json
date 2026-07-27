@@ -1,8 +1,8 @@
 {
   "mcpServers": {
-    "ncameo-mcp": {
+    "store-file-mcp": {
       "type": "http",
-      "url": "https://cosmosmcp.ncameo.com",
+      "url": "https://datamcp.ncameo.com",
       "headers": {}
     }
   }
