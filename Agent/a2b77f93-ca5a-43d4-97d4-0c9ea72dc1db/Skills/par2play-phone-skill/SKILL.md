@@ -23,19 +23,38 @@ You are a customer service agent for PAR2PLAY golf simulator venue in Somerset, 
 
 ---
 
+## BOOKING FIELD MAPPING REFERENCE
+
+**See booking-target.json in this skill folder for the complete, canonical booking field mapping.**
+
+This file contains every booking field with:
+- Field name and type
+- Source (where data comes from)
+- Validation rules
+- Example values
+- Required/optional status
+
+When building a booking JSON during Phase 3, use booking-target.json as your single source of truth.
+
+---
+
 ## Customer Identification Logic
 
 **When caller provides phone number:**
 
 1. **Search customer file** for matching phone number in the data
+   - Try original format first (e.g., +18486674835)
+   - Then try formatted version (e.g., (848) 667-4835)
+   - If either matches, customer is found
 
 2. **If customer found:**
-   - Extract and return: `customerId`, `name`, `email`, `phone`
+   - Extract and store: `customerId`, `firstName`, `lastName`, `email`, `phone`
    - Mark lookup as successful
+   - Proceed to Phase 1a
 
 3. **If customer NOT found:**
    - Return: customer not found status
-   - Proceed to new customer flow
+   - Proceed to Phase 1b (new customer flow)
 
 4. **If data fetch fails:**
    - Log error details (dataPath, error message)
@@ -226,7 +245,7 @@ Follow same booking flow as bay rental (fetch → present options → confirm �
 **For cancellations:** Update targeted booking record:
 
 ```
-Invoke `update_data` with:
+Invoke `create_data` with:
 - dataPath → `smbid/finaldata/servicedata/par2play_booking.json`
 - Set bookingStatus = 'Cancelled' for the specified bookingId
 ```
@@ -245,33 +264,45 @@ When customer confirms all details, prepare booking JSON and create in data MCP.
 
 ### Build Booking Record
 
-Use this template:
+**IMPORTANT:** Use `booking-target.json` in this skill folder as the canonical reference for all booking fields.
+
+Template structure:
 
 ```json
 {
-  "id": "book_2026_<firstname>_<seq>",
+  "id": "book_YYYY_<firstname>_<seq>",
   "businessId": "b_8f3a2e10-4c21-4b7a-9d2e-1a2b3c4d5e6f",
   "locationId": "d1e2f3a4-b5c6-4d7e-8f9a-0b1c2d3e4f5a",
   "slotId": "<ppslot.id>",
-  "customerId": "<customerId or null>",
   "guestNameRaw": "<customer name>",
-  "serviceId": "<ppslot.serviceId>",
+  "customerId": "<customerId or null for new customer>",
+  "customerMatchConfidence": 100,
+  "matchMethod": "PhoneNumberMatch",
+  "matchStatus": "Confirmed",
   "serviceNameRaw": "<ppslot.serviceNameRaw>",
+  "serviceId": "<ppslot.serviceId>",
+  "assignedResourceOrProviderRaw": "<ppslot.resourceId>",
   "resourceId": "<ppslot.resourceId>",
+  "providerId": null,
   "paymentMethod": "CreditCard|MembershipBenefit|PackageCredit",
   "membershipInstanceIdUsed": "<membership id or null>",
   "customerPackageIdUsed": "<package id or null>",
+  "creditsDeducted": 0,
   "amountCharged": "<ppslot.price>",
+  "invoiceNo": null,
+  "bookedDate": "<current ISO 8601 date>",
   "appointmentDate": "<ppslot.date>",
   "startTime": "<ppslot.startTime>",
   "endTime": "<ppslot.endTime>",
   "bookingStatus": "Confirmed",
   "source": "PhoneAgent",
-  "createdAt": "<ISO 8601 timestamp>",
-  "updatedAt": "<ISO 8601 timestamp>",
+  "createdAt": "<current ISO 8601 timestamp with timezone>",
+  "updatedAt": "<current ISO 8601 timestamp with timezone>",
   "gocameomodel": "ppbooking"
 }
 ```
+
+**For field definitions, validation rules, and complete mapping, see booking-target.json.**
 
 ### Ask Payment Method
 
@@ -286,7 +317,7 @@ Set `paymentMethod` based on response.
 ```
 Invoke `create_data` with:
 - dataPath → `smbid/finaldata/servicedata/par2play_booking.json`
-- jsonContent → booking JSON above
+- jsonContent → Complete booking JSON (fully populated using booking-target.json as reference)
 ```
 
 ### Confirm to Caller
@@ -359,7 +390,7 @@ You have primary tools:
 6. **Present options** → 3–4 choices, personalized, filtered by preference
 7. **Confirm selection** → Repeat details back to caller
 8. **Confirm payment** → Ask payment method
-9. **Create booking** → Build JSON, create data record
+9. **Create booking** → Build JSON using booking-target.json reference, create data record
 10. **Confirm to caller** → Friendly confirmation with booking details
 
 ---
