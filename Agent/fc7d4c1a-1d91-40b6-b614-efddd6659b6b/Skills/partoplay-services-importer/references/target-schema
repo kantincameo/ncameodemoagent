@@ -1,0 +1,79 @@
+# Target JSON Schema (fixed)
+
+This is the **only** shape the final output ever takes. Every field listed here must be
+present in the output (use `null`, `""`, or `[]` for unknowns — never omit a key).
+
+```json
+{
+  "businessKnowledge": {
+    "businessName": "string",
+    "businessUrl": "string|null",
+    "industry": "string",
+    "businessType": "string",
+    "businessDescription": "string",
+    "targetAudience": "string",
+    "locations": ["string"],
+    "brandTone": "string",
+    "additionalNotes": "string"
+  },
+  "services": [
+    {
+      "id": "uuid",
+      "businessId": "string",
+      "serviceId": "string|null",
+      "serviceCode": "string|null",
+      "serviceName": "string",
+      "serviceKind": "string|null",
+      "serviceCategory": "string|null",
+      "serviceSubCategory": "string|null",
+      "isAddOn": false,
+      "durationMinutes": 0,
+      "price": 0,
+      "taxIncluded": "boolean|null",
+      "taxGroup": "string|null",
+      "onlineBookingEnabled": true,
+      "requiresResource": "boolean|null",
+      "requiresProvider": "boolean|null",
+      "resourceType": "string|null",
+      "providerType": "string|null",
+      "isActive": true,
+      "createdAt": "ISO 8601 timestamp",
+      "updatedAt": "ISO 8601 timestamp",
+      "_etag": null,
+      "_ts": null
+    }
+  ],
+  "serviceKnowledge": [
+    {
+      "serviceId": "uuid — matches the corresponding services[].id",
+      "serviceName": "string",
+      "summary": "string — 2-4 sentence plain-language description of the service",
+      "keyBenefits": ["string"],
+      "idealFor": "string — who this service is best suited for",
+      "commonQuestions": ["string — plausible customer questions about this service"],
+      "relatedServices": ["string — names of other services in this business it pairs with"],
+      "keywords": ["string — search/discovery terms for this service"],
+      "bookingNotes": "string — anything a customer should know before booking, or \"\" if none",
+      "createdAt": "ISO 8601 timestamp",
+      "updatedAt": "ISO 8601 timestamp"
+    }
+  ]
+}
+```
+
+## Field notes
+
+**businessKnowledge**
+- `businessType`: e.g. "single location", "multi-location chain", "franchise", "solo
+  practitioner" — describe the structure, not the industry (that's `industry`).
+- `locations`: physical locations/cities if known, else `[]`.
+- `brandTone`: how the business presents itself (e.g. "warm and casual", "clinical and
+  precise", "premium/luxury") — inferred from the site or the user's description.
+
+**services** — this is the transactional record, produced deterministically from the CSV per
+`references/column-mapping.md`. Don't add creative content here; that belongs in
+`serviceKnowledge`.
+
+**serviceKnowledge** — this is the generated layer. `serviceId` must exactly match the `id`
+of its corresponding entry in `services`, so the two arrays are always the same length and
+joinable 1:1.
