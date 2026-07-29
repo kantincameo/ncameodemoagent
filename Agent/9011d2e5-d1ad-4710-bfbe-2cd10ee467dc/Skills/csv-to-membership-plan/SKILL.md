@@ -1,6 +1,6 @@
 ---
 name: membership-knowledge-builder
-description: >-
+description: >
   Builds a business's Membership Knowledge Base JSON by collecting membership plan details
   (via CSV upload or manual entry), linking each membership's included services to the
   business's existing Service Knowledge Builder data, and generating a rich AI knowledge
@@ -37,11 +37,11 @@ Ask the user whether they already have a Service Knowledge Builder output for th
 (the JSON containing `businessKnowledge` and `services`). This matters because membership
 "services included" should link to real, verified services rather than free text.
 
-- If yes → ask them to upload/paste that JSON. Keep its `businessKnowledge` and `services`
+- If yes ⇒ ask them to upload/paste that JSON. Keep its `businessKnowledge` and `services`
   list on hand for the rest of this skill: `businessKnowledge` informs which extra questions
   are worth asking (Stage 1b), and `services` is the lookup list for linking included
   services (Stage 1c/1d).
-- If no → continue without it. Included services will stay as plain text (`serviceId: null`)
+- If no ⇒ continue without it. Included services will stay as plain text (`serviceId: null`)
   since there's nothing to verify them against, and skip the business-context follow-up
   questions in manual entry.
 
@@ -75,7 +75,7 @@ Read `references/column-mapping.md` before touching the CSV — it has the alias
 resolving arbitrary column headers to the fixed target fields (this covers the full
 MembershipPlan schema, not just the four mandatory ones), plus the per-field validation/
 default rules. CSV column names vary between businesses, so always run raw headers through
-the mapping step first, and log the resolved `"<raw>" → "<target>"` mapping.
+the mapping step first, and log the resolved `"<raw>" ⇒ "<target>"` mapping.
 
 Produce one membership record per valid CSV row. For the "services included" / benefits
 column specifically: split it into individual service names and match each one against the
@@ -88,11 +88,11 @@ After parsing (CSV or manual), check every membership against the four mandatory
 membership name, price, duration, services included (with as many linked `serviceId`s as
 possible).
 
-- If a membership is missing one of these fields entirely → ask the user only for that
+- If a membership is missing one of these fields entirely ⇒ ask the user only for that
   specific missing detail, for that specific membership (don't re-collect fields you already
   have).
 - If "services included" references services that don't exist anywhere in the Service
-  Knowledge Base and you don't have one loaded yet (or the one you have seems incomplete) →
+  Knowledge Base and you don't have one loaded yet (or the one you have seems incomplete) ⇒
   ask the user whether they'd like to upload a Service Knowledge Builder CSV/JSON to resolve
   the links, or confirm they're fine leaving those as unlinked free text.
 
