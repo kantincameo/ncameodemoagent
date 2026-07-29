@@ -1,223 +1,136 @@
 ---
-name: csv-to-membership-plan
+name: membership-knowledge-builder
 description: >-
-  Read an uploaded CSV file, intelligently map its columns to the MembershipPlan target JSON
-  structure, apply validation rules, and generate a ready-to-save JSON document. Use this skill
-  whenever a user uploads a CSV and wants to convert it into a MembershipPlan JSON, map membership
-  data from a spreadsheet, transform CSV columns to a target plan structure, or says things like
-  "I uploaded a CSV", "map this CSV to the membership plan", "convert this spreadsheet to JSON",
-  "process this membership data", "import membership plans", or "here is my CSV file". Always
-  invoke this skill before saving to Cosmos DB. Never skip this skill when a CSV file is present.
+  Builds a business's Membership Knowledge Base JSON by collecting membership plan details
+  (via CSV upload or manual entry), linking each membership's included services to the
+  business's existing Service Knowledge Builder data, and generating a rich AI knowledge
+  profile for every membership. Use this skill whenever a user wants to set up, import, or
+  build membership plans / membership tiers for a business, mentions uploading a "membership
+  CSV" or "membership list", asks to generate a "membership knowledge base", wants
+  memberships prepared for Cosmos DB, or says things like "set up my membership plans" or
+  "import my memberships and link them to my services." Works for any business/vertical and
+  pairs with the service-knowledge-builder skill (memberships reference that skill's
+  services list to link "services included").
 ---
 
-# CSV to MembershipPlan Mapper
+# Membership Knowledge Builder
 
-You are responsible for reading an uploaded CSV file, intelligently mapping its columns to the
-MembershipPlan target JSON structure, applying validations, and producing a final output JSON.
-You do NOT save to Cosmos DB — that is handled by the agent after you return the JSON.
+This skill turns a business's membership plans (gym memberships, salon packages, subscription
+tiers, etc.) into one finished JSON file: a clean transactional record for each membership
+plan, plus a rich AI-written knowledge profile for each one. It follows the same two-stage
+shape as the companion `service-knowledge-builder` skill, and the two are meant to work
+together — a membership's "services included" should link back to real services from that
+skill's output whenever possible, rather than staying as free-text names.
 
----
+The final JSON always has the exact same shape — see `references/target-schema.md` — so it
+never changes structure between businesses.
 
-## Target JSON Structure
+Don't invent concrete facts (prices, durations, fees) the user hasn't given you. It's fine to
+write descriptive/marketing text for the knowledge profiles (that's the point), but never
+guess a specific number or a service link — leave it `null`/`[]` and ask instead.
 
-```json
-{
-  "id": "plan_silver_loc001",
-  "businessId": "b_8f3a2e10-4c21-4b7a-9d2e-1a2b3c4d5e6f",
-  "planId": "plan_silver_loc001",
-  "locationId": "loc_001",
-  "externalMembershipId": "66962067-80fa-4275-9071-3d95dacbb8a5",
+## Stage 1 — Collect membership data
 
-  "membershipName": "Silver Membership",
-  "membershipCode": "SLVMEM",
-  "membershipTypeKind": "Recurring",
-  "descriptionRaw": "30% discount on Bay rental",
+### 1a. Check for existing Service Knowledge Base
 
-  "price": 200.0000,
-  "priceSource": "FromSourceFile",
-  "billingCycle": "Monthly",
-  "isUnlimited": false,
+Ask the user whether they already have a Service Knowledge Builder output for this business
+(the JSON containing `businessKnowledge` and `services`). This matters because membership
+"services included" should link to real, verified services rather than free text.
 
-  "setupFee": 0.0000,
-  "annualFee": 0.0000,
-  "declineFee": 0.0000,
-  "buyOutFee": 0.0000,
-  "freezeFee": 0.0000,
-  "downgradeFee": null,
-  "upgradeFee": null,
-  "guestPassFee": 0.0000,
-  "guestPassVisits": 0,
-  "initialRecognition": 0,
-  "monthlyRecognition": 200,
-  "freeServiceRecognition": 0,
-  "creditAmount": 0.0,
-  "serviceCreditAmount": 0.0,
-  "productCreditAmount": 0.0,
-  "otherCreditAmount": 0.0,
-  "serviceCreditEqualanceAmount": 0.0,
-  "numVisits": 0,
-  "advanceBookingDays": 0,
-  "saleStartDate": null,
-  "membershipInvoiceDate": null,
-  "addOnMemberTemplateId": null,
-  "membershipCancelTemplateId": null,
-  "redemptionCenterTemplateId": null,
-  "centerTaxId": null,
-  "centerAssigned": true,
-  "soldInCenter": true,
+- If yes → ask them to upload/paste that JSON. Keep its `businessKnowledge` and `services`
+  list on hand for the rest of this skill: `businessKnowledge` informs which extra questions
+  are worth asking (Stage 1b), and `services` is the lookup list for linking included
+  services (Stage 1c/1d).
+- If no → continue without it. Included services will stay as plain text (`serviceId: null`)
+  since there's nothing to verify them against, and skip the business-context follow-up
+  questions in manual entry.
 
-  "benefits": [
-    {
-      "serviceNameRaw": "Bay rental 1 hour",
-      "serviceId": "svc_001",
-      "totalCredits": 2
-    }
-  ],
+### 1b. Choose entry mode
 
-  "isActive": true,
-  "createdAt": "2026-07-13T11:35:00Z",
-  "updatedAt": "2026-07-13T11:35:00Z",
-  "_etag": null,
-  "_ts": null
-}
+Ask the user whether they want to:
+- Upload a Membership CSV, or
+- Enter membership details manually
+
+#### Manual entry
+
+Ask for these **mandatory** fields for each membership:
+1. Membership name
+2. Price
+3. Duration (how long the membership lasts, e.g. "1 Month", "Annual", "Ongoing" — this is
+   separate from billing cycle/frequency)
+4. Services included
+
+If a Service Knowledge Base is available (Stage 1a), match whatever they say for "services
+included" against its `services` list (by name, case/whitespace-insensitive, allowing close
+matches) and attach the real `serviceId`. If something doesn't match any known service, keep
+it as free text and flag it to the user rather than silently dropping it.
+
+You may also ask a handful of additional relevant questions (billing cycle, setup fee, guest
+passes, whether it auto-renews, etc.) informed by the `businessKnowledge` industry/type if one
+is available — but never require more than the four mandatory fields above to proceed.
+
+#### CSV upload
+
+Read `references/column-mapping.md` before touching the CSV — it has the alias table for
+resolving arbitrary column headers to the fixed target fields (this covers the full
+MembershipPlan schema, not just the four mandatory ones), plus the per-field validation/
+default rules. CSV column names vary between businesses, so always run raw headers through
+the mapping step first, and log the resolved `"<raw>" → "<target>"` mapping.
+
+Produce one membership record per valid CSV row. For the "services included" / benefits
+column specifically: split it into individual service names and match each one against the
+Service Knowledge Base's `services` list (Stage 1a) the same way as in manual entry, attaching
+`serviceId` wherever there's a confident match.
+
+### 1c. Fill gaps
+
+After parsing (CSV or manual), check every membership against the four mandatory fields:
+membership name, price, duration, services included (with as many linked `serviceId`s as
+possible).
+
+- If a membership is missing one of these fields entirely → ask the user only for that
+  specific missing detail, for that specific membership (don't re-collect fields you already
+  have).
+- If "services included" references services that don't exist anywhere in the Service
+  Knowledge Base and you don't have one loaded yet (or the one you have seems incomplete) →
+  ask the user whether they'd like to upload a Service Knowledge Builder CSV/JSON to resolve
+  the links, or confirm they're fine leaving those as unlinked free text.
+
+Don't move to Stage 2 until every membership has all four mandatory fields.
+
+## Stage 2 — Knowledge base creation & confirmation
+
+### 2a. Generate membership knowledge
+
+For every membership record, write a `membershipKnowledge` entry — a knowledge profile
+covering what the membership is, who it's for, and why someone would choose it. Ground it in
+the membership's actual fields (price, duration, linked services, fees) and, if available,
+the business's `businessKnowledge` (industry, audience, tone) so the writing fits the
+business. Field definitions are in `references/target-schema.md`. As with the Service
+Knowledge Builder, this is the one place to write like a domain expert rather than a
+data-mapper — avoid generic filler that could apply to any membership at any business.
+
+### 2b. Show for review
+
+Present a summary for the user to confirm:
+- A table of parsed memberships (name, price, duration, linked services, any unlinked
+  service names flagged)
+- One or two sample `membershipKnowledge` entries so they can see the style/quality
+
+Ask them to confirm or tell you what to fix. Apply corrections and re-summarize as needed.
+Do not produce the final file until they confirm.
+
+### 2c. Produce the final JSON
+
+Once confirmed, assemble the final combined JSON exactly as structured in
+`references/target-schema.md` (`memberships` + `membershipKnowledge` — this top-level shape
+never changes) and save it as a file for the user. Validate it first:
+
+```bash
+python3 scripts/validate_output.py <path-to-output.json>
 ```
 
----
-
-## Step 1 — Read the CSV
-
-Parse the uploaded CSV file in full. Extract all column headers and all row data.
-If multiple rows exist, generate one JSON document per row.
-Handle quoted fields, commas within fields, and UTF-8 encoding gracefully.
-
----
-
-## Step 2 — Intelligent Column Mapping
-
-Map each CSV column to its target field using semantic similarity — not exact name matching.
-A column does not need to match exactly. Use your understanding of naming conventions,
-abbreviations, and domain context to find the best match.
-
-Use this mapping guide:
-
-| Target Field                    | Likely CSV Column Names (examples, not exhaustive)                                        |
-|---------------------------------|-------------------------------------------------------------------------------------------|
-| `id`                            | id, planId, plan_id, uid, identifier, record_id                                           |
-| `planId`                        | planId, plan_id, id, uid, plan_identifier                                                 |
-| `businessId`                    | businessId, business_id, biz_id, orgId, organization_id, company_id                      |
-| `locationId`                    | locationId, location_id, loc_id, site_id, branch_id                                      |
-| `externalMembershipId`          | externalMembershipId, external_id, ext_membership_id, external_membership_id             |
-| `membershipName`                | membershipName, name, title, planName, plan_name, MemName, membership                    |
-| `membershipCode`                | membershipCode, code, plan_code, short_code, sku, abbreviation                           |
-| `membershipTypeKind`            | membershipTypeKind, type, kind, membershipType, plan_type, category                      |
-| `descriptionRaw`                | descriptionRaw, description, desc, details, summary, notes, about                        |
-| `price`                         | price, cost, amount, fee, rate, monthly_price, plan_price, value                         |
-| `priceSource`                   | priceSource, price_source, pricing_type, source                                          |
-| `billingCycle`                  | billingCycle, billing_cycle, frequency, interval, period, cycle, term                    |
-| `isUnlimited`                   | isUnlimited, unlimited, is_unlimited, no_limit                                           |
-| `setupFee`                      | setupFee, setup_fee, initiation_fee, enrollment_fee                                      |
-| `annualFee`                     | annualFee, annual_fee, yearly_fee                                                        |
-| `declineFee`                    | declineFee, decline_fee, failed_payment_fee                                              |
-| `buyOutFee`                     | buyOutFee, buyout_fee, buy_out_fee, cancellation_fee                                     |
-| `freezeFee`                     | freezeFee, freeze_fee, hold_fee, pause_fee                                               |
-| `downgradeFee`                  | downgradeFee, downgrade_fee                                                              |
-| `upgradeFee`                    | upgradeFee, upgrade_fee                                                                  |
-| `guestPassFee`                  | guestPassFee, guest_pass_fee, guest_fee, visitor_fee                                     |
-| `guestPassVisits`               | guestPassVisits, guest_pass_visits, guest_visits, visitor_count                          |
-| `initialRecognition`            | initialRecognition, initial_recognition, upfront_recognition                             |
-| `monthlyRecognition`            | monthlyRecognition, monthly_recognition, recurring_recognition                           |
-| `freeServiceRecognition`        | freeServiceRecognition, free_service_recognition, free_recognition                       |
-| `creditAmount`                  | creditAmount, credit_amount, total_credit                                                |
-| `serviceCreditAmount`           | serviceCreditAmount, service_credit_amount, service_credit                               |
-| `productCreditAmount`           | productCreditAmount, product_credit_amount, product_credit                               |
-| `otherCreditAmount`             | otherCreditAmount, other_credit_amount, other_credit                                     |
-| `serviceCreditEqualanceAmount`  | serviceCreditEqualanceAmount, service_credit_equivalence, credit_equivalence             |
-| `numVisits`                     | numVisits, num_visits, visit_count, visits, allowed_visits                               |
-| `advanceBookingDays`            | advanceBookingDays, advance_booking_days, booking_advance, booking_days                  |
-| `saleStartDate`                 | saleStartDate, sale_start_date, start_date, available_from                               |
-| `membershipInvoiceDate`         | membershipInvoiceDate, invoice_date, billing_date, membership_invoice_date               |
-| `addOnMemberTemplateId`         | addOnMemberTemplateId, add_on_template_id, addon_template                                |
-| `membershipCancelTemplateId`    | membershipCancelTemplateId, cancel_template_id, cancellation_template                    |
-| `redemptionCenterTemplateId`    | redemptionCenterTemplateId, redemption_template_id, redemption_template                  |
-| `centerTaxId`                   | centerTaxId, center_tax_id, tax_id, tax_code                                             |
-| `centerAssigned`                | centerAssigned, center_assigned, assigned_to_center                                      |
-| `soldInCenter`                  | soldInCenter, sold_in_center, center_sale, in_center_sale                                |
-| `isActive`                      | isActive, active, status, enabled, is_active, live, published                            |
-| `benefits`                      | benefits, defaultBenefits, services, perks, inclusions, extras                           |
-| `serviceNameRaw`                | serviceNameRaw, service_name, serviceName, benefit_name, service                         |
-| `serviceId`                     | serviceId, service_id, svc_id, benefit_id, service_code                                  |
-| `totalCredits`                  | totalCredits, credits, total_credits, credit_count, sessions, uses                       |
-
-If a column name is ambiguous, use context from surrounding columns and row values to determine
-the best mapping. If a column clearly cannot map to any target field, discard it gracefully
-without error.
-
----
-
-## Step 3 — Validation Rules
-
-Apply these rules to every mapped record before generating output:
-
-| Field                          | Rule                                                                                                      |
-|--------------------------------|-----------------------------------------------------------------------------------------------------------|
-| `price`                        | Must be a number ≥ 0. If missing, empty, or non-numeric → default to `0`.                                |
-| `isActive`                     | Must be boolean. Map "true"/"yes"/"1"/"active"/"enabled" → `true`; anything else → `false`.              |
-| `membershipTypeKind`           | If missing or empty → default to `"Recurring"`.                                                           |
-| `billingCycle`                 | If missing or empty → default to `"Monthly"`.                                                             |
-| `priceSource`                  | If missing or empty → default to `"FromSourceFile"`.                                                      |
-| `isUnlimited`                  | Must be boolean. If missing → default to `false`.                                                         |
-| `setupFee`                     | Must be a number ≥ 0. If missing → default to `0`.                                                        |
-| `annualFee`                    | Must be a number ≥ 0. If missing → default to `0`.                                                        |
-| `declineFee`                   | Must be a number ≥ 0. If missing → default to `0`.                                                        |
-| `buyOutFee`                    | Must be a number ≥ 0. If missing → default to `0`.                                                        |
-| `freezeFee`                    | Must be a number ≥ 0. If missing → default to `0`.                                                        |
-| `downgradeFee`                 | If missing or empty → default to `null`.                                                                  |
-| `upgradeFee`                   | If missing or empty → default to `null`.                                                                  |
-| `guestPassFee`                 | Must be a number ≥ 0. If missing → default to `0`.                                                        |
-| `guestPassVisits`              | Must be an integer ≥ 0. If missing → default to `0`.                                                      |
-| `initialRecognition`           | Must be a number ≥ 0. If missing → default to `0`.                                                        |
-| `monthlyRecognition`           | Must be a number ≥ 0. If missing → default to `0`.                                                        |
-| `freeServiceRecognition`       | Must be a number ≥ 0. If missing → default to `0`.                                                        |
-| `creditAmount`                 | Must be a number ≥ 0. If missing → default to `0`.                                                        |
-| `serviceCreditAmount`          | Must be a number ≥ 0. If missing → default to `0`.                                                        |
-| `productCreditAmount`          | Must be a number ≥ 0. If missing → default to `0`.                                                        |
-| `otherCreditAmount`            | Must be a number ≥ 0. If missing → default to `0`.                                                        |
-| `serviceCreditEqualanceAmount` | Must be a number ≥ 0. If missing → default to `0`.                                                        |
-| `numVisits`                    | Must be an integer ≥ 0. If missing → default to `0`.                                                      |
-| `advanceBookingDays`           | Must be an integer ≥ 0. If missing → default to `0`.                                                      |
-| `saleStartDate`                | If missing or empty → default to `null`.                                                                  |
-| `membershipInvoiceDate`        | If missing or empty → default to `null`.                                                                  |
-| `addOnMemberTemplateId`        | If missing or empty → default to `null`.                                                                  |
-| `membershipCancelTemplateId`   | If missing or empty → default to `null`.                                                                  |
-| `redemptionCenterTemplateId`   | If missing or empty → default to `null`.                                                                  |
-| `centerTaxId`                  | If missing or empty → default to `null`.                                                                  |
-| `centerAssigned`               | Must be boolean. If missing → default to `true`.                                                          |
-| `soldInCenter`                 | Must be boolean. If missing → default to `true`.                                                          |
-| `totalCredits`                 | Must be an integer ≥ 0. If missing or invalid → default to `0`.                                           |
-| `_etag`                        | Always set to `null`.                                                                                     |
-| `_ts`                          | Always set to `null`.                                                                                     |
-| `createdAt`                    | Always set to current UTC datetime in ISO 8601 format (e.g. `"2025-01-15T10:30:00Z"`).                   |
-| `updatedAt`                    | Always set to the exact same value as `createdAt`.                                                        |
-| `id`                           | If missing → generate as `"plan_" + membershipCode.toLowerCase()` or a short UUID-like key.              |
-| `planId`                       | If missing → use the same value as `id`.                                                                  |
-| `benefits`                     | If no benefits data is found in the CSV → set to `[]`.                                                    |
-| `businessId`                   | If missing → keep as empty string `""`.                                                                   |
-| `locationId`                   | If missing → keep as empty string `""`.                                                                   |
-| `externalMembershipId`         | If missing → keep as empty string `""`.                                                                   |
-
----
-
-## Step 4 — Output
-
-Produce the final JSON for each CSV row. Format it cleanly and completely.
-
-- If the CSV had **multiple rows** → output a JSON **array** of objects.
-- If the CSV had a **single row** → output a single JSON **object**.
-
-Present the output inside a code block labeled `json`.
-
-After presenting the output, state clearly:
-> ✅ Mapping complete. [N] record(s) ready.
-
-Do NOT invoke `cosmos_create_document` or any Cosmos DB tool yourself.
-The agent handles saving — your job is only to produce the mapped and validated JSON.
+It checks required top-level keys, that every `memberships[].id` has a matching
+`membershipKnowledge[].membershipId`, and that required fields aren't missing — it does not
+judge writing quality, only structure. Fix anything it flags, then deliver the file to the
+user.
