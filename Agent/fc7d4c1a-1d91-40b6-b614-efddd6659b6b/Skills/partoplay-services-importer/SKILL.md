@@ -1,90 +1,104 @@
 ---
-name: partoplay-services-importer
+name: service-knowledge-builder
 description: >-
-  Parses an uploaded Partoplay Services CSV file and maps every row to the target Services JSON schema.
-  Returns a validated JSON array of mapped records ready for saving. Use this skill whenever a user
-  uploads a CSV with service data for Partoplay, mentions importing services, mapping service records,
-  or preparing services data for Cosmos DB with partitionKey 'Services'.
+  Builds a business's complete "knowledge base" JSON by interviewing the user about their
+  business (or reading their business URL), then importing a Services CSV and generating a
+  detailed AI knowledge profile for every service. Use this skill whenever a user wants to
+  onboard a business into a knowledge base, mentions uploading a "services CSV" or "services
+  list" to build a profile/knowledge base, asks to generate "businessKnowledge" or
+  "serviceKnowledge", wants services prepared for Cosmos DB or a similar document database,
+  or says things like "set up my business profile and import my services." Works for any
+  business/vertical (salons, clinics, gyms, spas, repair shops, consultancies, etc.) — it is
+  not tied to any single client or CSV format, and intelligently maps whatever column names
+  the uploaded CSV happens to use.
 ---
 
-# Partoplay Services Importer
+# Service Knowledge Builder
 
-You are processing a Partoplay Services CSV upload. Follow every step below in strict order. Do not skip any step.
+This skill turns a business + a raw services spreadsheet into one finished JSON file that
+combines three things: who the business is, what each of its services literally is (the
+transactional record), and a rich AI-written knowledge profile for each service (useful for
+search, chatbots, or recommendation features). The final JSON always has the exact same
+shape — see `references/target-schema.md` — so downstream systems can rely on it never
+changing structure between businesses.
 
-## Step 1 — Parse the CSV
+Follow the six stages below **in order**. Don't skip a stage or silently invent data the
+user hasn't given you — if something is genuinely unknown, use `null` or an empty string/array
+rather than guessing a specific fact (it's fine to write reasonable descriptive/marketing
+text, since that's the point of "knowledge," but don't fabricate concrete facts like phone
+numbers, addresses, or prices).
 
-Read the uploaded CSV file in full. Extract the raw header row exactly as it appears — do not assume headers match any specific naming convention.
+## Stage 1 — Collect business knowledge
 
-Parse every row into a structured list keyed by the raw column headers.
+Ask the user, in one message, to either:
+- paste their business website URL, or
+- describe their business in a few sentences (what it is, what it offers, who it serves)
 
----
+If they give a URL, fetch and read it (and a couple of obvious sub-pages like "About" or
+"Services" if linked) to understand the business. If they give a description instead, work
+from that. Either way, use your judgement to also ask 1-2 short follow-ups only if something
+important is missing and can't be inferred (e.g. industry is unclear) — don't interrogate them
+with a long form.
 
-## Step 1.5 — Intelligent Column Mapping
+From what you learn, produce a `businessKnowledge` object matching the fields in
+`references/target-schema.md`. Anything you couldn't determine and the user didn't state
+stays `null` (or `""`/`[]` for text/list fields) — never invent it.
 
-The uploaded CSV may use any column naming convention. Before mapping rows to the target schema, resolve each raw CSV header to its target field using the alias table below. Matching is **case-insensitive** and **whitespace-insensitive**.
+## Stage 2 — Get the services CSV
 
-| Target Field | Accepted CSV Column Names (aliases) |
-|---|---|
-| `serviceId` | ServiceId, Service Id, SvcId, Id |
-| `serviceCode` | ServiceCode, Service Code, Code, Svc Code, SvcCode |
-| `serviceName` | ServiceName, Service Name, Name, Svc Name, SvcName, Service Title, Title |
-| `serviceCategory` | Category, ServiceCategory, Service Category, Cat, Svc Category |
-| `serviceSubCategory` | Sub Category, SubCategory, Sub-Category, ServiceSubCategory, Sub Cat, SubCat |
-| `businessUnitName` | BusinessUnitName, Business Unit, Business Unit Name, BU Name, BUName *(ignored — not mapped to schema)* |
-| `serviceKind` | ServiceType, Service Type, Type, Kind, ServiceKind, Svc Type |
-| `onlineBookingEnabled` | OnlineBooking, Online Booking, Online Book, Booking, IsOnline, OnlineEnabled |
-| `taxIncluded` | TaxIncluded, Tax Included, Tax Inc, IncludesTax, IsTaxIncluded |
-| `taxGroup` | TaxGroup, Tax Group, Tax Grp, TaxGrp, TaxCategory |
-| `durationMinutes` | ServiceLength, Service Length, Duration, DurationMinutes, Minutes, ServiceTime, Length, Time, Mins |
+Ask the user to upload their services CSV (or point you to it). Don't move on until you have
+a file to read.
 
-**Mapping rules:**
-1. For each raw CSV header, find the best match in the alias table (case-insensitive, ignore extra spaces).
-2. If a header matches an alias, map all values in that column to the corresponding target field.
-3. If a header has **no match** in the alias table, ignore that column entirely.
-4. If a target field has **no matching column** in the CSV, apply its default value as defined in Step 2.
-5. If two or more CSV columns resolve to the same target field, use the first one encountered and ignore the rest.
-6. Before proceeding to Step 2, log the resolved mapping as: `CSV column "<raw>" → target field "<target>"` for every matched column.
+## Stage 3 — Parse & map the CSV
 
----
+Read `references/column-mapping.md` before touching the CSV — it has the alias table for
+resolving arbitrary column headers (e.g. "Svc Name", "Duration", "Tax Grp") to the fixed
+target fields, plus the row → JSON mapping rules. CSV column names vary wildly between
+businesses, so never assume the raw headers match the target field names directly; always run
+them through the mapping step first, and log the resolved `"<raw>" → "<target>"` mapping so
+the user (and you) can sanity-check it.
 
-## Step 2 — Map Each Row to the Target JSON Schema
+Produce one service record per valid CSV row, per the fixed schema in
+`references/target-schema.md`. Skip and report any row missing a service name.
 
-Using the resolved column mapping from Step 1.5, produce a complete JSON document for **every** row:
+## Stage 4 — Generate serviceKnowledge
 
-| Target Field | Source | Rule |
-|---|---|---|
-| `id` | Auto-generated | Generate a new UUID v4 |
-| `businessId` | Not in CSV | Always `""` (empty string) |
-| `serviceId` | Mapped column | Direct copy from CSV; may be empty or null |
-| `serviceCode` | Mapped column | Direct copy; may be empty or null |
-| `serviceName` | Mapped column | Direct copy |
-| `serviceKind` | Mapped column | Direct copy; may be blank or null |
-| `serviceCategory` | Mapped column | Direct copy; may be blank or null |
-| `serviceSubCategory` | Mapped column | Direct copy; may be blank or null |
-| `isAddOn` | Not in CSV | Always `false` |
-| `durationMinutes` | Mapped column | Parse as integer. If empty or missing → `0` |
-| `price` | Not in CSV | Always `0` |
-| `taxIncluded` | Mapped column | If empty/missing/blank → `null`. If `"true"`/`"1"`/`"yes"` → `true`. Else → `false` |
-| `taxGroup` | Mapped column | If empty/missing/blank → `null`. Else direct copy as string |
-| `onlineBookingEnabled` | Mapped column | `"true"`/`"1"`/`"yes"` → `true`; empty/missing → `true` (default); else → `false` |
-| `requiresResource` | Not in CSV | Always `null` |
-| `requiresProvider` | Not in CSV | Always `null` |
-| `resourceType` | Not in CSV | Always `null` |
-| `providerType` | Not in CSV | Always `null` |
-| `isActive` | Not in CSV | Always `true` |
-| `createdAt` | Auto-generated | Current UTC timestamp in ISO 8601 format |
-| `updatedAt` | Auto-generated | Same value as `createdAt` |
-| `_etag` | Not in CSV | Always `null` |
-| `_ts` | Not in CSV | Always `null` |
+For every service record produced in Stage 3, write a `serviceKnowledge` entry: a short
+plain-language profile of that specific service, informed by the service's own fields
+(name, category, duration, etc.) **and** the `businessKnowledge` from Stage 1 (so the tone,
+audience, and context match the business). Field definitions are in
+`references/target-schema.md`.
 
----
+This is the one place in the whole pipeline where you should think like a domain writer, not
+a data-mapper — a generic one-line restatement of the service name isn't useful. Ground each
+profile in what you actually know: the service's category/subcategory, typical duration, and
+the business's stated industry and audience. Where you're inferring rather than being told
+something (e.g. "commonQuestions" a customer might ask), that's expected and fine — it's
+knowledge generation, not extraction — but keep it plausible for the specific service and
+business, not generic filler that would apply to any business.
 
-## Step 3 — Validate & Return JSON Output
+## Stage 5 — Confirm with the user
 
-Validate each mapped record:
-- `id` is a non-empty UUID
-- `serviceName` is non-empty
+Before producing the final file, show the user a summary for review:
+- The `businessKnowledge` object (or its key fields)
+- A table of the parsed services (name, category, duration, price if any) — flag any skipped
+  rows and why
+- One or two sample `serviceKnowledge` entries so they can see the style/quality
 
-If a record fails validation, log it as failed and exclude it from the output. Continue processing remaining rows.
+Ask them to confirm, or tell you what to fix. Apply any corrections and re-summarize if
+needed. Do not generate the final combined file until they confirm.
 
-**Return** the final validated records as a JSON array to the agent. Do not save or call any tools. The agent will handle saving each record to Cosmos DB.
+## Stage 6 — Produce the final JSON
+
+Once confirmed, assemble the single combined JSON exactly as structured in
+`references/target-schema.md` (`businessKnowledge`, `services`, `serviceKnowledge` — that
+top-level shape never changes) and save it as a file for the user. Use
+`scripts/validate_output.py` to sanity-check the structure before handing it over:
+
+```bash
+python3 scripts/validate_output.py <path-to-output.json>
+```
+
+It checks required top-level keys, that every `services[].id` has a matching
+`serviceKnowledge[].serviceId`, and that required fields aren't missing — it does not judge
+writing quality, only structure. Fix anything it flags, then deliver the file to the user.
