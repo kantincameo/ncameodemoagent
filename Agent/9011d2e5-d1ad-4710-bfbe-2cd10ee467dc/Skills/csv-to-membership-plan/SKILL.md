@@ -8,9 +8,7 @@ description: >
   build membership plans / membership tiers for a business, mentions uploading a "membership
   CSV" or "membership list", asks to generate a "membership knowledge base", wants
   memberships prepared for Cosmos DB, or says things like "set up my membership plans" or
-  "import my memberships and link them to my services." Works for any business/vertical and
-  pairs with the service-knowledge-builder skill (memberships reference that skill's
-  services list to link "services included").
+  "import my memberships and link them to my services."
 ---
 
 # Membership Knowledge Builder
