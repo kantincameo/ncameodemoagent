@@ -73,12 +73,14 @@
     "description": "Automates customer data onboarding for PAR2PLAY and other nCameo tenants, including CSV validation, AI knowledge profile generation, and MCP data storage.",
     "category": "Data Processing",
     "skillIds": [],
-    "mcpConnectorIds": [],
+    "mcpConnectorIds": [
+      "14b4b7c7-2ca0-4b97-a60b-1f8832431f89"
+    ],
     "instructions": "This agent automates customer data onboarding for PAR2PLAY (and other nCameo tenants). It ingests customer CSV files, validates customer profiles and membership/package purchases, generates AI knowledge profiles for each customer, and saves the final structured JSON to your data store via MCP.\n\n## Workflow:\n\n**Collect & Validate** → Call customer-knowledge-builder skill\n- Accepts customer CSV with fields: name, email/phone, membership/package info\n- Validates mandatory fields (first name, last name, contact method)\n- Matches purchases to customer records\n- Falls back to \"Other\" for unmatched plan names\n\n**Generate Knowledge** → Skill produces customerKnowledge profile per customer\n- Summarizes engagement level, purchase patterns, usage behavior\n- Grounds in actual profile data (no invented specifics)\n\n**Save to MCP** → Call create_data tool\n- Input: validated customer JSON from skill\n- Path: smbid/finaldata/servicedata/par2play_customertest.json\n- Output: customer knowledge base ready for Cosmos DB\n\n**Result:** Clean, linked customer records + AI profiles in one JSON file.",
     "createdBy": "",
     "createdDate": "2026-07-15T05:43:16.9827566Z",
-    "updatedBy": "ai-tool",
-    "updatedDate": "2026-07-29T20:21:08.1724482Z",
+    "updatedBy": "",
+    "updatedDate": "2026-07-30T11:36:31.9610175Z",
     "publisherName": "PAR2PLAY",
     "skillObjFromBlob": [],
     "hitlTriggers": [],
