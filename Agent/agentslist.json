@@ -332,9 +332,7 @@
     "name": "par2play Phone Agent",
     "description": "par2play Phone Booking Assistant - Books golf lessons and tee times via voice",
     "category": "Booking & Scheduling",
-    "skillIds": [
-      "par2play-phone-skill"
-    ],
+    "skillIds": [],
     "mcpConnectorIds": [
       "14b4b7c7-2ca0-4b97-a60b-1f8832431f89"
     ],
@@ -342,7 +340,7 @@
     "createdBy": "",
     "createdDate": "2026-07-20T07:12:16.3798083Z",
     "updatedBy": "",
-    "updatedDate": "2026-07-30T12:14:29.3705757Z",
+    "updatedDate": "2026-07-30T12:15:00.5566617Z",
     "publisherName": "par2play",
     "skillObjFromBlob": [],
     "hitlTriggers": [],
