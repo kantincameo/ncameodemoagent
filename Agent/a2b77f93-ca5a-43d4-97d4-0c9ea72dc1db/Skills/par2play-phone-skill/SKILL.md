@@ -284,7 +284,7 @@ Sort by date ASC, limit 10 records
 ```
 
 ```
-"We have lessons available with our PGA-certified instructors Nick Schiavo and Nick Monticello. Would you like to book a specific date and time, or hear more about what's included?"
+"We have lessons available with our PGA-certified instructors Nick and Shawn. Would you like to book a specific date and time, or hear more about what's included?"
 ```
 
 Follow same booking flow as bay rental (fetch → present options → confirm → create booking).
