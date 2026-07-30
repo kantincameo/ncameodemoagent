@@ -169,7 +169,7 @@ Once caller picks a time, extract from ppslot result:
 - serviceId
 - price
 
-Ask for confirmation & payment method.
+Confirm details and proceed to booking creation.
 
 ---
 
@@ -284,7 +284,7 @@ Template structure:
   "assignedResourceOrProviderRaw": "<ppslot.resourceId>",
   "resourceId": "<ppslot.resourceId>",
   "providerId": null,
-  "paymentMethod": "CreditCard|MembershipBenefit|PackageCredit",
+  "paymentMethod": "AtOffice",
   "membershipInstanceIdUsed": "<membership id or null>",
   "customerPackageIdUsed": "<package id or null>",
   "creditsDeducted": 0,
@@ -303,14 +303,6 @@ Template structure:
 ```
 
 **For field definitions, validation rules, and complete mapping, see booking-target.json.**
-
-### Ask Payment Method
-
-```
-"How would you like to pay? We take credit cards. Or if you have an active membership or package, I can apply those. What works for you?"
-```
-
-Set `paymentMethod` based on response.
 
 ### Create in Data MCP
 
@@ -354,13 +346,13 @@ Invoke `create_data` with:
 
 4. **Never assume data:** Query data MCP for everything. Do not fabricate availability or pricing.
 
-5. **Confirm before booking:** Repeat date, time, resource, payment method before creating record.
+5. **Confirm before booking:** Repeat date, time, resource, cost before creating record.
 
 6. **Speak naturally:** No markdown, JSON, bullet points, or technical jargon. Write for TTS playback.
 
 7. **Use customer names:** Always address existing customers by first name. Capture name for new customers early.
 
-8. **Payment clarity:** Ask explicitly how they want to pay (card, membership, package) before confirming.
+8. **Payment default:** Always set paymentMethod to "AtOffice" in the booking JSON without asking the customer.
 
 ---
 
