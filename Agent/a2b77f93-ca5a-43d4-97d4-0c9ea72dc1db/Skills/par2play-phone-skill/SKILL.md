@@ -142,30 +142,81 @@ Capture name, email, and phone during conversation. Create customer record after
 
 Wait for caller response.
 
-**Step 2: Query available slots**
+**Step 2: Fetch bookings for requested date**
 
 ```
 Invoke `get_data` with:
-- dataPath → `smbid/finaldata/servicedata/ppslot/data.json`
-Filter records where date matches preferred_date and isAvailable = true
-Sort by startTime ASC, limit 20 records
+- dataPath → `smbid/finaldata/servicedata/par2play_booking.json`
+Filter records where appointmentDate matches requested_date and bookingStatus IN ('Confirmed', 'Open')
+Sort by startTime ASC
 ```
 
-**Step 3: Present 3–4 best slot options**
+Store all confirmed bookings for the requested date.
 
-Filter by caller's time preference. If customer has membership, mention discount. If package active, mention credit option.
+**Step 3: Extract occupied time ranges**
+
+From the fetched bookings, build a list of occupied time blocks:
 
 ```
-"Great! I found several slots available for [date]. How about 10 in the morning, 1 in the afternoon, or 4 in the evening? Each is one hour and normally [price]. With your membership, you'd get [discountPercentage]% off."
+For each confirmed/open booking on requested_date:
+  - occupiedRanges[] = {startTime, endTime, resourceId}
+Sort occupiedRanges by startTime
 ```
 
-**Step 4: Confirm selection**
+Example: If Bay 1 has bookings at 10:00-11:00 and 13:00-14:00, mark those slots as occupied.
 
-Once caller picks a time, extract from ppslot result:
-- slotId (id)
-- appointmentDate (date)
+**Step 4: Find gaps in working hours that fit requested duration**
+
+Venue working hours: 10:00 AM – 10:00 PM (12 hours)
+
+```
+availableSlots = []
+currentTime = 10:00 AM
+requested_duration = 1 hour (default, or from caller)
+
+For each hour from 10:00 to 21:00 (last 1-hour slot ends at 22:00):
+  - Check if currentTime to (currentTime + requested_duration) overlaps with any occupiedRanges
+  - If NO overlap exists:
+    - Add to availableSlots: {startTime: currentTime, endTime: currentTime + requested_duration, resourceId}
+  - Move currentTime forward by 30 minutes or 1 hour
+
+Return availableSlots sorted by startTime
+```
+
+Example output for Bay 1 on a day with 10:00-11:00 and 13:00-14:00 booked:
+```
+Available 1-hour slots: 11:00-12:00, 12:00-13:00, 14:00-15:00, 15:00-16:00, ... 21:00-22:00
+```
+
+**Step 5: Return available times**
+
+Filter available slots by caller's time preference:
+- Morning: 10:00-12:00
+- Afternoon: 12:00-17:00  
+- Evening: 17:00-22:00
+
+Select 3-4 best options from filtered results and present to caller.
+
+**Step 6: Present 3–4 best slot options**
+
+Filter by caller's time preference and available resources. Prioritize:
+1. Slots matching caller's preferred time window
+2. Popular bays (Bay 1-3 preferred over others)
+3. Earlier times within preference window
+
+```
+"Great! I found several slots available for [date]. How about 11 in the morning, 1 in the afternoon, or 5 in the evening? Each is one hour and normally [price]. With your membership, you'd get [discountPercentage]% off."
+```
+
+**Step 7: Confirm selection**
+
+Once caller picks a time, extract from availableSlots:
 - startTime, endTime
-- resourceId
+- resourceId (bay)
+- appointmentDate
+
+Query ppslot data to get:
+- slotId (id)
 - serviceId
 - price
 
@@ -353,6 +404,17 @@ Invoke `create_data` with:
 7. **Use customer names:** Always address existing customers by first name. Capture name for new customers early.
 
 8. **Payment default:** Always set paymentMethod to "AtOffice" in the booking JSON without asking the customer.
+
+---
+
+## Available Slot Logic Summary
+
+The core algorithm for finding available slots:
+
+1. **Get bookings for requested date** → Query all confirmed/open bookings for that date
+2. **Extract occupied time ranges** → Build list of {startTime, endTime} blocks that are unavailable
+3. **Find gaps in working hours** → Scan venue hours (10 AM-10 PM) and identify 1-hour slots that don't overlap with occupied ranges
+4. **Return available times** → Filter by caller preference (morning/afternoon/evening) and present top 3-4 options
 
 ---
 
