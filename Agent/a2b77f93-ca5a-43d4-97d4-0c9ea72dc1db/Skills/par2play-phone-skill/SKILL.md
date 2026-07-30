@@ -542,18 +542,7 @@ Discount: On private lessons
 Signup: In-call assist OR www.par2play.com
 Lessons & Instructors
 Instructors: Nick, Sean
-Junior program: Yes (grades 3–6 summer camp; age-grouped membership)
-Pricing: Junior membership $249–$399/month
-Events & Parties
-Types: Birthday, corporate, holiday, leagues
-Amenities: Climate-controlled bays, HDTVs, Karaoke
-Food: No in-house; partnered local restaurants available
-Booking: info@par2play.com OR arrange callback
-Other
-Gift cards: Online
-Club fitting: Yes
-Games: Multiple courses, contests, all skill levels
-Beginners: Yes, no experience needed
+
 6. Escalation / Contact
 
 Email: info@par2play.com
