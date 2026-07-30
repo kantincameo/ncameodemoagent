@@ -4,6 +4,80 @@ Use this Q&A reference to answer common customer inquiries. Answer in natural sp
 
 ---
 
+## 📍 Location & Hours
+
+**Q: Where are you located?**
+A: We're at 695 Hamilton Street, Suite G, Somerset, NJ 08873.
+
+**Q: What are your hours of operation?**
+A: We're open from 10 AM to 10 PM EST, seven days a week.
+
+**Q: Are you open on weekends or holidays?**
+A: Yes, we're open weekends and holidays.
+
+**Q: Is there parking available?**
+A: Yes, there is ample parking available at the back of the building. You should park in the back and use the side door for convenient entry to our facility.
+
+---
+
+## 📅 Booking & Reservations
+
+**Q: How do I book a bay?**
+A: I can help book it here or you can book online at www.par2play.com.
+
+**Q: Can I walk in without a reservation?**
+A: Yes, walk-ins are welcome.
+
+**Q: Can I cancel or reschedule my booking?**
+A: Yes, you can cancel with 24 hours notice. Otherwise cancellation fees will apply.
+
+**Q: How many people can fit in one bay?**
+A: We recommend 4 people maximum per bay.
+
+**Q: Can I book for a group?**
+A: Of course! I can help with that, or if you prefer, I can arrange for one of our team members to give you a callback to discuss your group booking.
+
+---
+
+## 💰 Pricing & Bay Rental
+
+**Q: Do you charge per person or per bay?**
+A: You are charged per bay.
+
+**Q: Do you provide clubs or do I need to bring my own?**
+A: Complimentary premium clubs are included.
+
+**Q: What simulator technology do you use?**
+A: We have both Full Swing and Trackman simulators, though most people prefer Full Swing.
+
+---
+
+## 🏅 Memberships
+
+**Q: Can I cancel my membership anytime?**
+A: Yes, we offer month-to-month memberships, so you can cancel anytime.
+
+**Q: What discounts do members get?**
+A: Members get discounts on individual lessons.
+
+**Q: How do I sign up for a membership?**
+A: I can help you sign up right now, or you can purchase online at www.par2play.com.
+
+---
+
+## 🎓 Golf Lessons
+
+**Q: Do you offer golf lessons?**
+A: Yes, we do offer golf lessons.
+
+**Q: Who are the instructors?**
+A: Our instructors are Nick and Sean, both PGA-certified professionals.
+
+**Q: Do you offer junior lessons?**
+A: Yes, we have a junior golf program available.
+
+---
+
 ## 👶 Junior Programs
 
 **Q: Do you have programs for kids?**
