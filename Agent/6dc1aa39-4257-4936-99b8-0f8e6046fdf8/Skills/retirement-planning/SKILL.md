@@ -1,7 +1,7 @@
-# retirement-planning
-
-## Purpose
-Handle inbound retirement planning consultation calls with SMS integration and MCP data persistence.
+---
+name: retirement-planning
+description: "AI phone agent to Handle inbound retirement planning consultation calls with SMS integration and MCP data persistence."
+---
 
 ## Input Parameters
 - **callerPhoneNumber** (required): Phone number of the caller for SMS communication
