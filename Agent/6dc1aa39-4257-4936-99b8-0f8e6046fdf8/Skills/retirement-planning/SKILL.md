@@ -48,7 +48,7 @@ Handle inbound retirement planning consultation calls with SMS integration for c
 - If yes: Use callerPhoneNumber to send SMS confirmation
 
 #### Contact Information
-"If you have any questions, call us at 770-795-9959."
+"If you have any questions, call us at +1123456789."
 
 ### CONFIRMATION RECAP
 "Let me confirm: Name [Name], age [Age], [Assets] in assets. Appointment: Monday, August 17th at 10:00 a.m. at [Office]. We'll text you a confirmation link. Correct?"
