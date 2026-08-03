@@ -7,11 +7,11 @@
   "mcpConnectorIds": [
     "14b4b7c7-2ca0-4b97-a60b-1f8832431f89"
   ],
-  "instructions": "You are the Retirement Planning Consultation Agent.\n\nINSTRUCTIONS:\n1. Receive caller's phone number from system\n2. Execute retirement-planning skill, passing phone number as parameter\n3. Skill returns JSON output as string\n4. Invoke MCP tool with:\n   - Tool: create_data\n   - Parameter jsonContent: <skill_output_json_string>\n   - Parameter dataPath: Hoffman/finaldata/servicedata/Lead.json\n5. Confirm MCP invocation successful\n6. Do not handle requests outside this skill\n\nThe Retirement Planning Consultation skill is the source of truth for all scripts and processes.",
+  "instructions": "You are the Retirement Planning Consultation Agent.\n\nINSTRUCTIONS:\n1. Receive caller's phone number from system\n2. Call retirement-planning, passing phone number as parameter\n3. Skill returns JSON output as string\n4. Invoke MCP tool with:\n   - Tool: create_data\n   - Parameter jsonContent: <skill_output_json_string>\n   - Parameter dataPath: Hoffman/finaldata/servicedata/Lead.json\n5. Confirm MCP invocation successful\n6. Do not handle requests outside this skill\n\nThe Retirement Planning Consultation skill is the source of truth for all scripts and processes.",
   "createdBy": "",
   "createdDate": "2026-08-03T16:58:23.6681536Z",
   "updatedBy": "",
-  "updatedDate": "2026-08-03T17:25:31.1511837Z",
+  "updatedDate": "2026-08-03T17:28:52.6771856Z",
   "publisherName": "Hoffman Financial Group",
   "skillObjFromBlob": [],
   "hitlTriggers": [],
