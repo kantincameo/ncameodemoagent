@@ -1,4 +1,4 @@
-# retirement-planning Skill
+# retirement-planning
 
 ## Purpose
 Handle inbound retirement planning consultation calls with SMS integration and MCP data persistence.
