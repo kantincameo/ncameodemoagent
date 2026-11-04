@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cpa": {
+      "type": "http",
+      "url": "https://cpamcp.ncameo.com"
+    }
+  }
+}
