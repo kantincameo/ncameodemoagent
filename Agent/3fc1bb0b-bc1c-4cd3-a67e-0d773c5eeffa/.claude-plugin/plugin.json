@@ -1,0 +1,18 @@
+{
+  "name": "taxpilot-office",
+  "version": "0.7.0",
+  "description": "TaxPilot office app agent: one front-door agent that takes the signed-in person's persona (partner, manager, preparer, reviewer, admin, billing, security) and delegates to that persona's subagent. Cloud edition: no local server \u2014 the agents read and write the TaxPilot page's shared database (the cloud-brain skill), the same data the published TaxPilot app shows.",
+  "author": {
+    "name": "NCAMEO",
+    "url": "https://ncameo.com"
+  },
+  "keywords": [
+    "tax",
+    "cpa",
+    "1040",
+    "review",
+    "sentinel",
+    "approvals"
+  ],
+  "license": "Proprietary"
+}
