@@ -508,5 +508,25 @@
     "source": "Imported Plugin",
     "personaizeCredencial": false,
     "isPlugin": true
+  },
+  {
+    "id": "3fc1bb0b-bc1c-4cd3-a67e-0d773c5eeffa",
+    "name": "TaxPilot Office Cloud",
+    "description": "TaxPilot office app agent: one front-door agent that takes the signed-in person's persona (partner, manager, preparer, reviewer, admin, billing, security) and delegates to that persona's subagent. Cloud edition: no local server — the agents read and write the TaxPilot page's shared database (the cloud-brain skill), the same data the published TaxPilot app shows.",
+    "category": "Technology",
+    "skillIds": [],
+    "mcpConnectorIds": [],
+    "instructions": "",
+    "createdBy": "plugin-import",
+    "createdDate": "2026-11-04T04:33:13.486634Z",
+    "updatedBy": "plugin-import",
+    "updatedDate": "2026-11-04T04:33:13.486634Z",
+    "publisherName": "Nebula",
+    "skillObjFromBlob": [],
+    "hitlTriggers": [],
+    "isDeleted": false,
+    "source": "Imported Plugin",
+    "personaizeCredencial": false,
+    "isPlugin": true
   }
 ]
