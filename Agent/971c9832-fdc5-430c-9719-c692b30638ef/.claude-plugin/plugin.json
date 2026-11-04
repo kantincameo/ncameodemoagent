@@ -1,0 +1,17 @@
+{
+  "name": "taxpilot-client",
+  "version": "0.7.0",
+  "description": "TaxPilot client app agent: one agent per household for intake, approvals, status, notifications and questions. Cloud edition: no local server \u2014 the agents read and write the TaxPilot page's shared database (the cloud-brain skill), the same data the published TaxPilot app shows.",
+  "author": {
+    "name": "NCAMEO",
+    "url": "https://ncameo.com"
+  },
+  "keywords": [
+    "tax",
+    "cpa",
+    "client-portal",
+    "intake",
+    "approvals"
+  ],
+  "license": "Proprietary"
+}
