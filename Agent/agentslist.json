@@ -45,7 +45,9 @@
     "skillObjFromBlob": [],
     "hitlTriggers": [],
     "isDeleted": false,
-    "source": ""
+    "source": "",
+    "personaizeCredencial": false,
+    "isPlugin": false
   },
   {
     "id": "d1f00f1a-3bdf-49c8-9025-178665c1aed1",
@@ -65,7 +67,9 @@
     "skillObjFromBlob": [],
     "hitlTriggers": [],
     "isDeleted": false,
-    "source": "From MarketPlace"
+    "source": "From MarketPlace",
+    "personaizeCredencial": false,
+    "isPlugin": false
   },
   {
     "id": "92c5f71f-daa8-4685-932f-e74eff7f1b00",
@@ -85,7 +89,9 @@
     "skillObjFromBlob": [],
     "hitlTriggers": [],
     "isDeleted": false,
-    "source": ""
+    "source": "",
+    "personaizeCredencial": false,
+    "isPlugin": false
   },
   {
     "id": "18c92afd-ecb3-489f-bd7d-2a665119495f",
@@ -103,7 +109,9 @@
     "skillObjFromBlob": [],
     "hitlTriggers": [],
     "isDeleted": false,
-    "source": ""
+    "source": "",
+    "personaizeCredencial": false,
+    "isPlugin": false
   },
   {
     "id": "fbbfde13-6d0a-452c-bdf1-f28c7467aa1a",
@@ -121,7 +129,9 @@
     "skillObjFromBlob": [],
     "hitlTriggers": [],
     "isDeleted": true,
-    "source": "From MarketPlace"
+    "source": "From MarketPlace",
+    "personaizeCredencial": false,
+    "isPlugin": false
   },
   {
     "id": "fc7d4c1a-1d91-40b6-b614-efddd6659b6b",
@@ -141,7 +151,9 @@
     "skillObjFromBlob": [],
     "hitlTriggers": [],
     "isDeleted": false,
-    "source": ""
+    "source": "",
+    "personaizeCredencial": false,
+    "isPlugin": false
   },
   {
     "id": "9011d2e5-d1ad-4710-bfbe-2cd10ee467dc",
@@ -161,7 +173,9 @@
     "skillObjFromBlob": [],
     "hitlTriggers": [],
     "isDeleted": false,
-    "source": ""
+    "source": "",
+    "personaizeCredencial": false,
+    "isPlugin": false
   },
   {
     "id": "c4ef1679-dc74-4ebf-8022-9d5a9a6e0309",
@@ -181,7 +195,9 @@
     "skillObjFromBlob": [],
     "hitlTriggers": [],
     "isDeleted": false,
-    "source": ""
+    "source": "",
+    "personaizeCredencial": false,
+    "isPlugin": false
   },
   {
     "id": "d22c3a00-5be6-4383-a59d-47e0709b595c",
@@ -201,7 +217,9 @@
     "skillObjFromBlob": [],
     "hitlTriggers": [],
     "isDeleted": false,
-    "source": ""
+    "source": "",
+    "personaizeCredencial": false,
+    "isPlugin": false
   },
   {
     "id": "de1ac94c-cffc-442c-8875-776e8c114908",
@@ -219,7 +237,9 @@
     "skillObjFromBlob": [],
     "hitlTriggers": [],
     "isDeleted": false,
-    "source": ""
+    "source": "",
+    "personaizeCredencial": false,
+    "isPlugin": false
   },
   {
     "id": "3548db8f-26e4-4147-9ebb-0d5b8b463e39",
@@ -241,7 +261,9 @@
     "skillObjFromBlob": [],
     "hitlTriggers": [],
     "isDeleted": false,
-    "source": ""
+    "source": "",
+    "personaizeCredencial": false,
+    "isPlugin": false
   },
   {
     "id": "47efa6d6-3359-475e-bf56-6d8fddf5781a",
@@ -263,7 +285,9 @@
     "skillObjFromBlob": [],
     "hitlTriggers": [],
     "isDeleted": false,
-    "source": ""
+    "source": "",
+    "personaizeCredencial": false,
+    "isPlugin": false
   },
   {
     "id": "b3e4d50d-a21e-4ddd-ac2d-906a22386918",
@@ -285,7 +309,9 @@
     "skillObjFromBlob": [],
     "hitlTriggers": [],
     "isDeleted": false,
-    "source": ""
+    "source": "",
+    "personaizeCredencial": false,
+    "isPlugin": false
   },
   {
     "id": "d330edea-4702-4bcd-8006-69a8dd17a436",
@@ -307,7 +333,9 @@
     "skillObjFromBlob": [],
     "hitlTriggers": [],
     "isDeleted": false,
-    "source": ""
+    "source": "",
+    "personaizeCredencial": false,
+    "isPlugin": false
   },
   {
     "id": "b3c89ca3-7303-4111-abd2-c34c83f125da",
@@ -325,7 +353,9 @@
     "skillObjFromBlob": [],
     "hitlTriggers": [],
     "isDeleted": false,
-    "source": ""
+    "source": "",
+    "personaizeCredencial": false,
+    "isPlugin": false
   },
   {
     "id": "a2b77f93-ca5a-43d4-97d4-0c9ea72dc1db",
@@ -345,7 +375,9 @@
     "skillObjFromBlob": [],
     "hitlTriggers": [],
     "isDeleted": false,
-    "source": ""
+    "source": "",
+    "personaizeCredencial": false,
+    "isPlugin": false
   },
   {
     "id": "87893748-9be3-461a-b2dd-9b0fcdcae04b",
@@ -367,7 +399,9 @@
     "skillObjFromBlob": [],
     "hitlTriggers": [],
     "isDeleted": false,
-    "source": ""
+    "source": "",
+    "personaizeCredencial": false,
+    "isPlugin": false
   },
   {
     "id": "b5e3bf8e-51a6-4b7f-8739-3221efe426dc",
@@ -387,7 +421,9 @@
     "skillObjFromBlob": [],
     "hitlTriggers": [],
     "isDeleted": false,
-    "source": ""
+    "source": "",
+    "personaizeCredencial": false,
+    "isPlugin": false
   },
   {
     "id": "edf1a357-96fe-41ee-8ff9-e1c13dce836f",
@@ -405,7 +441,9 @@
     "skillObjFromBlob": [],
     "hitlTriggers": [],
     "isDeleted": false,
-    "source": "From MarketPlace"
+    "source": "From MarketPlace",
+    "personaizeCredencial": false,
+    "isPlugin": false
   },
   {
     "id": "222bf2a8-f5aa-48db-a947-62c8d1b1d6d7",
@@ -425,7 +463,9 @@
     "skillObjFromBlob": [],
     "hitlTriggers": [],
     "isDeleted": false,
-    "source": ""
+    "source": "",
+    "personaizeCredencial": false,
+    "isPlugin": false
   },
   {
     "id": "6dc1aa39-4257-4936-99b8-0f8e6046fdf8",
@@ -445,6 +485,28 @@
     "skillObjFromBlob": [],
     "hitlTriggers": [],
     "isDeleted": false,
-    "source": ""
+    "source": "",
+    "personaizeCredencial": false,
+    "isPlugin": false
+  },
+  {
+    "id": "971c9832-fdc5-430c-9719-c692b30638ef",
+    "name": "TaxPilot Client Cloud",
+    "description": "TaxPilot client app agent: one agent per household for intake, approvals, status, notifications and questions. Cloud edition: no local server — the agents read and write the TaxPilot page's shared database (the cloud-brain skill), the same data the published TaxPilot app shows.",
+    "category": "Technology",
+    "skillIds": [],
+    "mcpConnectorIds": [],
+    "instructions": "",
+    "createdBy": "plugin-import",
+    "createdDate": "2026-11-04T04:31:16.605048Z",
+    "updatedBy": "plugin-import",
+    "updatedDate": "2026-11-04T04:31:16.605048Z",
+    "publisherName": "Nebula",
+    "skillObjFromBlob": [],
+    "hitlTriggers": [],
+    "isDeleted": false,
+    "source": "Imported Plugin",
+    "personaizeCredencial": false,
+    "isPlugin": true
   }
 ]
