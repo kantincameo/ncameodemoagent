@@ -1,5 +1,7 @@
 # Form 1040 → documents to request
 
+> `scripts/build_checklist.py` applies this mapping in code; this page explains it. If you change one, change both.
+
 Use the prior-year Form 1040 and its schedules to decide what the client must upload for the year being
 prepared. Request a document only when the line is non-zero, the schedule or form is attached, or the client
 told you about a change. One checklist item per issuer where the return names one.

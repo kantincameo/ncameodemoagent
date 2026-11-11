@@ -1,8 +1,12 @@
 {
   "mcpServers": {
-    "cpa": {
+    "file": {
       "type": "http",
-      "url": "https://cpamcp.ncameo.com"
+      "url": "https://filemcp.ncameo.com"
+    },
+    "user": {
+      "type": "http",
+      "url": "https://usermcp.ncameo.com"
     }
   }
 }
