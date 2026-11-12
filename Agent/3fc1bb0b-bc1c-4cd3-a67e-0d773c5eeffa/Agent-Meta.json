@@ -16,5 +16,6 @@
   "isDeleted": false,
   "source": "Imported Plugin",
   "personaizeCredencial": false,
-  "isPlugin": true
+  "isPlugin": true,
+  "allowRequestInstructions": true
 }
