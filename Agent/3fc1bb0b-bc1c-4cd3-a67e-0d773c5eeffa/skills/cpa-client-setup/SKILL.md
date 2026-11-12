@@ -119,16 +119,21 @@ This creates the B2C user with role Client, saves the AspNetUsers record and sen
 
 Statuses: `Pending` → client uploads → `Uploaded` → office checks → `Received`, or `Retake` (client uploads
 again → `Uploaded`); `NotNeeded` when the client will not have that document this year.
-A client may set only `Uploaded` (with the uploaded file's URL) or `NotNeeded`; staff may set any status.
+Staff (Administrator or CA) may set any status; anyone else may only set `Uploaded` (with the uploaded file's
+URL) or `NotNeeded`. **Who is staff is decided by the signed-in user's own login** — the API adds it to the
+script's input as `_caller`. You cannot choose it, and there is no `actor` argument.
 
 1. `read_file` with `blobPath` = `"{companyId}/{year}/Tasks.json"`, `containerName` = `"cpadata"`.
 2. `run_skill_script` → `scripts/update_task_status.py`, arguments:
    ```json
    { "companyId": "<companyId>", "year": "<year>", "existingTasks": <the read_file reply>,
-     "taskId": "<the item's id>", "status": "Uploaded", "actor": "client" | "staff",
+     "taskId": "<the item's id>", "status": "Uploaded",
      "fileUrl": "<URL of the uploaded document, required for Uploaded>", "note": "<optional>" }
    ```
 3. `save_file` with the five fields of `saveFileArgs` exactly as returned.
+
+If the script refuses (for example, a client asking for `Received`), report the refusal and stop. Do not offer to
+retry it another way, and never write `Tasks.json` yourself to get around a refusal.
 
 ---
 

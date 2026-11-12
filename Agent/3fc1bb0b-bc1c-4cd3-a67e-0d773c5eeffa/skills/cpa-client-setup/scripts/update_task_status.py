@@ -6,11 +6,13 @@ stdin (JSON object):
   existingTasks  exactly what read_file returned for {companyId}/{year}/Tasks.json
   taskId         the item's id
   status         Pending | Uploaded | Received | Retake | NotNeeded
-  actor          "client" (the client themself) or "staff"
   fileUrl        required when status is Uploaded — the uploaded document's URL
   note           optional, e.g. why a retake is needed
+  _caller        added by the API from the signed-in user's token (never by the model):
+                 { authenticated, userId, email, roles, isStaff }
 
-A client may only set Uploaded or NotNeeded; staff may set any status.
+Staff (Administrator or CA) may set any status; anyone else may only set Uploaded or NotNeeded.
+Who is staff comes only from _caller — an "actor" value in the arguments is ignored.
 
 stdout (JSON object):
   { success, task, saveFileArgs: {...Tasks.json...} }   or   { success: false, error }
@@ -54,11 +56,13 @@ def main():
     status = next((s for s in STATUSES if s.lower() == text(args.get("status")).lower()), None)
     if status is None:
         fail("status must be one of: " + ", ".join(STATUSES) + ".")
-    actor = text(args.get("actor")).lower()
-    if actor not in ("client", "staff"):
-        fail("actor must be \"client\" or \"staff\".")
+    # Who is asking comes from the API (the signed-in user's token), not from anything the model wrote.
+    caller = args.get("_caller")
+    if not isinstance(caller, dict) or caller.get("authenticated") is not True or not text(str(caller.get("userId") or "")):
+        fail("The signed-in user could not be verified, so the status was not changed.")
+    actor = "staff" if caller.get("isStaff") is True else "client"
     if actor == "client" and status not in CLIENT_STATUSES:
-        fail("A client can only set: Uploaded, NotNeeded.")
+        fail("Only staff (Administrator or CA) can set this status. You can set: Uploaded, NotNeeded.")
     file_url = text(args.get("fileUrl"))
     if status == "Uploaded" and not file_url:
         fail("fileUrl is required when the status is Uploaded.")
@@ -91,7 +95,8 @@ def main():
     if note:
         note = SSN.sub(lambda m: "***-**-" + m.group(1), note)
         task["Note"] = EIN.sub(lambda m: "**-***" + m.group(1), note)
-    task["UpdatedBy"] = actor
+    task["UpdatedBy"] = text(str(caller.get("userId")))
+    task["UpdatedByRole"] = actor
     task["UpdatedDate"] = now
 
     print(json.dumps({
